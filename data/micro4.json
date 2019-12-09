@@ -1,0 +1,271 @@
+
+        {
+    "name": "MICROSTORY", "children": [
+        {
+          "name": "Oración 1",
+          "full": "Oració 1",
+          "children": [
+
+              {
+                "name": "Frase 1",
+                "full": "Frase 1",
+                "children" : [
+    {
+                  "name": "Todas",
+                  "id": 0,
+                  "dwell": 0,
+                  "len": 5,
+                  "new_line": true
+              },
+{
+                  "name": "las",
+                  "id": 1,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "mañanas",
+                  "id": 2,
+                  "dwell": 255,
+                  "len": 7
+              },
+{
+                  "name": "llego",
+                  "id": 3,
+                  "dwell": 345,
+                  "len": 5
+              },
+{
+                  "name": "a",
+                  "id": 4,
+                  "dwell": 0,
+                  "len": 1
+              },
+{
+                  "name": "la",
+                  "id": 5,
+                  "dwell": 147,
+                  "len": 2
+              },
+{
+                  "name": "oficina,",
+                  "id": 6,
+                  "dwell": 164,
+                  "len": 8
+              },
+{
+                  "name": "me",
+                  "id": 7,
+                  "dwell": 167,
+                  "len": 2
+              },
+{
+                  "name": "siento,",
+                  "id": 8,
+                  "dwell": 154,
+                  "len": 7
+              },
+{
+                  "name": "enciendo",
+                  "id": 9,
+                  "dwell": 447,
+                  "len": 8
+              },
+{
+                  "name": "la",
+                  "id": 10,
+                  "dwell": 224,
+                  "len": 2
+              },
+{
+                  "name": "lámpara,",
+                  "id": 11,
+                  "dwell": 283,
+                  "len": 8
+              },
+{
+                  "name": "abro",
+                  "id": 12,
+                  "dwell": 318,
+                  "len": 4
+              },
+{
+                  "name": "el",
+                  "id": 13,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "portafolios",
+                  "id": 14,
+                  "dwell": 408,
+                  "len": 11
+              },
+{
+                  "name": "y,",
+                  "id": 15,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "antes",
+                  "id": 16,
+                  "dwell": 207,
+                  "len": 5,
+                  "break_line": true
+              },
+{
+                  "name": "de",
+                  "id": 17,
+                  "dwell": 0,
+                  "len": 2,
+                  "new_line": true
+              },
+{
+                  "name": "comenzar",
+                  "id": 18,
+                  "dwell": 83,
+                  "len": 8
+              },
+{
+                  "name": "la",
+                  "id": 19,
+                  "dwell": 88,
+                  "len": 2
+              },
+{
+                  "name": "tarea",
+                  "id": 20,
+                  "dwell": 340,
+                  "len": 5
+              },
+{
+                  "name": "diaria,",
+                  "id": 21,
+                  "dwell": 147,
+                  "len": 7
+              },
+{
+                  "name": "escribo",
+                  "id": 22,
+                  "dwell": 373,
+                  "len": 7
+              },
+{
+                  "name": "una",
+                  "id": 23,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "línea",
+                  "id": 24,
+                  "dwell": 221,
+                  "len": 5
+              },
+{
+                  "name": "en",
+                  "id": 25,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "la",
+                  "id": 26,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "larga",
+                  "id": 27,
+                  "dwell": 171,
+                  "len": 5
+              },
+{
+                  "name": "carta",
+                  "id": 28,
+                  "dwell": 185,
+                  "len": 5
+              },
+{
+                  "name": "donde,",
+                  "id": 29,
+                  "dwell": 438,
+                  "len": 6
+              },
+{
+                  "name": "desde",
+                  "id": 30,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "hace",
+                  "id": 31,
+                  "dwell": 170,
+                  "len": 4
+              },
+{
+                  "name": "catorce",
+                  "id": 32,
+                  "dwell": 156,
+                  "len": 7
+              },
+{
+                  "name": "años,",
+                  "id": 33,
+                  "dwell": 215,
+                  "len": 5,
+                  "break_line": true
+              },
+{
+                  "name": "explico",
+                  "id": 34,
+                  "dwell": 243,
+                  "len": 7,
+                  "new_line": true
+              },
+{
+                  "name": "minuciosamente",
+                  "id": 35,
+                  "dwell": 409,
+                  "len": 14
+              },
+{
+                  "name": "las",
+                  "id": 36,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "razones",
+                  "id": 37,
+                  "dwell": 226,
+                  "len": 7
+              },
+{
+                  "name": "de",
+                  "id": 38,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "mi",
+                  "id": 39,
+                  "dwell": 412,
+                  "len": 2
+              },
+{
+                  "name": "suicidio.",
+                  "id": 40,
+                  "dwell": 910,
+                  "len": 9
+              }
+
+                ]
+              }
+          ]
+        }
+    ]
+}
+    

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title> Starplot</title>
+	<link rel="stylesheet" href="css/material.indigo-pink.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.range.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+
+	<header class="custom-header mdl-layout__header mdl-layout__header--waterfall">
+	    <div class="mdl-layout__header-row">
+	      <!-- Title -->
+	      <span class="mdl-layout-title"> Lemillion </span>
+	      <!-- Add spacer, to align navigation to the right -->
+	      <div class="mdl-layout-spacer"></div>
+	      <!-- Navigation. We hide it in small screens. -->
+	      <nav class="mdl-navigation mdl-layout--large-screen-only">
+	        <!-- <a class="mdl-navigation__link"  data-toggle="modal" data-target="#exampleModalLong">Help</a> -->
+	        <a class="material-icons" data-toggle="modal" data-target="#settings">filter_list</a>
+	      </nav>
+	    </div>
+	 </header>
+
+
+	<div class="demo-grid-2 mdl-grid">
+		<div class="mdl-cell mdl-cell--6-col">
+			<div class="div-navigator mdl-cell mdl-cell--12-col">
+				<button id="btnLeft" class="paginate left"><i></i><i></i></button>
+				<strong> <span id="microlabel">Micro-story  1 </span></strong>
+				<button id="btnRight" class="paginate right"><i></i><i></i></button>
+			</div>
+			<div class="div-micro mdl-cell mdl-cell--12-col">
+				<div class="microstory"></div>
+			</div>
+		</div>
+		<div id="app" class="mdl-cell mdl-cell--6-col"></div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLongTitle">Tutorial</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        A brief description on how to use our app to analyze eye movements during reading
+
+	        <hr>
+
+	        <span> Filter by word (AOI) </span>
+	        <div>
+	        	<img class="img-responsive" src="img/selectionword.gif" style="max-height:400px;">
+	        </div>
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="settings" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLongTitle">Filters</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      	<strong>AOIs</strong>
+	      	<br><br>
+	      	<button id="btnSyntax" class="mdl-button mdl-js-button mdl-js-ripple-effect"> Show Syntax</button>
+
+	      	<hr>
+	      	<strong>TRANSITIONS</strong>
+	      	<br><br>
+	      	<div class="container">
+	      		<div class="row">
+	      			<div class="col-md-6"> Amplitude (deg)</div>
+	      			<div class="col-md-6"><input type="hidden" id="flt_amplitude" value="0,1000"/></div>
+	      		</div>
+	      		<br>
+	      		<div class="row">
+	      			<div class="col-md-6"> Angle (deg)</div>
+	      			<div class="col-md-6"><input type="hidden" id="flt_angle" value="-180,180"/></div>
+	      		</div>
+	      		<br>
+	      		<div class="row">
+	      			<div class="col-md-6"> Average Velocity (deg/sec)</div>
+	      			<div class="col-md-6"><input type="hidden" id="flt_avg_velocity" value="0,1000"/></div>
+	      		</div>
+	      		<br>
+	      		<div class="row">
+	      			<div class="col-md-6"> Peak Velocity (deg/sec)</div>
+	      			<div class="col-md-6"><input type="hidden" id="flt_peak_velocity" value="0,1000"/></div>
+	      		</div>
+	      		<br>
+	      		<div class="row">
+	      			<div class="col-md-6"> Duration (ms)</div>
+	      			<div class="col-md-6"><input type="hidden" id="flt_duration" value="0,1000"/></div>
+	      		</div>
+	      	</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/jquery.range.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/d3.min.js"></script>
+	<script type="text/javascript" src="js/d3-selection-multi.v1.min.js"></script>
+	<script type="text/javascript" src="js/colorbar.js"></script>
+	<script type="text/javascript" src="js/textures.js"></script>
+	<script type="text/javascript" src="js/helpers.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

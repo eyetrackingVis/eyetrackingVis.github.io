@@ -1,0 +1,233 @@
+
+        {
+    "name": "MICROSTORY", "children": [
+        {
+          "name": "Oración 1",
+          "full": "Oració 1",
+          "children": [
+
+              {
+                "name": "Frase 1",
+                "full": "Frase 1",
+                "children" : [
+    {
+                  "name": "Hay",
+                  "id": 0,
+                  "dwell": 0,
+                  "len": 3,
+                  "new_line": true
+              },
+{
+                  "name": "novelas",
+                  "id": 1,
+                  "dwell": 149,
+                  "len": 7
+              },
+{
+                  "name": "que",
+                  "id": 2,
+                  "dwell": 214,
+                  "len": 3
+              },
+{
+                  "name": "aun",
+                  "id": 3,
+                  "dwell": 648,
+                  "len": 3
+              },
+{
+                  "name": "sin",
+                  "id": 4,
+                  "dwell": 287,
+                  "len": 3
+              },
+{
+                  "name": "ser",
+                  "id": 5,
+                  "dwell": 419,
+                  "len": 3
+              },
+{
+                  "name": "largas",
+                  "id": 6,
+                  "dwell": 184,
+                  "len": 6
+              },
+{
+                  "name": "no",
+                  "id": 7,
+                  "dwell": 272,
+                  "len": 2
+              },
+{
+                  "name": "logran",
+                  "id": 8,
+                  "dwell": 178,
+                  "len": 6
+              },
+{
+                  "name": "comenzar",
+                  "id": 9,
+                  "dwell": 427,
+                  "len": 8
+              },
+{
+                  "name": "de",
+                  "id": 10,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "verdad",
+                  "id": 11,
+                  "dwell": 539,
+                  "len": 6
+              },
+{
+                  "name": "hasta",
+                  "id": 12,
+                  "dwell": 176,
+                  "len": 5
+              },
+{
+                  "name": "la",
+                  "id": 13,
+                  "dwell": 307,
+                  "len": 2
+              },
+{
+                  "name": "página",
+                  "id": 14,
+                  "dwell": 0,
+                  "len": 6
+              },
+{
+                  "name": "50",
+                  "id": 15,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "o",
+                  "id": 16,
+                  "dwell": 0,
+                  "len": 1
+              },
+{
+                  "name": "la",
+                  "id": 17,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "60.",
+                  "id": 18,
+                  "dwell": 152,
+                  "len": 3
+              },
+{
+                  "name": "A",
+                  "id": 19,
+                  "dwell": 232,
+                  "len": 1,
+                  "break_line": true
+              },
+{
+                  "name": "algunas",
+                  "id": 20,
+                  "dwell": 0,
+                  "len": 7,
+                  "new_line": true
+              },
+{
+                  "name": "vidas",
+                  "id": 21,
+                  "dwell": 131,
+                  "len": 5
+              },
+{
+                  "name": "les",
+                  "id": 22,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "sucede",
+                  "id": 23,
+                  "dwell": 0,
+                  "len": 6
+              },
+{
+                  "name": "lo",
+                  "id": 24,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "mismo.",
+                  "id": 25,
+                  "dwell": 164,
+                  "len": 6
+              },
+{
+                  "name": "Por",
+                  "id": 26,
+                  "dwell": 156,
+                  "len": 3
+              },
+{
+                  "name": "eso",
+                  "id": 27,
+                  "dwell": 354,
+                  "len": 3
+              },
+{
+                  "name": "no",
+                  "id": 28,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "me",
+                  "id": 29,
+                  "dwell": 182,
+                  "len": 2
+              },
+{
+                  "name": "he",
+                  "id": 30,
+                  "dwell": 164,
+                  "len": 2
+              },
+{
+                  "name": "matado",
+                  "id": 31,
+                  "dwell": 172,
+                  "len": 6
+              },
+{
+                  "name": "antes,",
+                  "id": 32,
+                  "dwell": 281,
+                  "len": 6
+              },
+{
+                  "name": "señor",
+                  "id": 33,
+                  "dwell": 385,
+                  "len": 5
+              },
+{
+                  "name": "juez.",
+                  "id": 34,
+                  "dwell": 0,
+                  "len": 5
+              }
+
+                ]
+              }
+          ]
+        }
+    ]
+}
+    

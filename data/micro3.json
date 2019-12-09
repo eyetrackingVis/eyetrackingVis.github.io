@@ -1,0 +1,147 @@
+
+{
+"name": "MICROSTORY", "children": [
+
+{
+"name": "Oración 1",
+"full": "Oración 1",
+"children": [
+
+{
+"name": "Frase 1",
+"full": "Frase 1",
+"children" : [
+{
+"name": "No",
+"id": 0,
+"dwell": 0,
+"len": 2,
+"new_line": true
+},
+{
+"name": "se",
+"id": 1,
+"dwell": 0,
+"len": 2
+},
+{
+"name": "enamoró",
+"id": 2,
+"dwell": 141,
+"len": 7
+},
+{
+"name": "de",
+"id": 3,
+"dwell": 181,
+"len": 2
+},
+{
+"name": "ella,",
+"id": 4,
+"dwell": 202,
+"len": 5
+},
+{
+"name": "sino",
+"id": 5,
+"dwell": 206,
+"len": 4
+},
+{
+"name": "de",
+"id": 6,
+"dwell": 203,
+"len": 2
+},
+{
+"name": "su",
+"id": 7,
+"dwell": 228,
+"len": 2
+},
+{
+"name": "sombra.",
+"id": 8,
+"dwell": 362,
+"len": 7
+},
+{
+"name": "La",
+"id": 9,
+"dwell": 0,
+"len": 2
+},
+{
+"name": "iba",
+"id": 10,
+"dwell": 342,
+"len": 3
+},
+{
+"name": "a",
+"id": 11,
+"dwell": 222,
+"len": 1
+},
+{
+"name": "visitar",
+"id": 12,
+"dwell": 0,
+"len": 7
+},
+{
+"name": "al",
+"id": 13,
+"dwell": 0,
+"len": 2
+},
+{
+"name": "alba,",
+"id": 14,
+"dwell": 480,
+"len": 5
+},
+{
+"name": "cuando",
+"id": 15,
+"dwell": 201,
+"len": 6
+},
+{
+"name": "su",
+"id": 16,
+"dwell": 0,
+"len": 2
+},
+{
+"name": "amada",
+"id": 17,
+"dwell": 401,
+"len": 5
+},
+{
+"name": "era",
+"id": 18,
+"dwell": 0,
+"len": 3
+},
+{
+"name": "más",
+"id": 19,
+"dwell": 254,
+"len": 3
+},
+{
+"name": "larga.",
+"id": 20,
+"dwell": 669,
+"len": 6
+}
+
+]
+}
+]
+}
+]
+}

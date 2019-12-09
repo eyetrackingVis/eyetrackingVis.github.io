@@ -1,0 +1,357 @@
+
+        {
+    "name": "MICROSTORY", "children": [
+        {
+          "name": "Oración 1",
+          "full": "Oració 1",
+          "children": [
+
+              {
+                "name": "Frase 1",
+                "full": "Frase 1",
+                "children" : [
+    {
+                  "name": "Antes",
+                  "id": 0,
+                  "dwell": 0,
+                  "len": 5,
+                  "new_line": true
+              },
+{
+                  "name": "de",
+                  "id": 1,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "ponerse",
+                  "id": 2,
+                  "dwell": 176,
+                  "len": 7
+              },
+{
+                  "name": "el",
+                  "id": 3,
+                  "dwell": 163,
+                  "len": 2
+              },
+{
+                  "name": "pendiente",
+                  "id": 4,
+                  "dwell": 479,
+                  "len": 9
+              },
+{
+                  "name": "frotó",
+                  "id": 5,
+                  "dwell": 428,
+                  "len": 5
+              },
+{
+                  "name": "el",
+                  "id": 6,
+                  "dwell": 528,
+                  "len": 2
+              },
+{
+                  "name": "metal",
+                  "id": 7,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "que",
+                  "id": 8,
+                  "dwell": 285,
+                  "len": 3
+              },
+{
+                  "name": "rodeaba",
+                  "id": 9,
+                  "dwell": 549,
+                  "len": 7
+              },
+{
+                  "name": "el",
+                  "id": 10,
+                  "dwell": 262,
+                  "len": 2
+              },
+{
+                  "name": "zafiro",
+                  "id": 11,
+                  "dwell": 243,
+                  "len": 6
+              },
+{
+                  "name": "con",
+                  "id": 12,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "un",
+                  "id": 13,
+                  "dwell": 515,
+                  "len": 2
+              },
+{
+                  "name": "bastoncito",
+                  "id": 14,
+                  "dwell": 331,
+                  "len": 10
+              },
+{
+                  "name": "impregnado",
+                  "id": 15,
+                  "dwell": 524,
+                  "len": 10
+              },
+{
+                  "name": "en",
+                  "id": 16,
+                  "dwell": 0,
+                  "len": 2,
+                  "break_line": true
+              },
+{
+                  "name": "líquido",
+                  "id": 17,
+                  "dwell": 151,
+                  "len": 7,
+                  "new_line": true
+              },
+{
+                  "name": "para",
+                  "id": 18,
+                  "dwell": 0,
+                  "len": 4
+              },
+{
+                  "name": "limpiar",
+                  "id": 19,
+                  "dwell": 156,
+                  "len": 7
+              },
+{
+                  "name": "plata.",
+                  "id": 20,
+                  "dwell": 286,
+                  "len": 6
+              },
+{
+                  "name": "Cientos",
+                  "id": 21,
+                  "dwell": 268,
+                  "len": 7
+              },
+{
+                  "name": "de",
+                  "id": 22,
+                  "dwell": 272,
+                  "len": 2
+              },
+{
+                  "name": "estratos",
+                  "id": 23,
+                  "dwell": 273,
+                  "len": 8
+              },
+{
+                  "name": "de",
+                  "id": 24,
+                  "dwell": 179,
+                  "len": 2
+              },
+{
+                  "name": "tiempo",
+                  "id": 25,
+                  "dwell": 552,
+                  "len": 6
+              },
+{
+                  "name": "levantaron",
+                  "id": 26,
+                  "dwell": 799,
+                  "len": 10
+              },
+{
+                  "name": "el",
+                  "id": 27,
+                  "dwell": 379,
+                  "len": 2
+              },
+{
+                  "name": "vuelo",
+                  "id": 28,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "dejando",
+                  "id": 29,
+                  "dwell": 194,
+                  "len": 7
+              },
+{
+                  "name": "la",
+                  "id": 30,
+                  "dwell": 215,
+                  "len": 2
+              },
+{
+                  "name": "superficie",
+                  "id": 31,
+                  "dwell": 172,
+                  "len": 10,
+                  "break_line": true
+              },
+{
+                  "name": "luminosa",
+                  "id": 32,
+                  "dwell": 123,
+                  "len": 8,
+                  "new_line": true
+              },
+{
+                  "name": "y",
+                  "id": 33,
+                  "dwell": 0,
+                  "len": 1
+              },
+{
+                  "name": "desnuda.",
+                  "id": 34,
+                  "dwell": 618,
+                  "len": 8
+              },
+{
+                  "name": "Se",
+                  "id": 35,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "acercó,",
+                  "id": 36,
+                  "dwell": 138,
+                  "len": 7
+              },
+{
+                  "name": "curiosa,",
+                  "id": 37,
+                  "dwell": 523,
+                  "len": 8
+              },
+{
+                  "name": "y",
+                  "id": 38,
+                  "dwell": 166,
+                  "len": 1
+              },
+{
+                  "name": "la",
+                  "id": 39,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "joya",
+                  "id": 40,
+                  "dwell": 345,
+                  "len": 4
+              },
+{
+                  "name": "le",
+                  "id": 41,
+                  "dwell": 150,
+                  "len": 2
+              },
+{
+                  "name": "devolvió",
+                  "id": 42,
+                  "dwell": 1179,
+                  "len": 8
+              },
+{
+                  "name": "el",
+                  "id": 43,
+                  "dwell": 432,
+                  "len": 2
+              },
+{
+                  "name": "rostro",
+                  "id": 44,
+                  "dwell": 0,
+                  "len": 6
+              },
+{
+                  "name": "adolescente",
+                  "id": 45,
+                  "dwell": 381,
+                  "len": 11
+              },
+{
+                  "name": "de",
+                  "id": 46,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "su",
+                  "id": 47,
+                  "dwell": 364,
+                  "len": 2
+              },
+{
+                  "name": "abuela",
+                  "id": 48,
+                  "dwell": 237,
+                  "len": 6,
+                  "break_line": true
+              },
+{
+                  "name": "probándose",
+                  "id": 49,
+                  "dwell": 168,
+                  "len": 10,
+                  "new_line": true
+              },
+{
+                  "name": "el",
+                  "id": 50,
+                  "dwell": 162,
+                  "len": 2
+              },
+{
+                  "name": "pendiente",
+                  "id": 51,
+                  "dwell": 316,
+                  "len": 9
+              },
+{
+                  "name": "ante",
+                  "id": 52,
+                  "dwell": 488,
+                  "len": 4
+              },
+{
+                  "name": "un",
+                  "id": 53,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "espejo.",
+                  "id": 54,
+                  "dwell": 699,
+                  "len": 7
+              }
+
+                ]
+              }
+          ]
+        }
+    ]
+}
+    

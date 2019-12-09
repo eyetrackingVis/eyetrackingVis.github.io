@@ -1,0 +1,195 @@
+
+{
+"name": "MICROSTORY", "children": [
+{
+"name": "Oración 1",
+"full": "Oración 1",
+"children": [
+{
+"name": "Frase 1",
+"full": "Frase 1",
+"children" : [
+{
+"name": "Y",
+"id": 0,
+"dwell": 0,
+"len": 1,
+"new_line": true
+},
+{
+"name": "después",
+"id": 1,
+"dwell": 448,
+"len": 7
+},
+{
+"name": "de",
+"id": 2,
+"dwell": 0,
+"len": 2
+},
+{
+"name": "hacer",
+"id": 3,
+"dwell": 331,
+"len": 5
+},
+{
+"name": "todo",
+"id": 4,
+"dwell": 155,
+"len": 4
+},
+{
+"name": "lo",
+"id": 5,
+"dwell": 0,
+"len": 2
+},
+{
+"name": "que",
+"id": 6,
+"dwell": 242,
+"len": 3
+},
+{
+"name": "hacen",
+"id": 7,
+"dwell": 829,
+"len": 5
+},
+{
+"name": "se",
+"id": 8,
+"dwell": 345,
+"len": 2
+},
+{
+"name": "levantan,",
+"id": 9,
+"dwell": 378,
+"len": 9
+},
+{
+"name": "se",
+"id": 10,
+"dwell": 412,
+"len": 2
+},
+{
+"name": "bañan,",
+"id": 11,
+"dwell": 297,
+"len": 6
+},
+{
+"name": "se",
+"id": 12,
+"dwell": 364,
+"len": 2
+},
+{
+"name": "entalcan,",
+"id": 13,
+"dwell": 649,
+"len": 9
+},
+{
+"name": "se",
+"id": 14,
+"dwell": 162,
+"len": 2
+},
+{
+"name": "perfuman,",
+"id": 15,
+"dwell": 624,
+"len": 9
+},
+{
+"name": "se",
+"id": 16,
+"dwell": 602,
+"len": 2
+},
+{
+"name": "visten,",
+"id": 17,
+"dwell": 225,
+"len": 7
+},
+{
+"name": "y",
+"id": 18,
+"dwell": 0,
+"len": 1,
+"break_line": true
+},
+{
+"name": "así",
+"id": 19,
+"dwell": 0,
+"len": 3,
+"new_line": true
+},
+{
+"name": "progresivamente",
+"id": 20,
+"dwell": 280,
+"len": 15
+},
+{
+"name": "van",
+"id": 21,
+"dwell": 401,
+"len": 3
+},
+{
+"name": "volviendo",
+"id": 22,
+"dwell": 156,
+"len": 9
+},
+{
+"name": "a",
+"id": 23,
+"dwell": 0,
+"len": 1
+},
+{
+"name": "ser",
+"id": 24,
+"dwell": 229,
+"len": 3
+},
+{
+"name": "lo",
+"id": 25,
+"dwell": 347,
+"len": 2
+},
+{
+"name": "que",
+"id": 26,
+"dwell": 143,
+"len": 3
+},
+{
+"name": "no",
+"id": 27,
+"dwell": 0,
+"len": 2
+},
+{
+"name": "son.",
+"id": 28,
+"dwell": 1140,
+"len": 4
+}
+
+]
+}
+]
+}
+]
+}

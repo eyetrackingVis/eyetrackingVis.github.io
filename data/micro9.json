@@ -1,0 +1,461 @@
+
+        {
+    "name": "MICROSTORY", "children": [
+        {
+          "name": "Oración 1",
+          "full": "Oració 1",
+          "children": [
+
+              {
+                "name": "Frase 1",
+                "full": "Frase 1",
+                "children" : [
+    {
+                  "name": "En",
+                  "id": 0,
+                  "dwell": 0,
+                  "len": 2,
+                  "new_line": true
+              },
+{
+                  "name": "el",
+                  "id": 1,
+                  "dwell": 401,
+                  "len": 2
+              },
+{
+                  "name": "más",
+                  "id": 2,
+                  "dwell": 124,
+                  "len": 3
+              },
+{
+                  "name": "recóndito",
+                  "id": 3,
+                  "dwell": 139,
+                  "len": 9
+              },
+{
+                  "name": "paraje",
+                  "id": 4,
+                  "dwell": 253,
+                  "len": 6
+              },
+{
+                  "name": "del",
+                  "id": 5,
+                  "dwell": 222,
+                  "len": 3
+              },
+{
+                  "name": "bosque",
+                  "id": 6,
+                  "dwell": 161,
+                  "len": 6
+              },
+{
+                  "name": "rebulle",
+                  "id": 7,
+                  "dwell": 952,
+                  "len": 7
+              },
+{
+                  "name": "el",
+                  "id": 8,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "perro",
+                  "id": 9,
+                  "dwell": 348,
+                  "len": 5
+              },
+{
+                  "name": "que",
+                  "id": 10,
+                  "dwell": 202,
+                  "len": 3
+              },
+{
+                  "name": "todos",
+                  "id": 11,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "llevamos",
+                  "id": 12,
+                  "dwell": 573,
+                  "len": 8
+              },
+{
+                  "name": "dentro,",
+                  "id": 13,
+                  "dwell": 385,
+                  "len": 7
+              },
+{
+                  "name": "buscando",
+                  "id": 14,
+                  "dwell": 1067,
+                  "len": 8
+              },
+{
+                  "name": "un",
+                  "id": 15,
+                  "dwell": 109,
+                  "len": 2,
+                  "break_line": true
+              },
+{
+                  "name": "camino",
+                  "id": 16,
+                  "dwell": 397,
+                  "len": 6,
+                  "new_line": true
+              },
+{
+                  "name": "de",
+                  "id": 17,
+                  "dwell": 357,
+                  "len": 2
+              },
+{
+                  "name": "regreso",
+                  "id": 18,
+                  "dwell": 0,
+                  "len": 7
+              },
+{
+                  "name": "a",
+                  "id": 19,
+                  "dwell": 227,
+                  "len": 1
+              },
+{
+                  "name": "casa,",
+                  "id": 20,
+                  "dwell": 251,
+                  "len": 5
+              },
+{
+                  "name": "el",
+                  "id": 21,
+                  "dwell": 167,
+                  "len": 2
+              },
+{
+                  "name": "perro",
+                  "id": 22,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "herido",
+                  "id": 23,
+                  "dwell": 296,
+                  "len": 6
+              },
+{
+                  "name": "entre",
+                  "id": 24,
+                  "dwell": 437,
+                  "len": 5
+              },
+{
+                  "name": "zarzales,",
+                  "id": 25,
+                  "dwell": 170,
+                  "len": 9
+              },
+{
+                  "name": "el",
+                  "id": 26,
+                  "dwell": 489,
+                  "len": 2
+              },
+{
+                  "name": "perro",
+                  "id": 27,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "abandonado",
+                  "id": 28,
+                  "dwell": 160,
+                  "len": 10
+              },
+{
+                  "name": "contra",
+                  "id": 29,
+                  "dwell": 251,
+                  "len": 6
+              },
+{
+                  "name": "la",
+                  "id": 30,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "cuneta,",
+                  "id": 31,
+                  "dwell": 400,
+                  "len": 7
+              },
+{
+                  "name": "de",
+                  "id": 32,
+                  "dwell": 218,
+                  "len": 2,
+                  "break_line": true
+              },
+{
+                  "name": "pelambre",
+                  "id": 33,
+                  "dwell": 711,
+                  "len": 8,
+                  "new_line": true
+              },
+{
+                  "name": "hirsuta,",
+                  "id": 34,
+                  "dwell": 1116,
+                  "len": 8
+              },
+{
+                  "name": "lengua",
+                  "id": 35,
+                  "dwell": 478,
+                  "len": 6
+              },
+{
+                  "name": "inerte",
+                  "id": 36,
+                  "dwell": 407,
+                  "len": 6
+              },
+{
+                  "name": "colgando",
+                  "id": 37,
+                  "dwell": 1281,
+                  "len": 8
+              },
+{
+                  "name": "una",
+                  "id": 38,
+                  "dwell": 650,
+                  "len": 3
+              },
+{
+                  "name": "rosa",
+                  "id": 39,
+                  "dwell": 569,
+                  "len": 4
+              },
+{
+                  "name": "chicle,",
+                  "id": 40,
+                  "dwell": 635,
+                  "len": 7
+              },
+{
+                  "name": "el",
+                  "id": 41,
+                  "dwell": 213,
+                  "len": 2
+              },
+{
+                  "name": "perro",
+                  "id": 42,
+                  "dwell": 300,
+                  "len": 5
+              },
+{
+                  "name": "sucio,",
+                  "id": 43,
+                  "dwell": 246,
+                  "len": 6
+              },
+{
+                  "name": "el",
+                  "id": 44,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "perro",
+                  "id": 45,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "de",
+                  "id": 46,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "azúcar,",
+                  "id": 47,
+                  "dwell": 392,
+                  "len": 7
+              },
+{
+                  "name": "con",
+                  "id": 48,
+                  "dwell": 154,
+                  "len": 3,
+                  "break_line": true
+              },
+{
+                  "name": "su",
+                  "id": 49,
+                  "dwell": 0,
+                  "len": 2,
+                  "new_line": true
+              },
+{
+                  "name": "voz",
+                  "id": 50,
+                  "dwell": 135,
+                  "len": 3
+              },
+{
+                  "name": "ronca,",
+                  "id": 51,
+                  "dwell": 0,
+                  "len": 6
+              },
+{
+                  "name": "con",
+                  "id": 52,
+                  "dwell": 357,
+                  "len": 3
+              },
+{
+                  "name": "la",
+                  "id": 53,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "voz",
+                  "id": 54,
+                  "dwell": 201,
+                  "len": 3
+              },
+{
+                  "name": "de",
+                  "id": 55,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "las",
+                  "id": 56,
+                  "dwell": 566,
+                  "len": 3
+              },
+{
+                  "name": "ramas",
+                  "id": 57,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "temblando,",
+                  "id": 58,
+                  "dwell": 540,
+                  "len": 10
+              },
+{
+                  "name": "el",
+                  "id": 59,
+                  "dwell": 279,
+                  "len": 2
+              },
+{
+                  "name": "perro",
+                  "id": 60,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "libre",
+                  "id": 61,
+                  "dwell": 197,
+                  "len": 5
+              },
+{
+                  "name": "y",
+                  "id": 62,
+                  "dwell": 0,
+                  "len": 1
+              },
+{
+                  "name": "feliz,",
+                  "id": 63,
+                  "dwell": 242,
+                  "len": 6
+              },
+{
+                  "name": "libre,",
+                  "id": 64,
+                  "dwell": 286,
+                  "len": 6
+              },
+{
+                  "name": "feliz,",
+                  "id": 65,
+                  "dwell": 352,
+                  "len": 6
+              },
+{
+                  "name": "ladrador,",
+                  "id": 66,
+                  "dwell": 275,
+                  "len": 9,
+                  "break_line": true
+              },
+{
+                  "name": "perdedor,",
+                  "id": 67,
+                  "dwell": 278,
+                  "len": 9,
+                  "new_line": true
+              },
+{
+                  "name": "que",
+                  "id": 68,
+                  "dwell": 213,
+                  "len": 3
+              },
+{
+                  "name": "todos",
+                  "id": 69,
+                  "dwell": 254,
+                  "len": 5
+              },
+{
+                  "name": "llevamos",
+                  "id": 70,
+                  "dwell": 142,
+                  "len": 8
+              },
+{
+                  "name": "dentro.",
+                  "id": 71,
+                  "dwell": 1886,
+                  "len": 7
+              }
+
+                ]
+              }
+          ]
+        }
+    ]
+}
+    

@@ -1,0 +1,349 @@
+
+        {
+    "name": "MICROSTORY", "children": [
+        {
+          "name": "Oración 1",
+          "full": "Oració 1",
+          "children": [
+
+              {
+                "name": "Frase 1",
+                "full": "Frase 1",
+                "children" : [
+    {
+                  "name": "La",
+                  "id": 0,
+                  "dwell": 0,
+                  "len": 2,
+                  "new_line": true
+              },
+{
+                  "name": "flecha",
+                  "id": 1,
+                  "dwell": 119,
+                  "len": 6
+              },
+{
+                  "name": "disparada",
+                  "id": 2,
+                  "dwell": 537,
+                  "len": 9
+              },
+{
+                  "name": "por",
+                  "id": 3,
+                  "dwell": 399,
+                  "len": 3
+              },
+{
+                  "name": "la",
+                  "id": 4,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "ballesta",
+                  "id": 5,
+                  "dwell": 438,
+                  "len": 8
+              },
+{
+                  "name": "precisa",
+                  "id": 6,
+                  "dwell": 462,
+                  "len": 7
+              },
+{
+                  "name": "de",
+                  "id": 7,
+                  "dwell": 275,
+                  "len": 2
+              },
+{
+                  "name": "Guillermo",
+                  "id": 8,
+                  "dwell": 244,
+                  "len": 9
+              },
+{
+                  "name": "Tell",
+                  "id": 9,
+                  "dwell": 324,
+                  "len": 4
+              },
+{
+                  "name": "parte",
+                  "id": 10,
+                  "dwell": 743,
+                  "len": 5
+              },
+{
+                  "name": "en",
+                  "id": 11,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "dos",
+                  "id": 12,
+                  "dwell": 292,
+                  "len": 3
+              },
+{
+                  "name": "la",
+                  "id": 13,
+                  "dwell": 198,
+                  "len": 2
+              },
+{
+                  "name": "manzana",
+                  "id": 14,
+                  "dwell": 99,
+                  "len": 7
+              },
+{
+                  "name": "que",
+                  "id": 15,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "está",
+                  "id": 16,
+                  "dwell": 0,
+                  "len": 4
+              },
+{
+                  "name": "a",
+                  "id": 17,
+                  "dwell": 0,
+                  "len": 1,
+                  "break_line": true
+              },
+{
+                  "name": "punto",
+                  "id": 18,
+                  "dwell": 286,
+                  "len": 5,
+                  "new_line": true
+              },
+{
+                  "name": "de",
+                  "id": 19,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "caer",
+                  "id": 20,
+                  "dwell": 0,
+                  "len": 4
+              },
+{
+                  "name": "sobre",
+                  "id": 21,
+                  "dwell": 152,
+                  "len": 5
+              },
+{
+                  "name": "la",
+                  "id": 22,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "cabeza",
+                  "id": 23,
+                  "dwell": 240,
+                  "len": 6
+              },
+{
+                  "name": "de",
+                  "id": 24,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "Newton.",
+                  "id": 25,
+                  "dwell": 362,
+                  "len": 7
+              },
+{
+                  "name": "Eva",
+                  "id": 26,
+                  "dwell": 409,
+                  "len": 3
+              },
+{
+                  "name": "toma",
+                  "id": 27,
+                  "dwell": 149,
+                  "len": 4
+              },
+{
+                  "name": "una",
+                  "id": 28,
+                  "dwell": 179,
+                  "len": 3
+              },
+{
+                  "name": "mitad",
+                  "id": 29,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "y",
+                  "id": 30,
+                  "dwell": 0,
+                  "len": 1
+              },
+{
+                  "name": "le",
+                  "id": 31,
+                  "dwell": 189,
+                  "len": 2
+              },
+{
+                  "name": "ofrece",
+                  "id": 32,
+                  "dwell": 246,
+                  "len": 6
+              },
+{
+                  "name": "la",
+                  "id": 33,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "otra",
+                  "id": 34,
+                  "dwell": 209,
+                  "len": 4
+              },
+{
+                  "name": "a",
+                  "id": 35,
+                  "dwell": 0,
+                  "len": 1
+              },
+{
+                  "name": "su",
+                  "id": 36,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "consorte",
+                  "id": 37,
+                  "dwell": 720,
+                  "len": 8
+              },
+{
+                  "name": "para",
+                  "id": 38,
+                  "dwell": 251,
+                  "len": 4,
+                  "break_line": true
+              },
+{
+                  "name": "regocijo",
+                  "id": 39,
+                  "dwell": 292,
+                  "len": 8,
+                  "new_line": true
+              },
+{
+                  "name": "de",
+                  "id": 40,
+                  "dwell": 272,
+                  "len": 2
+              },
+{
+                  "name": "la",
+                  "id": 41,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "serpiente.",
+                  "id": 42,
+                  "dwell": 415,
+                  "len": 10
+              },
+{
+                  "name": "Es",
+                  "id": 43,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "así",
+                  "id": 44,
+                  "dwell": 527,
+                  "len": 3
+              },
+{
+                  "name": "como",
+                  "id": 45,
+                  "dwell": 227,
+                  "len": 4
+              },
+{
+                  "name": "nunca",
+                  "id": 46,
+                  "dwell": 277,
+                  "len": 5
+              },
+{
+                  "name": "llega",
+                  "id": 47,
+                  "dwell": 219,
+                  "len": 5
+              },
+{
+                  "name": "a",
+                  "id": 48,
+                  "dwell": 0,
+                  "len": 1
+              },
+{
+                  "name": "formularse",
+                  "id": 49,
+                  "dwell": 289,
+                  "len": 10
+              },
+{
+                  "name": "la",
+                  "id": 50,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "ley",
+                  "id": 51,
+                  "dwell": 468,
+                  "len": 3
+              },
+{
+                  "name": "de",
+                  "id": 52,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "gravedad.",
+                  "id": 53,
+                  "dwell": 1010,
+                  "len": 9
+              }
+
+                ]
+              }
+          ]
+        }
+    ]
+}
+    

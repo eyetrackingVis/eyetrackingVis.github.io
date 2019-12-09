@@ -1,0 +1,461 @@
+
+        {
+    "name": "MICROSTORY", "children": [
+        {
+          "name": "Oración 1",
+          "full": "Oració 1",
+          "children": [
+
+              {
+                "name": "Frase 1",
+                "full": "Frase 1",
+                "children" : [
+    {
+                  "name": "Mi",
+                  "id": 0,
+                  "dwell": 0,
+                  "len": 2,
+                  "new_line": true
+              },
+{
+                  "name": "hermano",
+                  "id": 1,
+                  "dwell": 0,
+                  "len": 7
+              },
+{
+                  "name": "Alberto",
+                  "id": 2,
+                  "dwell": 612,
+                  "len": 7
+              },
+{
+                  "name": "cayó",
+                  "id": 3,
+                  "dwell": 188,
+                  "len": 4
+              },
+{
+                  "name": "al",
+                  "id": 4,
+                  "dwell": 316,
+                  "len": 2
+              },
+{
+                  "name": "pozo",
+                  "id": 5,
+                  "dwell": 121,
+                  "len": 4
+              },
+{
+                  "name": "cuando",
+                  "id": 6,
+                  "dwell": 351,
+                  "len": 6
+              },
+{
+                  "name": "tenía",
+                  "id": 7,
+                  "dwell": 217,
+                  "len": 5
+              },
+{
+                  "name": "cinco",
+                  "id": 8,
+                  "dwell": 390,
+                  "len": 5
+              },
+{
+                  "name": "años.",
+                  "id": 9,
+                  "dwell": 130,
+                  "len": 5
+              },
+{
+                  "name": "Fue",
+                  "id": 10,
+                  "dwell": 235,
+                  "len": 3
+              },
+{
+                  "name": "una",
+                  "id": 11,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "de",
+                  "id": 12,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "esas",
+                  "id": 13,
+                  "dwell": 270,
+                  "len": 4
+              },
+{
+                  "name": "tragedias",
+                  "id": 14,
+                  "dwell": 155,
+                  "len": 9
+              },
+{
+                  "name": "familiares",
+                  "id": 15,
+                  "dwell": 152,
+                  "len": 10
+              },
+{
+                  "name": "que",
+                  "id": 16,
+                  "dwell": 198,
+                  "len": 3,
+                  "break_line": true
+              },
+{
+                  "name": "sólo",
+                  "id": 17,
+                  "dwell": 0,
+                  "len": 4,
+                  "new_line": true
+              },
+{
+                  "name": "alivian",
+                  "id": 18,
+                  "dwell": 568,
+                  "len": 7
+              },
+{
+                  "name": "el",
+                  "id": 19,
+                  "dwell": 408,
+                  "len": 2
+              },
+{
+                  "name": "tiempo",
+                  "id": 20,
+                  "dwell": 0,
+                  "len": 6
+              },
+{
+                  "name": "y",
+                  "id": 21,
+                  "dwell": 151,
+                  "len": 1
+              },
+{
+                  "name": "la",
+                  "id": 22,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "circunstancia",
+                  "id": 23,
+                  "dwell": 650,
+                  "len": 13
+              },
+{
+                  "name": "de",
+                  "id": 24,
+                  "dwell": 223,
+                  "len": 2
+              },
+{
+                  "name": "la",
+                  "id": 25,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "familia",
+                  "id": 26,
+                  "dwell": 417,
+                  "len": 7
+              },
+{
+                  "name": "numerosa.",
+                  "id": 27,
+                  "dwell": 553,
+                  "len": 9
+              },
+{
+                  "name": "Veinte",
+                  "id": 28,
+                  "dwell": 270,
+                  "len": 6
+              },
+{
+                  "name": "años",
+                  "id": 29,
+                  "dwell": 121,
+                  "len": 4
+              },
+{
+                  "name": "después",
+                  "id": 30,
+                  "dwell": 303,
+                  "len": 7
+              },
+{
+                  "name": "mi",
+                  "id": 31,
+                  "dwell": 165,
+                  "len": 2
+              },
+{
+                  "name": "hermano",
+                  "id": 32,
+                  "dwell": 131,
+                  "len": 7,
+                  "break_line": true
+              },
+{
+                  "name": "Eloy",
+                  "id": 33,
+                  "dwell": 193,
+                  "len": 4,
+                  "new_line": true
+              },
+{
+                  "name": "sacaba",
+                  "id": 34,
+                  "dwell": 327,
+                  "len": 6
+              },
+{
+                  "name": "agua",
+                  "id": 35,
+                  "dwell": 387,
+                  "len": 4
+              },
+{
+                  "name": "un",
+                  "id": 36,
+                  "dwell": 217,
+                  "len": 2
+              },
+{
+                  "name": "día",
+                  "id": 37,
+                  "dwell": 432,
+                  "len": 3
+              },
+{
+                  "name": "de",
+                  "id": 38,
+                  "dwell": 453,
+                  "len": 2
+              },
+{
+                  "name": "aquel",
+                  "id": 39,
+                  "dwell": 234,
+                  "len": 5
+              },
+{
+                  "name": "pozo",
+                  "id": 40,
+                  "dwell": 0,
+                  "len": 4
+              },
+{
+                  "name": "al",
+                  "id": 41,
+                  "dwell": 289,
+                  "len": 2
+              },
+{
+                  "name": "que",
+                  "id": 42,
+                  "dwell": 387,
+                  "len": 3
+              },
+{
+                  "name": "nadie",
+                  "id": 43,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "jamás",
+                  "id": 44,
+                  "dwell": 351,
+                  "len": 5
+              },
+{
+                  "name": "había",
+                  "id": 45,
+                  "dwell": 146,
+                  "len": 5
+              },
+{
+                  "name": "vuelto",
+                  "id": 46,
+                  "dwell": 221,
+                  "len": 6
+              },
+{
+                  "name": "a",
+                  "id": 47,
+                  "dwell": 0,
+                  "len": 1
+              },
+{
+                  "name": "asomarse.",
+                  "id": 48,
+                  "dwell": 424,
+                  "len": 9
+              },
+{
+                  "name": "En",
+                  "id": 49,
+                  "dwell": 132,
+                  "len": 2
+              },
+{
+                  "name": "el",
+                  "id": 50,
+                  "dwell": 336,
+                  "len": 2
+              },
+{
+                  "name": "caldero",
+                  "id": 51,
+                  "dwell": 259,
+                  "len": 7,
+                  "break_line": true
+              },
+{
+                  "name": "descubrió",
+                  "id": 52,
+                  "dwell": 344,
+                  "len": 9,
+                  "new_line": true
+              },
+{
+                  "name": "una",
+                  "id": 53,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "pequeña",
+                  "id": 54,
+                  "dwell": 0,
+                  "len": 7
+              },
+{
+                  "name": "botella",
+                  "id": 55,
+                  "dwell": 337,
+                  "len": 7
+              },
+{
+                  "name": "con",
+                  "id": 56,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "un",
+                  "id": 57,
+                  "dwell": 219,
+                  "len": 2
+              },
+{
+                  "name": "papel",
+                  "id": 58,
+                  "dwell": 0,
+                  "len": 5
+              },
+{
+                  "name": "en",
+                  "id": 59,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "el",
+                  "id": 60,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "interior.",
+                  "id": 61,
+                  "dwell": 389,
+                  "len": 9
+              },
+{
+                  "name": "Este",
+                  "id": 62,
+                  "dwell": 210,
+                  "len": 4
+              },
+{
+                  "name": "es",
+                  "id": 63,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "un",
+                  "id": 64,
+                  "dwell": 338,
+                  "len": 2
+              },
+{
+                  "name": "mundo",
+                  "id": 65,
+                  "dwell": 147,
+                  "len": 5
+              },
+{
+                  "name": "como",
+                  "id": 66,
+                  "dwell": 410,
+                  "len": 4
+              },
+{
+                  "name": "otro",
+                  "id": 67,
+                  "dwell": 417,
+                  "len": 4
+              },
+{
+                  "name": "cualquiera ,",
+                  "id": 68,
+                  "dwell": 275,
+                  "len": 12,
+                  "break_line": true
+              },
+{
+                  "name": "decía",
+                  "id": 69,
+                  "dwell": 385,
+                  "len": 5,
+                  "new_line": true
+              },
+{
+                  "name": "el",
+                  "id": 70,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "mensaje.",
+                  "id": 71,
+                  "dwell": 655,
+                  "len": 8
+              }
+
+                ]
+              }
+          ]
+        }
+    ]
+}
+    

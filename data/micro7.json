@@ -1,0 +1,405 @@
+
+        {
+    "name": "MICROSTORY", "children": [
+        {
+          "name": "Oración 1",
+          "full": "Oració 1",
+          "children": [
+
+              {
+                "name": "Frase 1",
+                "full": "Frase 1",
+                "children" : [
+    {
+                  "name": "En",
+                  "id": 0,
+                  "dwell": 0,
+                  "len": 2,
+                  "new_line": true
+              },
+{
+                  "name": "un",
+                  "id": 1,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "lejano",
+                  "id": 2,
+                  "dwell": 0,
+                  "len": 6
+              },
+{
+                  "name": "país",
+                  "id": 3,
+                  "dwell": 269,
+                  "len": 4
+              },
+{
+                  "name": "existió",
+                  "id": 4,
+                  "dwell": 291,
+                  "len": 7
+              },
+{
+                  "name": "hace",
+                  "id": 5,
+                  "dwell": 221,
+                  "len": 4
+              },
+{
+                  "name": "muchos",
+                  "id": 6,
+                  "dwell": 247,
+                  "len": 6
+              },
+{
+                  "name": "años",
+                  "id": 7,
+                  "dwell": 142,
+                  "len": 4
+              },
+{
+                  "name": "una",
+                  "id": 8,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "Oveja",
+                  "id": 9,
+                  "dwell": 405,
+                  "len": 5
+              },
+{
+                  "name": "negra.",
+                  "id": 10,
+                  "dwell": 269,
+                  "len": 6
+              },
+{
+                  "name": "Fue",
+                  "id": 11,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "fusilada.",
+                  "id": 12,
+                  "dwell": 780,
+                  "len": 9
+              },
+{
+                  "name": "Un",
+                  "id": 13,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "siglo",
+                  "id": 14,
+                  "dwell": 312,
+                  "len": 5
+              },
+{
+                  "name": "después,",
+                  "id": 15,
+                  "dwell": 151,
+                  "len": 8
+              },
+{
+                  "name": "el",
+                  "id": 16,
+                  "dwell": 218,
+                  "len": 2,
+                  "break_line": true
+              },
+{
+                  "name": "rebaño",
+                  "id": 17,
+                  "dwell": 317,
+                  "len": 6,
+                  "new_line": true
+              },
+{
+                  "name": "arrepentido",
+                  "id": 18,
+                  "dwell": 411,
+                  "len": 11
+              },
+{
+                  "name": "le",
+                  "id": 19,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "levantó",
+                  "id": 20,
+                  "dwell": 265,
+                  "len": 7
+              },
+{
+                  "name": "una",
+                  "id": 21,
+                  "dwell": 381,
+                  "len": 3
+              },
+{
+                  "name": "estatua",
+                  "id": 22,
+                  "dwell": 165,
+                  "len": 7
+              },
+{
+                  "name": "ecuestre",
+                  "id": 23,
+                  "dwell": 436,
+                  "len": 8
+              },
+{
+                  "name": "que",
+                  "id": 24,
+                  "dwell": 328,
+                  "len": 3
+              },
+{
+                  "name": "quedó",
+                  "id": 25,
+                  "dwell": 399,
+                  "len": 5
+              },
+{
+                  "name": "muy",
+                  "id": 26,
+                  "dwell": 140,
+                  "len": 3
+              },
+{
+                  "name": "bien",
+                  "id": 27,
+                  "dwell": 132,
+                  "len": 4
+              },
+{
+                  "name": "en",
+                  "id": 28,
+                  "dwell": 400,
+                  "len": 2
+              },
+{
+                  "name": "el",
+                  "id": 29,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "parque.",
+                  "id": 30,
+                  "dwell": 169,
+                  "len": 7
+              },
+{
+                  "name": "Así,",
+                  "id": 31,
+                  "dwell": 312,
+                  "len": 4
+              },
+{
+                  "name": "en",
+                  "id": 32,
+                  "dwell": 873,
+                  "len": 2
+              },
+{
+                  "name": "lo",
+                  "id": 33,
+                  "dwell": 108,
+                  "len": 2,
+                  "break_line": true
+              },
+{
+                  "name": "sucesivo,",
+                  "id": 34,
+                  "dwell": 468,
+                  "len": 9,
+                  "new_line": true
+              },
+{
+                  "name": "cada",
+                  "id": 35,
+                  "dwell": 256,
+                  "len": 4
+              },
+{
+                  "name": "vez",
+                  "id": 36,
+                  "dwell": 249,
+                  "len": 3
+              },
+{
+                  "name": "que",
+                  "id": 37,
+                  "dwell": 0,
+                  "len": 3
+              },
+{
+                  "name": "aparecían",
+                  "id": 38,
+                  "dwell": 326,
+                  "len": 9
+              },
+{
+                  "name": "ovejas",
+                  "id": 39,
+                  "dwell": 312,
+                  "len": 6
+              },
+{
+                  "name": "negras",
+                  "id": 40,
+                  "dwell": 165,
+                  "len": 6
+              },
+{
+                  "name": "eran",
+                  "id": 41,
+                  "dwell": 0,
+                  "len": 4
+              },
+{
+                  "name": "rápidamente",
+                  "id": 42,
+                  "dwell": 437,
+                  "len": 11
+              },
+{
+                  "name": "pasadas",
+                  "id": 43,
+                  "dwell": 554,
+                  "len": 7
+              },
+{
+                  "name": "por",
+                  "id": 44,
+                  "dwell": 207,
+                  "len": 3
+              },
+{
+                  "name": "las",
+                  "id": 45,
+                  "dwell": 586,
+                  "len": 3
+              },
+{
+                  "name": "armas",
+                  "id": 46,
+                  "dwell": 134,
+                  "len": 5
+              },
+{
+                  "name": "para",
+                  "id": 47,
+                  "dwell": 253,
+                  "len": 4
+              },
+{
+                  "name": "que",
+                  "id": 48,
+                  "dwell": 166,
+                  "len": 3
+              },
+{
+                  "name": "las",
+                  "id": 49,
+                  "dwell": 159,
+                  "len": 3,
+                  "break_line": true
+              },
+{
+                  "name": "futuras",
+                  "id": 50,
+                  "dwell": 252,
+                  "len": 7,
+                  "new_line": true
+              },
+{
+                  "name": "generaciones",
+                  "id": 51,
+                  "dwell": 355,
+                  "len": 12
+              },
+{
+                  "name": "de",
+                  "id": 52,
+                  "dwell": 188,
+                  "len": 2
+              },
+{
+                  "name": "ovejas",
+                  "id": 53,
+                  "dwell": 148,
+                  "len": 6
+              },
+{
+                  "name": "comunes",
+                  "id": 54,
+                  "dwell": 221,
+                  "len": 7
+              },
+{
+                  "name": "y",
+                  "id": 55,
+                  "dwell": 0,
+                  "len": 1
+              },
+{
+                  "name": "corrientes",
+                  "id": 56,
+                  "dwell": 338,
+                  "len": 10
+              },
+{
+                  "name": "pudieran",
+                  "id": 57,
+                  "dwell": 209,
+                  "len": 8
+              },
+{
+                  "name": "ejercitarse",
+                  "id": 58,
+                  "dwell": 185,
+                  "len": 11
+              },
+{
+                  "name": "también",
+                  "id": 59,
+                  "dwell": 255,
+                  "len": 7
+              },
+{
+                  "name": "en",
+                  "id": 60,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "la",
+                  "id": 61,
+                  "dwell": 0,
+                  "len": 2
+              },
+{
+                  "name": "escultura.",
+                  "id": 62,
+                  "dwell": 193,
+                  "len": 10
+              }
+
+                ]
+              }
+          ]
+        }
+    ]
+}
+    
