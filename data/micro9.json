@@ -1,461 +1,747 @@
-
-        {
-    "name": "MICROSTORY", "children": [
-        {
-          "name": "Oración 1",
-          "full": "Oració 1",
-          "children": [
-
-              {
-                "name": "Frase 1",
-                "full": "Frase 1",
-                "children" : [
+{
+  "children": [
     {
-                  "name": "En",
-                  "id": 0,
-                  "dwell": 0,
-                  "len": 2,
-                  "new_line": true
-              },
-{
-                  "name": "el",
-                  "id": 1,
-                  "dwell": 401,
-                  "len": 2
-              },
-{
-                  "name": "más",
-                  "id": 2,
-                  "dwell": 124,
-                  "len": 3
-              },
-{
-                  "name": "recóndito",
-                  "id": 3,
-                  "dwell": 139,
-                  "len": 9
-              },
-{
-                  "name": "paraje",
-                  "id": 4,
-                  "dwell": 253,
-                  "len": 6
-              },
-{
-                  "name": "del",
-                  "id": 5,
-                  "dwell": 222,
-                  "len": 3
-              },
-{
-                  "name": "bosque",
-                  "id": 6,
-                  "dwell": 161,
-                  "len": 6
-              },
-{
-                  "name": "rebulle",
-                  "id": 7,
-                  "dwell": 952,
-                  "len": 7
-              },
-{
-                  "name": "el",
-                  "id": 8,
-                  "dwell": 0,
-                  "len": 2
-              },
-{
-                  "name": "perro",
-                  "id": 9,
-                  "dwell": 348,
-                  "len": 5
-              },
-{
-                  "name": "que",
-                  "id": 10,
-                  "dwell": 202,
-                  "len": 3
-              },
-{
-                  "name": "todos",
-                  "id": 11,
-                  "dwell": 0,
-                  "len": 5
-              },
-{
-                  "name": "llevamos",
-                  "id": 12,
-                  "dwell": 573,
-                  "len": 8
-              },
-{
-                  "name": "dentro,",
-                  "id": 13,
-                  "dwell": 385,
-                  "len": 7
-              },
-{
-                  "name": "buscando",
-                  "id": 14,
-                  "dwell": 1067,
-                  "len": 8
-              },
-{
-                  "name": "un",
-                  "id": 15,
-                  "dwell": 109,
-                  "len": 2,
-                  "break_line": true
-              },
-{
-                  "name": "camino",
-                  "id": 16,
-                  "dwell": 397,
-                  "len": 6,
-                  "new_line": true
-              },
-{
-                  "name": "de",
-                  "id": 17,
-                  "dwell": 357,
-                  "len": 2
-              },
-{
-                  "name": "regreso",
-                  "id": 18,
-                  "dwell": 0,
-                  "len": 7
-              },
-{
-                  "name": "a",
-                  "id": 19,
-                  "dwell": 227,
-                  "len": 1
-              },
-{
-                  "name": "casa,",
-                  "id": 20,
-                  "dwell": 251,
-                  "len": 5
-              },
-{
-                  "name": "el",
-                  "id": 21,
-                  "dwell": 167,
-                  "len": 2
-              },
-{
-                  "name": "perro",
-                  "id": 22,
-                  "dwell": 0,
-                  "len": 5
-              },
-{
-                  "name": "herido",
-                  "id": 23,
-                  "dwell": 296,
-                  "len": 6
-              },
-{
-                  "name": "entre",
-                  "id": 24,
-                  "dwell": 437,
-                  "len": 5
-              },
-{
-                  "name": "zarzales,",
-                  "id": 25,
-                  "dwell": 170,
-                  "len": 9
-              },
-{
-                  "name": "el",
-                  "id": 26,
-                  "dwell": 489,
-                  "len": 2
-              },
-{
-                  "name": "perro",
-                  "id": 27,
-                  "dwell": 0,
-                  "len": 5
-              },
-{
-                  "name": "abandonado",
-                  "id": 28,
-                  "dwell": 160,
-                  "len": 10
-              },
-{
-                  "name": "contra",
-                  "id": 29,
-                  "dwell": 251,
-                  "len": 6
-              },
-{
-                  "name": "la",
-                  "id": 30,
-                  "dwell": 0,
-                  "len": 2
-              },
-{
-                  "name": "cuneta,",
-                  "id": 31,
-                  "dwell": 400,
-                  "len": 7
-              },
-{
-                  "name": "de",
-                  "id": 32,
-                  "dwell": 218,
-                  "len": 2,
-                  "break_line": true
-              },
-{
-                  "name": "pelambre",
-                  "id": 33,
-                  "dwell": 711,
-                  "len": 8,
-                  "new_line": true
-              },
-{
-                  "name": "hirsuta,",
-                  "id": 34,
-                  "dwell": 1116,
-                  "len": 8
-              },
-{
-                  "name": "lengua",
-                  "id": 35,
-                  "dwell": 478,
-                  "len": 6
-              },
-{
-                  "name": "inerte",
-                  "id": 36,
-                  "dwell": 407,
-                  "len": 6
-              },
-{
-                  "name": "colgando",
-                  "id": 37,
-                  "dwell": 1281,
-                  "len": 8
-              },
-{
-                  "name": "una",
-                  "id": 38,
-                  "dwell": 650,
-                  "len": 3
-              },
-{
-                  "name": "rosa",
-                  "id": 39,
-                  "dwell": 569,
-                  "len": 4
-              },
-{
-                  "name": "chicle,",
-                  "id": 40,
-                  "dwell": 635,
-                  "len": 7
-              },
-{
-                  "name": "el",
-                  "id": 41,
-                  "dwell": 213,
-                  "len": 2
-              },
-{
-                  "name": "perro",
-                  "id": 42,
-                  "dwell": 300,
-                  "len": 5
-              },
-{
-                  "name": "sucio,",
-                  "id": 43,
-                  "dwell": 246,
-                  "len": 6
-              },
-{
-                  "name": "el",
-                  "id": 44,
-                  "dwell": 0,
-                  "len": 2
-              },
-{
-                  "name": "perro",
-                  "id": 45,
-                  "dwell": 0,
-                  "len": 5
-              },
-{
-                  "name": "de",
-                  "id": 46,
-                  "dwell": 0,
-                  "len": 2
-              },
-{
-                  "name": "azúcar,",
-                  "id": 47,
-                  "dwell": 392,
-                  "len": 7
-              },
-{
-                  "name": "con",
-                  "id": 48,
-                  "dwell": 154,
-                  "len": 3,
-                  "break_line": true
-              },
-{
-                  "name": "su",
-                  "id": 49,
-                  "dwell": 0,
-                  "len": 2,
-                  "new_line": true
-              },
-{
-                  "name": "voz",
-                  "id": 50,
-                  "dwell": 135,
-                  "len": 3
-              },
-{
-                  "name": "ronca,",
-                  "id": 51,
-                  "dwell": 0,
-                  "len": 6
-              },
-{
-                  "name": "con",
-                  "id": 52,
-                  "dwell": 357,
-                  "len": 3
-              },
-{
-                  "name": "la",
-                  "id": 53,
-                  "dwell": 0,
-                  "len": 2
-              },
-{
-                  "name": "voz",
-                  "id": 54,
-                  "dwell": 201,
-                  "len": 3
-              },
-{
-                  "name": "de",
-                  "id": 55,
-                  "dwell": 0,
-                  "len": 2
-              },
-{
-                  "name": "las",
-                  "id": 56,
-                  "dwell": 566,
-                  "len": 3
-              },
-{
-                  "name": "ramas",
-                  "id": 57,
-                  "dwell": 0,
-                  "len": 5
-              },
-{
-                  "name": "temblando,",
-                  "id": 58,
-                  "dwell": 540,
-                  "len": 10
-              },
-{
-                  "name": "el",
-                  "id": 59,
-                  "dwell": 279,
-                  "len": 2
-              },
-{
-                  "name": "perro",
-                  "id": 60,
-                  "dwell": 0,
-                  "len": 5
-              },
-{
-                  "name": "libre",
-                  "id": 61,
-                  "dwell": 197,
-                  "len": 5
-              },
-{
-                  "name": "y",
-                  "id": 62,
-                  "dwell": 0,
-                  "len": 1
-              },
-{
-                  "name": "feliz,",
-                  "id": 63,
-                  "dwell": 242,
-                  "len": 6
-              },
-{
-                  "name": "libre,",
-                  "id": 64,
-                  "dwell": 286,
-                  "len": 6
-              },
-{
-                  "name": "feliz,",
-                  "id": 65,
-                  "dwell": 352,
-                  "len": 6
-              },
-{
-                  "name": "ladrador,",
-                  "id": 66,
-                  "dwell": 275,
-                  "len": 9,
-                  "break_line": true
-              },
-{
-                  "name": "perdedor,",
-                  "id": 67,
-                  "dwell": 278,
-                  "len": 9,
-                  "new_line": true
-              },
-{
-                  "name": "que",
-                  "id": 68,
-                  "dwell": 213,
-                  "len": 3
-              },
-{
-                  "name": "todos",
-                  "id": 69,
-                  "dwell": 254,
-                  "len": 5
-              },
-{
-                  "name": "llevamos",
-                  "id": 70,
-                  "dwell": 142,
-                  "len": 8
-              },
-{
-                  "name": "dentro.",
-                  "id": 71,
-                  "dwell": 1886,
-                  "len": 7
-              }
-
-                ]
-              }
-          ]
+      "children": [
+        {
+          "children": [
+            {
+              "dwell": 0,
+              "freq_abs": 4234281,
+              "freq_norm": 27755.16,
+              "gaze_time": 0,
+              "id": 0,
+              "len": 2,
+              "name": "En",
+              "new_line": true,
+              "pos": "ADP"
+            },
+            {
+              "dwell": 401,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 401,
+              "id": 1,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 124,
+              "freq_abs": 661696,
+              "freq_norm": 4337.33,
+              "gaze_time": 124,
+              "id": 2,
+              "len": 3,
+              "name": "más",
+              "pos": "ADV"
+            },
+            {
+              "dwell": 139,
+              "freq_abs": 228,
+              "freq_norm": 1.49,
+              "gaze_time": 139,
+              "id": 3,
+              "len": 9,
+              "name": "recóndito",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 253,
+              "freq_abs": 770,
+              "freq_norm": 5.04,
+              "gaze_time": 253,
+              "id": 4,
+              "len": 6,
+              "name": "paraje",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 222,
+              "freq_abs": 1857225,
+              "freq_norm": 12173.87,
+              "gaze_time": 222,
+              "id": 5,
+              "len": 3,
+              "name": "del",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 161,
+              "freq_abs": 4876,
+              "freq_norm": 31.96,
+              "gaze_time": 161,
+              "id": 6,
+              "len": 6,
+              "name": "bosque",
+              "pos": "PROPN"
+            },
+            {
+              "dwell": 952,
+              "freq_abs": 18,
+              "freq_norm": 0.11,
+              "gaze_time": 952,
+              "id": 7,
+              "len": 7,
+              "name": "rebulle",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 0,
+              "id": 8,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 348,
+              "freq_abs": 6786,
+              "freq_norm": 44.48,
+              "gaze_time": 348,
+              "id": 9,
+              "len": 5,
+              "name": "perro",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 202,
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85,
+              "gaze_time": 202,
+              "id": 10,
+              "len": 3,
+              "name": "que",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 158168,
+              "freq_norm": 1036.77,
+              "gaze_time": 0,
+              "id": 11,
+              "len": 5,
+              "name": "todos",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 573,
+              "freq_abs": 1949,
+              "freq_norm": 12.77,
+              "gaze_time": 573,
+              "id": 12,
+              "len": 8,
+              "name": "llevamos",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 385,
+              "freq_abs": 56565,
+              "freq_norm": 370.77,
+              "gaze_time": 385,
+              "id": 13,
+              "len": 6,
+              "name": "dentro,",
+              "pos": "ADV"
+            },
+            {
+              "dwell": 1067,
+              "freq_abs": 7125,
+              "freq_norm": 46.7,
+              "gaze_time": 1067,
+              "id": 14,
+              "len": 8,
+              "name": "buscando",
+              "pos": "VERB"
+            },
+            {
+              "break_line": true,
+              "dwell": 109,
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95,
+              "gaze_time": 109,
+              "id": 15,
+              "len": 2,
+              "name": "un",
+              "pos": "DET",
+              "break_line": true
+            },
+            {
+              "dwell": 397,
+              "freq_abs": 29830,
+              "freq_norm": 195.53,
+              "gaze_time": 397,
+              "id": 16,
+              "len": 6,
+              "name": "camino",
+              "new_line": true,
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 357,
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55,
+              "gaze_time": 357,
+              "id": 17,
+              "len": 2,
+              "name": "de",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 7538,
+              "freq_norm": 49.41,
+              "gaze_time": 0,
+              "id": 18,
+              "len": 7,
+              "name": "regreso",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 227,
+              "freq_abs": 3260939,
+              "freq_norm": 21375.03,
+              "gaze_time": 0,
+              "id": 19,
+              "len": 1,
+              "name": "a",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 251,
+              "freq_abs": 85064,
+              "freq_norm": 557.58,
+              "gaze_time": 251,
+              "id": 20,
+              "len": 4,
+              "name": "casa,",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 167,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 167,
+              "id": 21,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 6786,
+              "freq_norm": 44.48,
+              "gaze_time": 0,
+              "id": 22,
+              "len": 5,
+              "name": "perro",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 296,
+              "freq_abs": 3444,
+              "freq_norm": 22.57,
+              "gaze_time": 296,
+              "id": 23,
+              "len": 6,
+              "name": "herido",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 437,
+              "freq_abs": 267493,
+              "freq_norm": 1753.38,
+              "gaze_time": 299,
+              "id": 24,
+              "len": 5,
+              "name": "entre",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 170,
+              "freq_abs": 38,
+              "freq_norm": 0.24,
+              "gaze_time": 170,
+              "id": 25,
+              "len": 8,
+              "name": "zarzales,",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 489,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 489,
+              "id": 26,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 6786,
+              "freq_norm": 44.48,
+              "gaze_time": 0,
+              "id": 27,
+              "len": 5,
+              "name": "perro",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 160,
+              "freq_abs": 3511,
+              "freq_norm": 23.01,
+              "gaze_time": 160,
+              "id": 28,
+              "len": 10,
+              "name": "abandonado",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 251,
+              "freq_abs": 100403,
+              "freq_norm": 658.12,
+              "gaze_time": 251,
+              "id": 29,
+              "len": 6,
+              "name": "contra",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59,
+              "gaze_time": 0,
+              "id": 30,
+              "len": 2,
+              "name": "la",
+              "pos": "DET"
+            },
+            {
+              "dwell": 400,
+              "freq_abs": 343,
+              "freq_norm": 2.24,
+              "gaze_time": 400,
+              "id": 31,
+              "len": 6,
+              "name": "cuneta,",
+              "pos": "NOUN"
+            },
+            {
+              "break_line": true,
+              "dwell": 218,
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55,
+              "gaze_time": 218,
+              "id": 32,
+              "len": 2,
+              "name": "de",
+              "pos": "ADP"
+            },
+            {
+              "new_line": true,
+              "dwell": 711,
+              "freq_abs": 93,
+              "freq_norm": 0.6,
+              "gaze_time": 0,
+              "id": 33,
+              "len": 8,
+              "name": "pelambre",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 1116,
+              "freq_abs": 61,
+              "freq_norm": 0.39,
+              "gaze_time": 1116,
+              "id": 34,
+              "len": 7,
+              "name": "hirsuta,",
+              "pos": "PROPN"
+            },
+            {
+              "dwell": 478,
+              "freq_abs": 13488,
+              "freq_norm": 88.41,
+              "gaze_time": 241,
+              "id": 35,
+              "len": 6,
+              "name": "lengua",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 407,
+              "freq_abs": 616,
+              "freq_norm": 4.03,
+              "gaze_time": 407,
+              "id": 36,
+              "len": 6,
+              "name": "inerte",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 1281,
+              "freq_abs": 779,
+              "freq_norm": 5.1,
+              "gaze_time": 799,
+              "id": 37,
+              "len": 8,
+              "name": "colgando",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 650,
+              "freq_abs": 1347603,
+              "freq_norm": 8833.36,
+              "gaze_time": 346,
+              "id": 38,
+              "len": 3,
+              "name": "una",
+              "pos": "DET"
+            },
+            {
+              "dwell": 569,
+              "freq_abs": 14180,
+              "freq_norm": 92.94,
+              "gaze_time": 228,
+              "id": 39,
+              "len": 4,
+              "name": "rosa",
+              "pos": "PROPN"
+            },
+            {
+              "dwell": 635,
+              "freq_abs": 322,
+              "freq_norm": 2.11,
+              "gaze_time": 635,
+              "id": 40,
+              "len": 6,
+              "name": "chicle,",
+              "pos": "PROPN"
+            },
+            {
+              "dwell": 213,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 213,
+              "id": 41,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 300,
+              "freq_abs": 6786,
+              "freq_norm": 44.48,
+              "gaze_time": 300,
+              "id": 42,
+              "len": 5,
+              "name": "perro",
+              "pos": "PROPN"
+            },
+            {
+              "dwell": 246,
+              "freq_abs": 1720,
+              "freq_norm": 11.27,
+              "gaze_time": 246,
+              "id": 43,
+              "len": 5,
+              "name": "sucio,",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 0,
+              "id": 44,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 6786,
+              "freq_norm": 44.48,
+              "gaze_time": 0,
+              "id": 45,
+              "len": 5,
+              "name": "perro",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55,
+              "gaze_time": 0,
+              "id": 46,
+              "len": 2,
+              "name": "de",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 392,
+              "freq_abs": 7919,
+              "freq_norm": 51.9,
+              "gaze_time": 392,
+              "id": 47,
+              "len": 6,
+              "name": "azúcar,",
+              "pos": "NOUN"
+            },
+            {
+              "break_line": true,
+              "dwell": 154,
+              "freq_abs": 1481607,
+              "freq_norm": 9711.74,
+              "gaze_time": 154,
+              "id": 48,
+              "len": 3,
+              "name": "con",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 1103617,
+              "freq_norm": 7234.06,
+              "gaze_time": 0,
+              "id": 49,
+              "len": 2,
+              "name": "su",
+              "new_line": true,
+              "pos": "DET"
+            },
+            {
+              "dwell": 135,
+              "freq_abs": 34982,
+              "freq_norm": 229.3,
+              "gaze_time": 135,
+              "id": 50,
+              "len": 3,
+              "name": "voz",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 612,
+              "freq_norm": 4.01,
+              "gaze_time": 0,
+              "id": 51,
+              "len": 5,
+              "name": "ronca,",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 357,
+              "freq_abs": 1481607,
+              "freq_norm": 9711.74,
+              "gaze_time": 357,
+              "id": 52,
+              "len": 3,
+              "name": "con",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59,
+              "gaze_time": 0,
+              "id": 53,
+              "len": 2,
+              "name": "la",
+              "pos": "DET"
+            },
+            {
+              "dwell": 201,
+              "freq_abs": 34982,
+              "freq_norm": 229.3,
+              "gaze_time": 201,
+              "id": 54,
+              "len": 3,
+              "name": "voz",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55,
+              "gaze_time": 0,
+              "id": 55,
+              "len": 2,
+              "name": "de",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 566,
+              "freq_abs": 1686741,
+              "freq_norm": 11056.37,
+              "gaze_time": 566,
+              "id": 56,
+              "len": 3,
+              "name": "las",
+              "pos": "DET"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 4300,
+              "freq_norm": 28.18,
+              "gaze_time": 0,
+              "id": 57,
+              "len": 5,
+              "name": "ramas",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 540,
+              "freq_abs": 735,
+              "freq_norm": 4.81,
+              "gaze_time": 540,
+              "id": 58,
+              "len": 9,
+              "name": "temblando,",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 279,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 279,
+              "id": 59,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 6786,
+              "freq_norm": 44.48,
+              "gaze_time": 0,
+              "id": 60,
+              "len": 5,
+              "name": "perro",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 197,
+              "freq_abs": 22640,
+              "freq_norm": 148.4,
+              "gaze_time": 197,
+              "id": 61,
+              "len": 5,
+              "name": "libre",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 4180279,
+              "freq_norm": 27401.19,
+              "gaze_time": 0,
+              "id": 62,
+              "len": 1,
+              "name": "y",
+              "pos": "CONJ"
+            },
+            {
+              "dwell": 242,
+              "freq_abs": 9194,
+              "freq_norm": 60.26,
+              "gaze_time": 242,
+              "id": 63,
+              "len": 5,
+              "name": "feliz,",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 286,
+              "freq_abs": 22640,
+              "freq_norm": 148.4,
+              "gaze_time": 286,
+              "id": 64,
+              "len": 5,
+              "name": "libre,",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 352,
+              "freq_abs": 9194,
+              "freq_norm": 60.26,
+              "gaze_time": 352,
+              "id": 65,
+              "len": 5,
+              "name": "feliz,",
+              "pos": "ADJ"
+            },
+            {
+              "break_line": true,
+              "dwell": 275,
+              "freq_abs": 9,
+              "freq_norm": 0.05,
+              "gaze_time": 275,
+              "id": 66,
+              "len": 8,
+              "name": "ladrador,",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 278,
+              "freq_abs": 556,
+              "freq_norm": 3.64,
+              "gaze_time": 278,
+              "id": 67,
+              "len": 8,
+              "name": "perdedor,",
+              "new_line": true,
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 213,
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85,
+              "gaze_time": 213,
+              "id": 68,
+              "len": 3,
+              "name": "que",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 254,
+              "freq_abs": 158168,
+              "freq_norm": 1036.77,
+              "gaze_time": 254,
+              "id": 69,
+              "len": 5,
+              "name": "todos",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 142,
+              "freq_abs": 1949,
+              "freq_norm": 12.77,
+              "gaze_time": 142,
+              "id": 70,
+              "len": 8,
+              "name": "llevamos",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 1886,
+              "freq_abs": 56565,
+              "freq_norm": 370.77,
+              "gaze_time": 1886,
+              "id": 71,
+              "len": 6,
+              "name": "dentro.",
+              "pos": "ADV"
+            }
+          ],
+          "full": "Frase 1",
+          "name": "Frase 1"
         }
-    ]
+      ],
+      "full": "Oració 1",
+      "name": "Oración 1"
+    }
+  ],
+  "name": "MICROSTORY"
 }
-    

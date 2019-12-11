@@ -223,9 +223,9 @@ function create_plot(nodeData, data_links){
     .append("text")
     .attrs({
       "class": "sentenceText noselect",
-      "dx": 2,
+      "dx": DATA.length<=35?2:0,
       "dy": 15,
-      "font-size": 12,
+      "font-size": DATA.length<=35?12:5,
       "font-weight": "bold",
       "font-family": "Courier New"
     })

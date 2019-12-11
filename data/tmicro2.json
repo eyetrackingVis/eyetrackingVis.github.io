@@ -1,14 +1,4 @@
-{"wordlevel": [{
-            "source": 3,
-            "target": 1,
-            "value": 1,
-            "offsource": 44.83,
-            "offtarget": -0.26,
-            "dwellsource": 119,
-            "dwelltarget": 165,
-            "pupilsource": 536,
-            "pupiltarget": 528
-        },
+{"wordlevel": [
 {
             "source": 1,
             "target": 1,
