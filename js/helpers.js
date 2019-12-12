@@ -28,6 +28,7 @@ function set_limits(data_links){
 		    showLabels: true,
 		    isRange : true,
 		    onstatechange: function(value){
+		    	console.log(value)
 		    	var [min, max] = value.split(",")
 		    	transitions
 		    		.style("display", l => ((l[d]>=min) && (l[d]<=max))?null:"none")
