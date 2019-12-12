@@ -10,9 +10,15 @@ function set_limits(data_links){
 
     features.forEach(function(d, i){
 
+    	let container_name = "."+d
+
+    	if (d=="angle")
+    		$("."+d).append('<input type="hidden" id="flt_' +d +'" value="-180,180"/>')
+    	else
+    		$("."+d).append('<input type="hidden" id="flt_' +d +'" value="0,1000"/>')
+
     	var max = d3.max(data_links, l => l[d])
     	var min = d3.min(data_links, l => l[d])
-
    
 		max = Math.ceil(max)
 	    min = Math.floor(min)
@@ -28,10 +34,9 @@ function set_limits(data_links){
 		    showLabels: true,
 		    isRange : true,
 		    onstatechange: function(value){
-		    	console.log(value)
-		    	var [min, max] = value.split(",")
+		    	var [min_l, max_l] = value.split(",")
 		    	transitions
-		    		.style("display", l => ((l[d]>=min) && (l[d]<=max))?null:"none")
+		    		.style("display", l => ((l[d]>=min_l) && (l[d]<=max_l))?null:"none")
 		    }
 		});
 

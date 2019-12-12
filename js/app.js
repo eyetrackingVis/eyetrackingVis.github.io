@@ -910,6 +910,9 @@ function updateChart(number){
         var nodeData = files[0]
         data_links = files[1]["wordlevel"]
 
+        $(".filtros input").remove()
+        $(".filtros .slider-container").remove()
+
         create_plot(nodeData, data_links)
       })
 }
