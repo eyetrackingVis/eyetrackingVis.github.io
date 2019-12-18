@@ -215,7 +215,7 @@
               "id": 20,
               "len": 5,
               "name": "plata.",
-              "pos": "NOUN"
+              "pos": "NOUN+PUNCT"
             },
             {
               "dwell": 268,
@@ -357,7 +357,7 @@
               "id": 34,
               "len": 7,
               "name": "desnuda.",
-              "pos": "ADJ"
+              "pos": "ADJ+PUNCT"
             },
             {
               "dwell": 0,
@@ -377,7 +377,7 @@
               "id": 36,
               "len": 6,
               "name": "acercó,",
-              "pos": "VERB"
+              "pos": "VERB+PUNCT"
             },
             {
               "dwell": 523,
@@ -387,7 +387,7 @@
               "id": 37,
               "len": 7,
               "name": "curiosa,",
-              "pos": "ADJ"
+              "pos": "ADJ+PUNCT"
             },
             {
               "dwell": 166,
@@ -559,7 +559,7 @@
               "id": 54,
               "len": 6,
               "name": "espejo.",
-              "pos": "NOUN"
+              "pos": "NOUN+PUNCT"
             }
           ],
           "full": "Frase 1",

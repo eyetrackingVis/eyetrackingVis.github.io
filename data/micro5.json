@@ -73,7 +73,7 @@
               "id": 6,
               "len": 14,
               "name": "indescriptible.",
-              "pos": "ADJ"
+              "pos": "ADJ+PUNCT"
             },
             {
               "dwell": 21,
@@ -123,7 +123,7 @@
               "id": 11,
               "len": 12,
               "name": "desaparecido.",
-              "pos": "VERB"
+              "pos": "VERB+PUNCT"
             },
             {
               "dwell": 462,
@@ -275,7 +275,7 @@
               "id": 26,
               "len": 7,
               "name": "ruinas:",
-              "pos": "NOUN"
+              "pos": "NOUN+PUNCT"
             },
             {
               "dwell": 324,
@@ -335,7 +335,7 @@
               "id": 32,
               "len": 7,
               "name": "espanto.",
-              "pos": "NOUN"
+              "pos": "NOUN+PUNCT"
             },
             {
               "break_line": true,
@@ -467,7 +467,7 @@
               "id": 45,
               "len": 9,
               "name": "escombros.",
-              "pos": "NOUN"
+              "pos": "NOUN+PUNCT"
             }
           ],
           "full": "Frase 1",
