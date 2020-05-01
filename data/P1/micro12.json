@@ -193,9 +193,22 @@
               "id": 18,
               "len": 2,
               "name": "60.",
-              "pos": "NUM+PUNCT"
-            },
-            {
+              "pos": "NUM"
+            }
+          ],
+          "full": "Frase 1",
+          "name": "Frase 1"
+        }
+      ],
+      "full": "Oración 1",
+      "name": "Oración 1"
+    },
+
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "break_line": true,
               "dwell": 232,
               "freq_abs": 3260939,
@@ -265,9 +278,20 @@
               "id": 25,
               "len": 5,
               "name": "mismo.",
-              "pos": "NOUN+PUNCT"
-            },
-            {
+              "pos": "NOUN"
+            }
+          ]
+        }
+      ],
+      "full": "Oracion 2",
+      "name": "Oracion 2"
+    },
+
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "dwell": 156,
               "freq_abs": 1561904,
               "freq_norm": 10238.07,
@@ -335,7 +359,7 @@
               "id": 32,
               "len": 5,
               "name": "antes,",
-              "pos": "ADV+PUNCT"
+              "pos": "ADV"
             },
             {
               "dwell": 385,
@@ -355,16 +379,15 @@
               "id": 34,
               "len": 4,
               "name": "juez.",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             }
-          ],
-          "full": "Frase 1",
-          "name": "Frase 1"
+          ]
         }
       ],
-      "full": "Oración 1",
-      "name": "Oración 1"
+      "full": "Oracion 3",
+      "name": "Oracion 3"
     }
+
   ],
   "name": "MICROSTORY"
 }

@@ -1,0 +1,313 @@
+
+
+    {
+    "name": "MICROSTORY", "children": [
+    {
+    "name": "Oración 1",
+    "full": "Oración 1",
+    "children": [
+    {
+    "name": "Frase 1",
+    "full": "Frase 1",
+    "children" : [
+
+    {
+                  "name": "En",
+                  "dwell": 78,
+                  "len": 2
+              },{
+                  "name": "un",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "barrio",
+                  "dwell": 215,
+                  "len": 6
+              },{
+                  "name": "mal",
+                  "dwell": 444,
+                  "len": 3
+              },{
+                  "name": "afamado",
+                  "dwell": 681,
+                  "len": 7
+              },{
+                  "name": "de",
+                  "dwell": 163,
+                  "len": 2
+              },{
+                  "name": "Jafa,",
+                  "dwell": 621,
+                  "len": 5
+              },{
+                  "name": "cierto",
+                  "dwell": 364,
+                  "len": 6
+              },{
+                  "name": "discípulo",
+                  "dwell": 492,
+                  "len": 9
+              },{
+                  "name": "anónimo",
+                  "dwell": 403,
+                  "len": 7
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "Jesús",
+                  "dwell": 249,
+                  "len": 5
+              },{
+                  "name": "disputaba",
+                  "dwell": 1371,
+                  "len": 9
+              },{
+                  "name": "con",
+                  "dwell": 547,
+                  "len": 3
+              },{
+                  "name": "las",
+                  "dwell": 348,
+                  "len": 3
+              },{
+                  "name": "cortesanas.",
+                  "dwell": 657,
+                  "len": 11
+              },{
+                  "name": "-La",
+                  "dwell": 906,
+                  "len": 3
+              },{
+                  "name": "Magdalena",
+                  "dwell": 827,
+                  "len": 9
+              },{
+                  "name": "se",
+                  "dwell": 241,
+                  "len": 2
+              },{
+                  "name": "ha",
+                  "dwell": 37,
+                  "len": 2
+              },{
+                  "name": "enamorado",
+                  "dwell": 589,
+                  "len": 9
+              },{
+                  "name": "del",
+                  "dwell": 165,
+                  "len": 3
+              },{
+                  "name": "rabí",
+                  "dwell": 342,
+                  "len": 4
+              },{
+                  "name": "-dijo",
+                  "dwell": 217,
+                  "len": 5
+              },{
+                  "name": "una.",
+                  "dwell": 74,
+                  "len": 4
+              },{
+                  "name": "-Su",
+                  "dwell": 357,
+                  "len": 3
+              },{
+                  "name": "amor",
+                  "dwell": 133,
+                  "len": 4
+              },{
+                  "name": "es",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "divino",
+                  "dwell": 569,
+                  "len": 6
+              },{
+                  "name": "-replicó",
+                  "dwell": 560,
+                  "len": 8
+              },{
+                  "name": "el",
+                  "dwell": 469,
+                  "len": 2
+              },{
+                  "name": "hombre.",
+                  "dwell": 212,
+                  "len": 7
+              },{
+                  "name": "-¿Divino?...",
+                  "dwell": 153,
+                  "len": 12
+              },{
+                  "name": "¿Me",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "negarás",
+                  "dwell": 0,
+                  "len": 7
+              },{
+                  "name": "que",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "adora",
+                  "dwell": 141,
+                  "len": 5
+              },{
+                  "name": "sus",
+                  "dwell": 196,
+                  "len": 3
+              },{
+                  "name": "cabellos",
+                  "dwell": 498,
+                  "len": 8
+              },{
+                  "name": "blondos,",
+                  "dwell": 482,
+                  "len": 8
+              },{
+                  "name": "sus",
+                  "dwell": 144,
+                  "len": 3
+              },{
+                  "name": "ojos",
+                  "dwell": 301,
+                  "len": 4
+              },{
+                  "name": "profundos,",
+                  "dwell": 755,
+                  "len": 10
+              },{
+                  "name": "su",
+                  "dwell": 223,
+                  "len": 2
+              },{
+                  "name": "sangre",
+                  "dwell": 1795,
+                  "len": 6
+              },{
+                  "name": "real,",
+                  "dwell": 750,
+                  "len": 5
+              },{
+                  "name": "su",
+                  "dwell": 512,
+                  "len": 2
+              },{
+                  "name": "saber",
+                  "dwell": 419,
+                  "len": 5
+              },{
+                  "name": "misterioso,",
+                  "dwell": 821,
+                  "len": 11
+              },{
+                  "name": "su",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "dominio",
+                  "dwell": 645,
+                  "len": 7
+              },{
+                  "name": "sobre",
+                  "dwell": 273,
+                  "len": 5
+              },{
+                  "name": "las",
+                  "dwell": 437,
+                  "len": 3
+              },{
+                  "name": "",
+                  "dwell": 239,
+                  "len": 0
+              },{
+                  "name": "su",
+                  "dwell": 400,
+                  "len": 2
+              },{
+                  "name": "belleza,",
+                  "dwell": 915,
+                  "len": 8
+              },{
+                  "name": "en",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "fin?",
+                  "dwell": 193,
+                  "len": 4
+              },{
+                  "name": "-No",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "cabe",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "",
+                  "dwell": 0,
+                  "len": 0
+              },{
+                  "name": "pero",
+                  "dwell": 296,
+                  "len": 4
+              },{
+                  "name": "lo",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "ama",
+                  "dwell": 185,
+                  "len": 3
+              },{
+                  "name": "sin",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "esperanza,",
+                  "dwell": 0,
+                  "len": 10
+              },{
+                  "name": "y",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "por",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "esto",
+                  "dwell": 159,
+                  "len": 4
+              },{
+                  "name": "es",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "divino",
+                  "dwell": 0,
+                  "len": 6
+              },{
+                  "name": "su",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "amor.",
+                  "dwell": 0,
+                  "len": 5
+              }
+        ]
+        }
+        ]
+        }
+        ]
+        }
+    

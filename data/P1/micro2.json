@@ -1,5 +1,6 @@
 {
-  "children": [
+    "name":"MICROSTORY",
+    "children":[
     {
       "children": [
         {
@@ -103,7 +104,7 @@
               "id": 9,
               "len": 8,
               "name": "levantan,",
-              "pos": "VERB+PUNCT"
+              "pos": "VERB"
             },
             {
               "dwell": 412,
@@ -123,7 +124,7 @@
               "id": 11,
               "len": 5,
               "name": "bañan",
-              "pos": "VERB +PUNCT"
+              "pos": "VERB"
             },
             {
               "dwell": 364,
@@ -143,7 +144,7 @@
               "id": 13,
               "len": 8,
               "name": "entalcan",
-              "pos": "VERB +PUNCT"
+              "pos": "VERB"
             },
             {
               "dwell": 162,
@@ -163,7 +164,7 @@
               "id": 15,
               "len": 8,
               "name": "perfuman",
-              "pos": "VERB + PUNCT"
+              "pos": "VERB"
             },
             {
               "dwell": 602,
@@ -183,7 +184,7 @@
               "id": 17,
               "len": 6,
               "name": "visten",
-              "pos": "VERB+PUNCT"
+              "pos": "VERB"
             },
             {
               "break_line": true,
@@ -294,8 +295,8 @@
               "gaze_time": 3342,
               "id": 28,
               "len": 3,
-              "name": "son",
-              "pos": "VERB +PUNCT"
+              "name": "son.",
+              "pos": "VERB"
             }
           ],
           "full": "Frase 1",
@@ -303,8 +304,7 @@
         }
       ],
       "full": "Oración 1",
-      "name": "Oración 1"
-    }
-  ],
-  "name": "MICROSTORY"
+      "name": "Oración 1",
+      "dwell": 10987
+    }]
 }

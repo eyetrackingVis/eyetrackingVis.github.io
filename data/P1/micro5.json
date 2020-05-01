@@ -73,8 +73,20 @@
               "id": 6,
               "len": 14,
               "name": "indescriptible.",
-              "pos": "ADJ+PUNCT"
-            },
+              "pos": "ADJ"
+            }
+          ],
+          "full": "Frase 1",
+          "name": "Frase 1"
+        }
+      ],
+      "full": "Oración 1",
+      "name": "Oración 1"
+    },
+    {
+      "children":[
+        {
+          "children":[
             {
               "dwell": 21,
               "freq_abs": 6277560,
@@ -123,9 +135,19 @@
               "id": 11,
               "len": 12,
               "name": "desaparecido.",
-              "pos": "VERB+PUNCT"
-            },
-            {
+              "pos": "VERB"
+            }
+          ]
+        }
+      ],
+      "full": "Oración 2",
+      "name": "Oración 2"
+    },
+    {
+      "children":[
+        {
+          "children":[
+                        {
               "dwell": 462,
               "freq_abs": 110620,
               "freq_norm": 725.09,
@@ -275,7 +297,7 @@
               "id": 26,
               "len": 7,
               "name": "ruinas:",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             },
             {
               "dwell": 324,
@@ -335,9 +357,19 @@
               "id": 32,
               "len": 7,
               "name": "espanto.",
-              "pos": "NOUN+PUNCT"
-            },
-            {
+              "pos": "NOUN"
+            }
+          ]
+        }
+      ],
+      "full": "Oración 3",
+      "name": "Oración 3"
+    },
+    {
+      "children":[
+        {
+          "children":[
+                        {
               "break_line": true,
               "dwell": 194,
               "freq_abs": 9999518,
@@ -467,15 +499,13 @@
               "id": 45,
               "len": 9,
               "name": "escombros.",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             }
-          ],
-          "full": "Frase 1",
-          "name": "Frase 1"
+          ]
         }
       ],
-      "full": "Oración 1",
-      "name": "Oración 1"
+      "full": "Oración 4",
+      "name": "Oración 4"
     }
   ],
   "name": "MICROSTORY"

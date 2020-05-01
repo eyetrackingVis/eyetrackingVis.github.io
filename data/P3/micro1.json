@@ -1,0 +1,150 @@
+
+
+    {
+    "name": "MICROSTORY", "children": [
+    {
+    "name": "Oración 1",
+    "full": "Oración 1",
+    "children": [
+    {
+    "name": "Frase 1",
+    "full": "Frase 1",
+    "children" : [
+
+    {
+                  "name": "El ",
+                  "dwell": 514,
+                  "len": 3,
+                  "new_line":true
+              },{
+                  "name": "hombre ",
+                  "dwell": 191,
+                  "len": 7
+              },{
+                  "name": "que ",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "amé ",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "se ",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "ha ",
+                  "dwell": 435,
+                  "len": 3
+              },{
+                  "name": "convertido ",
+                  "dwell": 0,
+                  "len": 11
+              },{
+                  "name": "en ",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "fantasma. ",
+                  "dwell": 0,
+                  "len": 10
+              }
+        ]
+        }
+        ]
+        },
+        {
+          "children": [
+            {
+              "children": [
+
+              {
+                  "name": "Me ",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "gusta ",
+                  "dwell": 231,
+                  "len": 6
+              },{
+                  "name": "ponerle ",
+                  "dwell": 245,
+                  "len": 8
+              },{
+                  "name": "mucho ",
+                  "dwell": 482,
+                  "len": 6
+              },{
+                  "name": "suavizante, ",
+                  "dwell": 442,
+                  "len": 12,
+                  "break_line": true
+              },{
+                  "name": "plancharlo ",
+                  "dwell": 397,
+                  "len": 11,
+                  "new_line": true
+              },{
+                  "name": "al ",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "vapor ",
+                  "dwell": 776,
+                  "len": 6
+              },{
+                  "name": "y ",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "usarlo ",
+                  "dwell": 857,
+                  "len": 7
+              },{
+                  "name": "como ",
+                  "dwell": 342,
+                  "len": 5
+              },{
+                  "name": "sábana ",
+                  "dwell": 426,
+                  "len": 7
+              },{
+                  "name": "bajera ",
+                  "dwell": 905,
+                  "len": 7
+              },{
+                  "name": "las ",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "noches ",
+                  "dwell": 551,
+                  "len": 7
+              },{
+                  "name": "que ",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "tengo ",
+                  "dwell": 1067,
+                  "len": 6
+              },{
+                  "name": "una ",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "cita ",
+                  "dwell": 169,
+                  "len": 5
+              },{
+                  "name": "prometedora.",
+                  "dwell": 792,
+                  "len": 12
+              }
+              ]
+            }
+          ]
+        }
+        ]
+        }
+    

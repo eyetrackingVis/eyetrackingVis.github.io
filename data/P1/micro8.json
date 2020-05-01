@@ -265,9 +265,22 @@
               "id": 25,
               "len": 6,
               "name": "Newton.",
-              "pos": "PROPN+PUNCT"
-            },
-            {
+              "pos": "PROPN"
+            }
+          ],
+          "full": "Frase 1",
+          "name": "Frase 1"
+        }
+      ],
+      "full": "Oració 1",
+      "name": "Oración 1"
+    },
+
+    {
+      "children":[
+        {
+          "children":[
+                        {
               "dwell": 409,
               "freq_abs": 3631,
               "freq_norm": 23.8,
@@ -437,9 +450,20 @@
               "id": 42,
               "len": 9,
               "name": "serpiente.",
-              "pos": "NOUN+PUNCT"
-            },
-            {
+              "pos": "NOUN"
+            }
+          ]
+        }
+      ],
+      "full": "Oracion 2",
+      "name": "Oracion 2"
+    },
+
+    {
+      "children":[
+        {
+          "children":[
+                        {
               "dwell": 0,
               "freq_abs": 1019669,
               "freq_norm": 6683.79,
@@ -547,15 +571,13 @@
               "id": 53,
               "len": 8,
               "name": "gravedad.",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             }
-          ],
-          "full": "Frase 1",
-          "name": "Frase 1"
+          ]
         }
       ],
-      "full": "Oració 1",
-      "name": "Oración 1"
+      "full": "Oracion 3",
+      "name": "Oracion 3"
     }
   ],
   "name": "MICROSTORY"

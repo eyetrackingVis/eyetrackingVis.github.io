@@ -143,7 +143,7 @@
               "id": 13,
               "len": 6,
               "name": "dentro,",
-              "pos": "ADV+PUNCT"
+              "pos": "ADV"
             },
             {
               "dwell": 1067,
@@ -216,7 +216,7 @@
               "id": 20,
               "len": 4,
               "name": "casa,",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             },
             {
               "dwell": 167,
@@ -266,7 +266,7 @@
               "id": 25,
               "len": 8,
               "name": "zarzales,",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             },
             {
               "dwell": 489,
@@ -326,7 +326,7 @@
               "id": 31,
               "len": 6,
               "name": "cuneta,",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             },
             {
               "break_line": true,
@@ -358,7 +358,7 @@
               "id": 34,
               "len": 7,
               "name": "hirsuta,",
-              "pos": "PROPN+PUNCT"
+              "pos": "PROPN"
             },
             {
               "dwell": 478,
@@ -418,7 +418,7 @@
               "id": 40,
               "len": 6,
               "name": "chicle,",
-              "pos": "PROPN+PUNCT"
+              "pos": "PROPN"
             },
             {
               "dwell": 213,
@@ -448,7 +448,7 @@
               "id": 43,
               "len": 5,
               "name": "sucio,",
-              "pos": "ADJ+PUNCT"
+              "pos": "ADJ"
             },
             {
               "dwell": 0,
@@ -488,7 +488,7 @@
               "id": 47,
               "len": 6,
               "name": "azúcar,",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             },
             {
               "break_line": true,
@@ -530,7 +530,7 @@
               "id": 51,
               "len": 5,
               "name": "ronca,",
-              "pos": "ADJ+PUNCT"
+              "pos": "ADJ"
             },
             {
               "dwell": 357,
@@ -600,7 +600,7 @@
               "id": 58,
               "len": 9,
               "name": "temblando,",
-              "pos": "VERB+PUNCT"
+              "pos": "VERB"
             },
             {
               "dwell": 279,
@@ -650,7 +650,7 @@
               "id": 63,
               "len": 5,
               "name": "feliz,",
-              "pos": "ADJ+PUNCT"
+              "pos": "ADJ"
             },
             {
               "dwell": 286,
@@ -660,7 +660,7 @@
               "id": 64,
               "len": 5,
               "name": "libre,",
-              "pos": "ADJ+PUNCT"
+              "pos": "ADJ"
             },
             {
               "dwell": 352,
@@ -670,7 +670,7 @@
               "id": 65,
               "len": 5,
               "name": "feliz,",
-              "pos": "ADJ+PUNCT"
+              "pos": "ADJ"
             },
             {
               "break_line": true,
@@ -681,7 +681,7 @@
               "id": 66,
               "len": 8,
               "name": "ladrador,",
-              "pos": "ADJ+PUNCT"
+              "pos": "ADJ"
             },
             {
               "dwell": 278,
@@ -692,7 +692,7 @@
               "len": 8,
               "name": "perdedor,",
               "new_line": true,
-              "pos": "ADJ+PUNCT"
+              "pos": "ADJ"
             },
             {
               "dwell": 213,
@@ -732,7 +732,7 @@
               "id": 71,
               "len": 6,
               "name": "dentro.",
-              "pos": "ADV+PUNCT"
+              "pos": "ADV"
             }
           ],
           "full": "Frase 1",

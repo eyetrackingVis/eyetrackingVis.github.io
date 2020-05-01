@@ -103,9 +103,23 @@
               "id": 9,
               "len": 4,
               "name": "años.",
-              "pos": "NOUN+PUNCT"
-            },
-            {
+              "pos": "NOUN"
+            }
+
+          ],
+          "full": "Frase 1",
+          "name": "Frase 1"
+        }
+      ],
+      "full": "Oración 1",
+      "name": "Oración 1"
+    },
+
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "dwell": 235,
               "freq_abs": 223791,
               "freq_norm": 1466.92,
@@ -285,9 +299,20 @@
               "id": 27,
               "len": 8,
               "name": "numerosa.",
-              "pos": "ADJ+PUNCT"
-            },
-            {
+              "pos": "ADJ"
+            }
+          ]
+        }
+      ],
+      "full": "Oración 2",
+      "name": "Oración 2"
+    },
+
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "dwell": 270,
               "freq_abs": 12600,
               "freq_norm": 82.59,
@@ -497,9 +522,20 @@
               "id": 48,
               "len": 8,
               "name": "asomarse.",
-              "pos": "PROPN+PUNCT"
-            },
-            {
+              "pos": "PROPN"
+            }
+          ]
+        }
+      ],
+      "full": "Oración 3",
+      "name": "Oración 3"
+    },
+
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "dwell": 132,
               "freq_abs": 4234281,
               "freq_norm": 27755.16,
@@ -629,9 +665,20 @@
               "id": 61,
               "len": 8,
               "name": "interior.",
-              "pos": "NOUN+PUNCT"
-            },
-            {
+              "pos": "NOUN"
+            }
+          ]
+        }
+      ],
+      "full": "Oración 4",
+      "name": "Oración 4"
+    },
+
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "dwell": 210,
               "freq_abs": 285461,
               "freq_norm": 1871.16,
@@ -700,7 +747,7 @@
               "id": 68,
               "len": 11,
               "name": "cualquiera,",
-              "pos": "PRON+PUNCT"
+              "pos": "PRON"
             },
             {
               "dwell": 385,
@@ -731,15 +778,13 @@
               "id": 71,
               "len": 7,
               "name": "mensaje.",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             }
-          ],
-          "full": "Frase 1",
-          "name": "Frase 1"
+          ]
         }
       ],
-      "full": "Oració 1",
-      "name": "Oración 1"
+      "full": "Oración 5",
+      "name": "Oración 5"
     }
   ],
   "name": "MICROSTORY"

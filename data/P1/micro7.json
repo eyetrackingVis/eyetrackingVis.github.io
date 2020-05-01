@@ -113,8 +113,21 @@
               "id": 10,
               "len": 5,
               "name": "negra.",
-              "pos": "ADJ+PUNCT"
-            },
+              "pos": "ADJ"
+            }
+          ],
+          "full": "Frase 1",
+          "name": "Frase 1"
+        }
+      ],
+      "full": "Oració 1",
+      "name": "Oración 1"
+    },
+
+    {
+      "children": [
+        {
+          "children": [
             {
               "dwell": 0,
               "freq_abs": 223791,
@@ -133,8 +146,19 @@
               "id": 12,
               "len": 8,
               "name": "fusilada.",
-              "pos": "VERB+PUNCT"
-            },
+              "pos": "VERB"
+            }
+          ]
+        }
+      ],
+      "full": "Oracion 2",
+      "name": "Oracion 2"
+    },
+
+    {
+      "children": [
+        {
+          "children": [
             {
               "dwell": 0,
               "freq_abs": 1659827,
@@ -163,7 +187,7 @@
               "id": 15,
               "len": 7,
               "name": "después,",
-              "pos": "ADV+PUNCT"
+              "pos": "ADV"
             },
             {
               "break_line": true,
@@ -315,9 +339,21 @@
               "id": 30,
               "len": 6,
               "name": "parque.",
-              "pos": "NOUN+PUNCT"
-            },
-            {
+              "pos": "NOUN"
+            }
+          ]
+        }
+      ],
+      "full": "Oracion 3",
+      "name": "Oracion 3"
+    },
+
+    {
+      "children": [
+        {
+          "children": [
+
+                        {
               "dwell": 312,
               "freq_abs": 155645,
               "freq_norm": 1020.23,
@@ -325,7 +361,7 @@
               "id": 31,
               "len": 3,
               "name": "Así,",
-              "pos": "ADV+PUNCT"
+              "pos": "ADV"
             },
             {
               "dwell": 873,
@@ -357,7 +393,7 @@
               "len": 8,
               "name": "sucesivo,",
               "new_line": true,
-              "pos": "ADJ+PUNCT"
+              "pos": "ADJ"
             },
             {
               "dwell": 256,
@@ -639,16 +675,16 @@
               "id": 62,
               "len": 9,
               "name": "escultura.",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             }
-          ],
-          "full": "Frase 1",
-          "name": "Frase 1"
+
+          ]
         }
       ],
-      "full": "Oració 1",
-      "name": "Oración 1"
+      "full": "Oracion 4",
+      "name": "Oracion 4"
     }
+
   ],
   "name": "MICROSTORY"
 }

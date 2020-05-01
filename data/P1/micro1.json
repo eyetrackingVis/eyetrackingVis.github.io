@@ -135,7 +135,7 @@
 
                   {
                       "name": "fantasma.",
-                      "pos": "NOUN+PUNCT",
+                      "pos": "NOUN",
                       "dwell": 433,
                       "pupil": 481.5,
                       "id": 8,
@@ -230,7 +230,7 @@
                 
                     {
                         "name": "suavizante,",
-                        "pos": "ADJ+PUNCT",
+                        "pos": "ADJ",
                         "dwell": 460,
                         "pupil": 453,
                         "id": 13,
@@ -242,16 +242,7 @@
                         "freq_norm":0.20,
                         "gaze_time": 460,
                         "times": [460]
-                    }
-                ],
-                "dwell": 6731,
-                "pupil": 438.5,
-                "id": 30
-              },
-              {
-                "name": "Frase 3",
-                "full": "plancharlo al vapor y usarlo como sábana bajera las noches que tengo una cita prometedora.",
-                "children": [
+                    },
                     {
                         "name": "plancharlo",
                         "pos": "VERB",
@@ -475,7 +466,7 @@
 
                     {
                         "name": "prometedora.",
-                        "pos": "ADJ+PUNCT",
+                        "pos": "ADJ",
                         "dwell": 561,
                         "pupil": 440,
                         "id": 28,

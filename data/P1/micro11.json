@@ -43,7 +43,7 @@
               "id": 3,
               "len": 3,
               "name": "Uff,",
-              "pos": "PROPN+PUNCT"
+              "pos": "PROPN"
             },
             {
               "dwell": 517,
@@ -113,7 +113,7 @@
               "id": 10,
               "len": 8,
               "name": "simetría,",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             },
             {
               "dwell": 464,
@@ -275,9 +275,22 @@
               "id": 26,
               "len": 2,
               "name": "sí.",
-              "pos": "PRON+PUNCT"
-            },
-            {
+              "pos": "PRON"
+            }
+          ],
+          "full": "Frase 1",
+          "name": "Frase 1"
+        }
+      ],
+      "full": "Oración 1",
+      "name": "Oración 1"
+    },
+
+    {
+      "children":[
+        {
+          "children": [
+                        {
               "dwell": 205,
               "freq_abs": 3260939,
               "freq_norm": 21375.03,
@@ -397,9 +410,20 @@
               "id": 38,
               "len": 3,
               "name": "Uff.",
-              "pos": "PROPN+PUNCT"
-            },
-            {
+              "pos": "PROPN"
+            }
+          ]
+        }
+      ],
+      "full": "Oracion 2",
+      "name": "Oracion 2"
+    },
+
+    {
+      "children":[
+        {
+          "children": [
+                        {
               "dwell": 632,
               "freq_abs": 2618657,
               "freq_norm": 17164.95,
@@ -499,7 +523,7 @@
               "id": 48,
               "len": 3,
               "name": "son,",
-              "pos": "AUX+PUNCT"
+              "pos": "AUX"
             },
             {
               "dwell": 0,
@@ -519,7 +543,7 @@
               "id": 50,
               "len": 8,
               "name": "realidad,",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             },
             {
               "dwell": 355,
@@ -619,7 +643,7 @@
               "id": 60,
               "len": 3,
               "name": "que,",
-              "pos": "SCONJ+PUNCT"
+              "pos": "SCONJ"
             },
             {
               "break_line": true,
@@ -641,7 +665,7 @@
               "len": 8,
               "name": "entonces,",
               "new_line": true,
-              "pos": "ADV+PUNCT"
+              "pos": "ADV"
             },
             {
               "dwell": 213,
@@ -711,15 +735,13 @@
               "id": 69,
               "len": 5,
               "name": "hogar.",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             }
-          ],
-          "full": "Frase 1",
-          "name": "Frase 1"
+          ]
         }
       ],
-      "full": "Oració 1",
-      "name": "Oración 1"
+      "full": "Oracion 3",
+      "name": "Oracion 3"
     }
   ],
   "name": "MICROSTORY"

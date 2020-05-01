@@ -53,7 +53,7 @@
               "id": 4,
               "len": 4,
               "name": "ella,",
-              "pos": "PRON+PUNCT"
+              "pos": "PRON"
             },
             {
               "dwell": 206,
@@ -93,8 +93,20 @@
               "id": 8,
               "len": 6,
               "name": "sombra.",
-              "pos": "NOUN+PUNCT"
-            },
+              "pos": "NOUN"
+            }
+          ],
+          "full": "Frase 1",
+          "name": "Frase 1"
+        }
+      ],
+      "full": "Oración 1",
+      "name": "Oración 1"
+    },
+    {
+      "children":[
+        {
+          "children":[
             {
               "dwell": 0,
               "freq_abs": 6277560,
@@ -153,7 +165,7 @@
               "id": 14,
               "len": 4,
               "name": "alba,",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             },
             {
               "dwell": 201,
@@ -213,15 +225,13 @@
               "id": 20,
               "len": 5,
               "name": "larga.",
-              "pos": "ADJ+PUNCT"
+              "pos": "ADJ"
             }
-          ],
-          "full": "Frase 1",
-          "name": "Frase 1"
+          ]
         }
       ],
-      "full": "Oración 1",
-      "name": "Oración 1"
+      "full": "Oración 2",
+      "name": "Oración 2"
     }
   ],
   "name": "MICROSTORY"

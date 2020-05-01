@@ -1,0 +1,248 @@
+
+
+    {
+    "name": "MICROSTORY", "children": [
+    {
+    "name": "Oración 1",
+    "full": "Oración 1",
+    "children": [
+    {
+    "name": "Frase 1",
+    "full": "Frase 1",
+    "children" : [
+
+    {
+                  "name": "Antes",
+                  "dwell": 568,
+                  "len": 5,
+                  "new_line": true
+              },{
+                  "name": "de",
+                  "dwell": 194,
+                  "len": 2
+              },{
+                  "name": "ponerse",
+                  "dwell": 545,
+                  "len": 7
+              },{
+                  "name": "el",
+                  "dwell": 131,
+                  "len": 2
+              },{
+                  "name": "pendiente",
+                  "dwell": 936,
+                  "len": 9
+              },{
+                  "name": "frotó",
+                  "dwell": 747,
+                  "len": 5
+              },{
+                  "name": "el",
+                  "dwell": 164,
+                  "len": 2
+              },{
+                  "name": "metal",
+                  "dwell": 832,
+                  "len": 5
+              },{
+                  "name": "que",
+                  "dwell": 454,
+                  "len": 3
+              },{
+                  "name": "rodeaba",
+                  "dwell": 713,
+                  "len": 7
+              },{
+                  "name": "el",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "zafiro",
+                  "dwell": 1295,
+                  "len": 6
+              },{
+                  "name": "con",
+                  "dwell": 464,
+                  "len": 3
+              },{
+                  "name": "un",
+                  "dwell": 151,
+                  "len": 2
+              },{
+                  "name": "bastoncito",
+                  "dwell": 1385,
+                  "len": 10
+              },{
+                  "name": "impregnado",
+                  "dwell": 772,
+                  "len": 10
+              },{
+                  "name": "en",
+                  "dwell": 310,
+                  "len": 2,
+                  "break_line": true
+              },{
+                  "name": "líquido",
+                  "dwell": 0,
+                  "len": 7,
+                  "new_line": true
+              },{
+                  "name": "para",
+                  "dwell": 239,
+                  "len": 4
+              },{
+                  "name": "limpiar",
+                  "dwell": 296,
+                  "len": 7
+              },{
+                  "name": "plata.",
+                  "dwell": 354,
+                  "len": 6
+              },{
+                  "name": "Cientos",
+                  "dwell": 374,
+                  "len": 7
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "estratos",
+                  "dwell": 701,
+                  "len": 8
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "tiempo",
+                  "dwell": 0,
+                  "len": 6
+              },{
+                  "name": "levantaron",
+                  "dwell": 363,
+                  "len": 10
+              },{
+                  "name": "el",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "vuelo",
+                  "dwell": 206,
+                  "len": 5
+              },{
+                  "name": "dejando",
+                  "dwell": 622,
+                  "len": 7
+              },{
+                  "name": "la",
+                  "dwell": 266,
+                  "len": 2
+              },{
+                  "name": "superficie",
+                  "dwell": 355,
+                  "len": 10,
+                  "break_line": true
+              },{
+                  "name": "luminosa",
+                  "dwell": 190,
+                  "len": 8,
+                  "new_line": true
+              },{
+                  "name": "y",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "desnuda.",
+                  "dwell": 286,
+                  "len": 8
+              },{
+                  "name": "Se",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "acercó,",
+                  "dwell": 0,
+                  "len": 7
+              },{
+                  "name": "curiosa,",
+                  "dwell": 188,
+                  "len": 8
+              },{
+                  "name": "y",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "la",
+                  "dwell": 313,
+                  "len": 2
+              },{
+                  "name": "joya",
+                  "dwell": 154,
+                  "len": 4
+              },{
+                  "name": "le",
+                  "dwell": 181,
+                  "len": 2
+              },{
+                  "name": "devolvió",
+                  "dwell": 656,
+                  "len": 8
+              },{
+                  "name": "el",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "rostro",
+                  "dwell": 347,
+                  "len": 6
+              },{
+                  "name": "adolescente",
+                  "dwell": 279,
+                  "len": 11
+              },{
+                  "name": "de",
+                  "dwell": 203,
+                  "len": 2
+              },{
+                  "name": "su",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "abuela",
+                  "dwell": 191,
+                  "len": 6,
+                  "break_line": true
+              },{
+                  "name": "probándose",
+                  "dwell": 455,
+                  "len": 10,
+                  "new_line":true
+              },{
+                  "name": "el",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "pendiente",
+                  "dwell": 537,
+                  "len": 9
+              },{
+                  "name": "ante",
+                  "dwell": 304,
+                  "len": 4
+              },{
+                  "name": "un",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "espejo.",
+                  "dwell": 271,
+                  "len": 7
+              }
+        ]
+        }
+        ]
+        }
+        ]
+        }
+    

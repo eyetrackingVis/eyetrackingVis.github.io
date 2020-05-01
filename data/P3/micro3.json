@@ -1,0 +1,106 @@
+
+
+    {
+    "name": "MICROSTORY", "children": [
+    {
+    "name": "Oración 1",
+    "full": "Oración 1",
+    "children": [
+    {
+    "name": "Frase 1",
+    "full": "Frase 1",
+    "children" : [
+
+    {
+                  "name": "No",
+                  "dwell": 0,
+                  "len": 2,
+                  "new_line":true
+              },{
+                  "name": "se",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "enamoró",
+                  "dwell": 405,
+                  "len": 7
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "ella,",
+                  "dwell": 533,
+                  "len": 5
+              },{
+                  "name": "sino",
+                  "dwell": 160,
+                  "len": 4
+              },{
+                  "name": "de",
+                  "dwell": 352,
+                  "len": 2
+              },{
+                  "name": "su",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "sombra.",
+                  "dwell": 625,
+                  "len": 7
+              },{
+                  "name": "La",
+                  "dwell": 286,
+                  "len": 2
+              },{
+                  "name": "iba",
+                  "dwell": 406,
+                  "len": 3
+              },{
+                  "name": "a",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "visitar",
+                  "dwell": 1304,
+                  "len": 7
+              },{
+                  "name": "al",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "alba,",
+                  "dwell": 622,
+                  "len": 5
+              },{
+                  "name": "cuando",
+                  "dwell": 0,
+                  "len": 6
+              },{
+                  "name": "su",
+                  "dwell": 188,
+                  "len": 2
+              },{
+                  "name": "amada",
+                  "dwell": 319,
+                  "len": 5
+              },{
+                  "name": "era",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "más",
+                  "dwell": 479,
+                  "len": 3
+              },{
+                  "name": "larga.",
+                  "dwell": 602,
+                  "len": 6
+              }
+        ]
+        }
+        ]
+        }
+        ]
+        }
+    

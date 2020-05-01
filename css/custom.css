@@ -28,6 +28,12 @@
 	top: 25%;
 }
 
+.div-micro1 {
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+
 .div-navigator {
 	text-align: center;
 	margin: 0;
@@ -57,17 +63,18 @@ span{
 }
 
 header.custom-header {
-	background: #c8d0f4;
+	background: black;
 }
 
 .mdl-layout__header-row span.mdl-layout-title {
-  color: black;
+  color: white;
   text-transform: capitalize;
-  margin-left: 20px
+  margin-left: 20px;
+  font-size: 20px;
 }
 
 .custom-header a.mdl-navigation__link {
-  color: black;
+  color: white;
   font-weight: 700;
   font-size: 14px;
 }

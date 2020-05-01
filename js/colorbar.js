@@ -119,7 +119,7 @@ function plot_legends(g){
       .text(d => d)
 
     legendSvg.selectAll("circlesLegends")
-      .data(["#6497b1", "#c0c0c0", "red"]).enter()
+      .data(["#6497b1", "#c0c0c0", "#3dcc7d"]).enter()
       .append("circle")
       .attrs({
         "cx": (d, i) =>  40 + (i*100),
@@ -160,12 +160,12 @@ function plot_dwell(g, min, max){
 
 
     // create a scale and axis for the legend
-    var legendScale = d3.scaleLinear()
-        .domain([max, min])
+    var legendScale = d3.scaleLog()
+        .domain([100000, 1])
         .range([legendHeight, 0]);
 
     let legendAxis = d3.axisBottom(legendScale)
-        .tickValues(linspace(min, max, 6))
+        .tickValues([1, 10, 100, 1000, 10000, 100000])
         .tickFormat(d3.format("d"));
 
     legendSvg.append("g")

@@ -215,9 +215,22 @@
               "id": 20,
               "len": 5,
               "name": "plata.",
-              "pos": "NOUN+PUNCT"
-            },
-            {
+              "pos": "NOUN"
+            }
+          ],
+          "full": "Frase 1",
+          "name": "Frase 1"
+        }
+      ],
+      "full": "Oració 1",
+      "name": "Oración 1"
+    },
+
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "dwell": 268,
               "freq_abs": 4619,
               "freq_norm": 30.27,
@@ -357,9 +370,21 @@
               "id": 34,
               "len": 7,
               "name": "desnuda.",
-              "pos": "ADJ+PUNCT"
-            },
-            {
+              "pos": "ADJ"
+            }
+          ]
+        }
+      ],
+      "full": "Oracion 2",
+      "name": "Oracion 2"
+    },
+
+
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "dwell": 0,
               "freq_abs": 2022514,
               "freq_norm": 13257.31,
@@ -377,7 +402,7 @@
               "id": 36,
               "len": 6,
               "name": "acercó,",
-              "pos": "VERB+PUNCT"
+              "pos": "VERB"
             },
             {
               "dwell": 523,
@@ -387,7 +412,7 @@
               "id": 37,
               "len": 7,
               "name": "curiosa,",
-              "pos": "ADJ+PUNCT"
+              "pos": "ADJ"
             },
             {
               "dwell": 166,
@@ -559,16 +584,15 @@
               "id": 54,
               "len": 6,
               "name": "espejo.",
-              "pos": "NOUN+PUNCT"
+              "pos": "NOUN"
             }
-          ],
-          "full": "Frase 1",
-          "name": "Frase 1"
+          ]
         }
       ],
-      "full": "Oració 1",
-      "name": "Oración 1"
+      "full": "Oracion 3",
+      "name": "Oracion 3"
     }
+
   ],
   "name": "MICROSTORY"
 }

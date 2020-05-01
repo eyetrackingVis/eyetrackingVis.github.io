@@ -1,0 +1,310 @@
+
+
+    {
+    "name": "MICROSTORY", "children": [
+    {
+    "name": "Oración 1",
+    "full": "Oración 1",
+    "children": [
+    {
+    "name": "Frase 1",
+    "full": "Frase 1",
+    "children" : [
+
+    {
+                  "name": "Los",
+                  "dwell": 0,
+                  "len": 3,
+                  "new_line": true
+              },{
+                  "name": "arquitectos",
+                  "dwell": 1161,
+                  "len": 11
+              },{
+                  "name": "de",
+                  "dwell": 840,
+                  "len": 2
+              },{
+                  "name": "Uff,",
+                  "dwell": 1057,
+                  "len": 4
+              },{
+                  "name": "llevados",
+                  "dwell": 872,
+                  "len": 8
+              },{
+                  "name": "por",
+                  "dwell": 331,
+                  "len": 3
+              },{
+                  "name": "un",
+                  "dwell": 510,
+                  "len": 2
+              },{
+                  "name": "escrupuloso",
+                  "dwell": 1315,
+                  "len": 11
+              },{
+                  "name": "afán",
+                  "dwell": 366,
+                  "len": 4
+              },{
+                  "name": "de",
+                  "dwell": 243,
+                  "len": 2
+              },{
+                  "name": "simetría,",
+                  "dwell": 833,
+                  "len": 9
+              },{
+                  "name": "construyeron",
+                  "dwell": 571,
+                  "len": 12
+              },{
+                  "name": "una",
+                  "dwell": 619,
+                  "len": 3
+              },{
+                  "name": "ciudad",
+                  "dwell": 375,
+                  "len": 6,
+                  "break_line":true
+              },{
+                  "name": "reticulada",
+                  "dwell": 771,
+                  "len": 10,
+                  "new_line": true
+              },{
+                  "name": "de",
+                  "dwell": 383,
+                  "len": 2
+              },{
+                  "name": "casas",
+                  "dwell": 0,
+                  "len": 5
+              },{
+                  "name": "idénticas",
+                  "dwell": 353,
+                  "len": 9
+              },{
+                  "name": "y",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "rectas",
+                  "dwell": 203,
+                  "len": 6
+              },{
+                  "name": "avenidas",
+                  "dwell": 459,
+                  "len": 8
+              },{
+                  "name": "que",
+                  "dwell": 186,
+                  "len": 3
+              },{
+                  "name": "nadie",
+                  "dwell": 210,
+                  "len": 5
+              },{
+                  "name": "puede",
+                  "dwell": 232,
+                  "len": 5
+              },{
+                  "name": "distinguir",
+                  "dwell": 638,
+                  "len": 10
+              },{
+                  "name": "entre",
+                  "dwell": 349,
+                  "len": 5
+              },{
+                  "name": "sí.",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "A",
+                  "dwell": 191,
+                  "len": 1
+              },{
+                  "name": "esto",
+                  "dwell": 490,
+                  "len": 4
+              },{
+                  "name": "se",
+                  "dwell": 123,
+                  "len": 2
+              },{
+                  "name": "debe",
+                  "dwell": 410,
+                  "len": 4,
+                  "break_line": true
+              },{
+                  "name": "la",
+                  "dwell": 499,
+                  "len": 2,
+                  "new_line":true
+              },{
+                  "name": "espectacular",
+                  "dwell": 948,
+                  "len": 12
+              },{
+                  "name": "incidencia",
+                  "dwell": 956,
+                  "len": 10
+              },{
+                  "name": "de",
+                  "dwell": 417,
+                  "len": 2
+              },{
+                  "name": "la",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "mendicidad",
+                  "dwell": 1246,
+                  "len": 10
+              },{
+                  "name": "en",
+                  "dwell": 260,
+                  "len": 2
+              },{
+                  "name": "Uff.",
+                  "dwell": 264,
+                  "len": 4
+              },{
+                  "name": "Los",
+                  "dwell": 661,
+                  "len": 3
+              },{
+                  "name": "miles",
+                  "dwell": 0,
+                  "len": 5
+              },{
+                  "name": "de",
+                  "dwell": 192,
+                  "len": 2
+              },{
+                  "name": "vagabundos",
+                  "dwell": 203,
+                  "len": 10
+              },{
+                  "name": "que",
+                  "dwell": 169,
+                  "len": 3
+              },{
+                  "name": "merodean",
+                  "dwell": 491,
+                  "len": 8
+              },{
+                  "name": "por",
+                  "dwell": 368,
+                  "len": 3
+              },{
+                  "name": "las",
+                  "dwell": 168,
+                  "len": 3,
+                  "break_line": true
+              },{
+                  "name": "calles",
+                  "dwell": 0,
+                  "len": 6,
+                  "new_line": true
+              },{
+                  "name": "son,",
+                  "dwell": 246,
+                  "len": 4
+              },{
+                  "name": "en",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "realidad,",
+                  "dwell": 508,
+                  "len": 9
+              },{
+                  "name": "honrados",
+                  "dwell": 345,
+                  "len": 8
+              },{
+                  "name": "ciudadanos",
+                  "dwell": 351,
+                  "len": 10
+              },{
+                  "name": "que",
+                  "dwell": 185,
+                  "len": 3
+              },{
+                  "name": "una",
+                  "dwell": 196,
+                  "len": 3
+              },{
+                  "name": "mañana",
+                  "dwell": 251,
+                  "len": 6
+              },{
+                  "name": "salieron",
+                  "dwell": 1318,
+                  "len": 8
+              },{
+                  "name": "a",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "trabajar",
+                  "dwell": 367,
+                  "len": 8
+              },{
+                  "name": "y",
+                  "dwell": 179,
+                  "len": 1
+              },{
+                  "name": "que,",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "desde",
+                  "dwell": 318,
+                  "len": 5,
+                  "break_line": true
+              },{
+                  "name": "entonces,",
+                  "dwell": 175,
+                  "len": 9,
+                  "new_line": true
+              },{
+                  "name": "nunca",
+                  "dwell": 182,
+                  "len": 5
+              },{
+                  "name": "han",
+                  "dwell": 195,
+                  "len": 3
+              },{
+                  "name": "vuelto",
+                  "dwell": 0,
+                  "len": 6
+              },{
+                  "name": "a",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "encontrar",
+                  "dwell": 0,
+                  "len": 9
+              },{
+                  "name": "su",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "hogar.",
+                  "dwell": 0,
+                  "len": 6
+              }
+        ]
+        }
+        ]
+        }
+        ]
+        }
+    
