@@ -33,6 +33,7 @@ function create_plot(nodeData, data_links){
     d3.select(this).text(SYNTAX_CLICKED?"HIDE POS TAGGING":"SHOW POS TAGGING")
     
     let pos = new Set(root.descendants().filter(l => l.depth == 3).map(l => l.data.pos))
+    console.log(pos)
     let colors = ['#8dd3c7','#ffffb3','#bebada',
                   '#fb8072','#80b1d3','#fdb462',
                   '#b3de69','#fccde5','#d9d9d9',
@@ -86,6 +87,8 @@ function create_plot(nodeData, data_links){
                 '#fb8072','#80b1d3','#fdb462',
                 '#b3de69','#fccde5','#d9d9d9',
                 '#bc80bd','#ccebc5','#ffed6f']
+
+  console.log(pos)
 
 
   var scaleSyntax = d3.scaleOrdinal()
@@ -1071,6 +1074,9 @@ function updateChart(number=1, subject=1){
       ]).then(function(files){
         var nodeData = files[0]
         data_links = files[1]["wordlevel"]
+
+        $(".filtros input").remove()
+        $(".filtros .slider-container").remove()
 
         create_plot(nodeData, data_links)
       })
