@@ -17,6 +17,22 @@ function create_plot(nodeData, data_links){
   var SYNTAX_CLICKED = false,
       SENTENCETIME_CLICKED = false;
 
+  const pos = ["DET", "NOUN", "ADP", 
+                "PROPN", "ADJ", "VERB", 
+                "CONJ", "PRON", "AUX", 
+                "NUM", "SCONJ", "ADV"] 
+
+  const colors = ['#8dd3c7','#ffffb3','#bebada',
+                '#fb8072','#80b1d3','#fdb462',
+                '#b3de69','#fccde5','#d9d9d9',
+                '#bc80bd','#ccebc5','#ffed6f']
+
+
+  const scaleSyntax = d3.scaleOrdinal()
+    .domain(pos)
+    .range(colors)
+
+
   d3.select("#btnSentenceTime").on("click", function(d, i){
     SENTENCETIME_CLICKED = SENTENCETIME_CLICKED?false:true
 
@@ -31,19 +47,6 @@ function create_plot(nodeData, data_links){
 
     SYNTAX_CLICKED = SYNTAX_CLICKED?false:true
     d3.select(this).text(SYNTAX_CLICKED?"HIDE POS TAGGING":"SHOW POS TAGGING")
-    
-    let pos = new Set(root.descendants().filter(l => l.depth == 3).map(l => l.data.pos))
-    console.log(pos)
-    let colors = ['#8dd3c7','#ffffb3','#bebada',
-                  '#fb8072','#80b1d3','#fdb462',
-                  '#b3de69','#fccde5','#d9d9d9',
-                  '#bc80bd','#ccebc5','#ffed6f']
-
-
-    let scaleSyntax = d3.scaleOrdinal()
-      .domain(pos)
-      .range(colors)
-
 
     if (SYNTAX_CLICKED){
       sections
@@ -82,18 +85,7 @@ function create_plot(nodeData, data_links){
 
   const DATA = root.descendants().filter(l=>l.depth==3)
 
-  let pos = new Set(DATA.map(l => l.data.pos))
-  let colors = ['#8dd3c7','#ffffb3','#bebada',
-                '#fb8072','#80b1d3','#fdb462',
-                '#b3de69','#fccde5','#d9d9d9',
-                '#bc80bd','#ccebc5','#ffed6f']
-
-  console.log(pos)
-
-
-  var scaleSyntax = d3.scaleOrdinal()
-    .domain(pos)
-    .range(colors)
+  var pos_words = new Set(DATA.map(l => l.data.pos))
 
 
   var max_dwell = d3.max(DATA, l => l.data.dwell)
@@ -984,17 +976,22 @@ function create_plot(nodeData, data_links){
         .on("mouseleave", d => hdlDblClickLabel(d, j))
     })
 
+
+  var offset = d3.scaleLinear()
+    .domain(d3.range(8, 13))
+    .range(d3.range(20, 35))
+
+  var corrimiento = offset(pos_words.size)
+
   var canvas_pos = selector.append("svg")
       .attrs({
-          'width': "500",
+          'width': "700",
           'height': 150,
           'opacity': 0
-      }).append("g").attr("transform","translate(30,75)")
+      }).append("g").attr("transform","translate("+corrimiento+",75)")
 
 
-  plot_pos_legend(canvas_pos, scaleSyntax, pos)
-
-
+  plot_pos_legend(canvas_pos, scaleSyntax, pos_words)
 
   plot_colorbar(g, scaleColorPupil)
   plot_legends(g)
