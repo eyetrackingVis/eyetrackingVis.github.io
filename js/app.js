@@ -1077,11 +1077,15 @@ function updateChart(number=1, subject=1){
 
         create_plot(nodeData, data_links)
       })
-      // .catch(function(err){
-      //   d3.selectAll("svg").remove()
-      //   d3.selectAll(".microstory p").remove()
-      //   alert("This microstory was removed for analysis due to artifacts or errors.")
-      // })
+      .catch(function(err){
+        d3.selectAll("svg").remove()
+        d3.selectAll(".microstory p").remove()
+        Swal.fire({
+          title: 'Note',
+          icon: 'info',
+          text: "This microstory was removed for analysis due to artifacts or errors."
+        })
+      })
 }
 
 updateChart()
