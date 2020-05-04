@@ -1,0 +1,153 @@
+
+        {"wordlevel": [
+    {
+            "source": 0,
+            "target": 2,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 769,
+            "dwelltarget": 134,
+            "pupilsource": 475,
+            "pupiltarget": 463
+        },{
+            "source": 2,
+            "target": 2,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 134,
+            "dwelltarget": 247,
+            "pupilsource": 463,
+            "pupiltarget": 453
+        },{
+            "source": 2,
+            "target": 2,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 247,
+            "dwelltarget": 88,
+            "pupilsource": 453,
+            "pupiltarget": 438
+        },{
+            "source": 2,
+            "target": 4,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -9.63,
+            "dwellsource": 88,
+            "dwelltarget": 149,
+            "pupilsource": 438,
+            "pupiltarget": 427
+        },{
+            "source": 4,
+            "target": 6,
+            "value": 1,
+            "offsource": -9.63,
+            "offtarget": 0.00,
+            "dwellsource": 149,
+            "dwelltarget": 156,
+            "pupilsource": 427,
+            "pupiltarget": 422
+        },{
+            "source": 6,
+            "target": 8,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -64.05,
+            "dwellsource": 156,
+            "dwelltarget": 321,
+            "pupilsource": 422,
+            "pupiltarget": 414
+        },{
+            "source": 8,
+            "target": 7,
+            "value": 1,
+            "offsource": -64.05,
+            "offtarget": 0.00,
+            "dwellsource": 321,
+            "dwelltarget": 121,
+            "pupilsource": 414,
+            "pupiltarget": 410
+        },{
+            "source": 7,
+            "target": 10,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -52.11,
+            "dwellsource": 121,
+            "dwelltarget": 283,
+            "pupilsource": 410,
+            "pupiltarget": 406
+        },{
+            "source": 10,
+            "target": 12,
+            "value": 1,
+            "offsource": -52.11,
+            "offtarget": 0.00,
+            "dwellsource": 283,
+            "dwelltarget": 255,
+            "pupilsource": 406,
+            "pupiltarget": 404
+        },{
+            "source": 12,
+            "target": 14,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 255,
+            "dwelltarget": 198,
+            "pupilsource": 404,
+            "pupiltarget": 395
+        },{
+            "source": 14,
+            "target": 15,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 198,
+            "dwelltarget": 174,
+            "pupilsource": 395,
+            "pupiltarget": 392
+        },{
+            "source": 15,
+            "target": 17,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 174,
+            "dwelltarget": 213,
+            "pupilsource": 392,
+            "pupiltarget": 390
+        },{
+            "source": 17,
+            "target": 18,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 213,
+            "dwelltarget": 267,
+            "pupilsource": 390,
+            "pupiltarget": 385
+        },{
+            "source": 18,
+            "target": 20,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 267,
+            "dwelltarget": 158,
+            "pupilsource": 385,
+            "pupiltarget": 404
+        },{
+            "source": 20,
+            "target": 20,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 33.12,
+            "dwellsource": 158,
+            "dwelltarget": 395,
+            "pupilsource": 404,
+            "pupiltarget": 415
+        }]}

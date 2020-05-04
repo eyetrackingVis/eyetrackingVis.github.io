@@ -1,0 +1,398 @@
+
+
+    {
+    "name": "MICROSTORY", "children": [
+    {
+    "name": "Oración 1",
+    "full": "Oración 1",
+    "children": [
+    {
+    "name": "Frase 1",
+    "full": "Frase 1",
+    "children" : [
+
+    {
+                  "name": "En",
+                  "dwell": 413,
+                  "len": 2,
+                  "new_line": true
+              },{
+                  "name": "un",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "desierto",
+                  "dwell": 832,
+                  "len": 8
+              },{
+                  "name": "lugar",
+                  "dwell": 280,
+                  "len": 5
+              },{
+                  "name": "del",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "Irán",
+                  "dwell": 286,
+                  "len": 4
+              },{
+                  "name": "hay",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "una",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "no",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "muy",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "alta",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "torre",
+                  "dwell": 0,
+                  "len": 5
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "piedra,",
+                  "dwell": 0,
+                  "len": 7
+              },{
+                  "name": "sin",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "puerta",
+                  "dwell": 0,
+                  "len": 6
+              },{
+                  "name": "ni",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "ventana.",
+                  "dwell": 347,
+                  "len": 8
+              },{
+                  "name": "En",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "la",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "única",
+                  "dwell": 538,
+                  "len": 5
+              },{
+                  "name": "habitación",
+                  "dwell": 524,
+                  "len": 10
+              },{
+                  "name": "(cuyo",
+                  "dwell": 186,
+                  "len": 5
+              },{
+                  "name": "piso",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "es",
+                  "dwell": 786,
+                  "len": 2
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "tierra",
+                  "dwell": 550,
+                  "len": 6
+              },{
+                  "name": "y",
+                  "dwell": 635,
+                  "len": 1
+              },{
+                  "name": "que",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "tiene",
+                  "dwell": 179,
+                  "len": 5
+              },{
+                  "name": "la",
+                  "dwell": 270,
+                  "len": 2
+              },{
+                  "name": "forma",
+                  "dwell": 270,
+                  "len": 5
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "círculo)",
+                  "dwell": 524,
+                  "len": 8
+              },{
+                  "name": "hay",
+                  "dwell": 319,
+                  "len": 3
+              },{
+                  "name": "una",
+                  "dwell": 326,
+                  "len": 3
+              },{
+                  "name": "mesa",
+                  "dwell": 179,
+                  "len": 4
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "maderas",
+                  "dwell": 368,
+                  "len": 7
+              },{
+                  "name": "y",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "un",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "banco.",
+                  "dwell": 435,
+                  "len": 6
+              },{
+                  "name": "En",
+                  "dwell": 165,
+                  "len": 2
+              },{
+                  "name": "esa",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "celda",
+                  "dwell": 519,
+                  "len": 5
+              },{
+                  "name": "circular,",
+                  "dwell": 0,
+                  "len": 9
+              },{
+                  "name": "un",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "hombre",
+                  "dwell": 187,
+                  "len": 6
+              },{
+                  "name": "que",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "se",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "parece",
+                  "dwell": 703,
+                  "len": 6
+              },{
+                  "name": "a",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "mi",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "escribe",
+                  "dwell": 796,
+                  "len": 7
+              },{
+                  "name": "en",
+                  "dwell": 133,
+                  "len": 2
+              },{
+                  "name": "caracteres",
+                  "dwell": 246,
+                  "len": 10
+              },{
+                  "name": "que",
+                  "dwell": 113,
+                  "len": 3
+              },{
+                  "name": "no",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "comprendo",
+                  "dwell": 953,
+                  "len": 9
+              },{
+                  "name": "un",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "largo",
+                  "dwell": 454,
+                  "len": 5
+              },{
+                  "name": "poema",
+                  "dwell": 293,
+                  "len": 5
+              },{
+                  "name": "sobre",
+                  "dwell": 464,
+                  "len": 5
+              },{
+                  "name": "un",
+                  "dwell": 219,
+                  "len": 2
+              },{
+                  "name": "hombre",
+                  "dwell": 707,
+                  "len": 6
+              },{
+                  "name": "que",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "en",
+                  "dwell": 218,
+                  "len": 2
+              },{
+                  "name": "otra",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "celda",
+                  "dwell": 299,
+                  "len": 5
+              },{
+                  "name": "circular",
+                  "dwell": 155,
+                  "len": 8
+              },{
+                  "name": "escribe",
+                  "dwell": 287,
+                  "len": 7
+              },{
+                  "name": "un",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "poema",
+                  "dwell": 402,
+                  "len": 5
+              },{
+                  "name": "sobre",
+                  "dwell": 0,
+                  "len": 5
+              },{
+                  "name": "un",
+                  "dwell": 276,
+                  "len": 2
+              },{
+                  "name": "hombre",
+                  "dwell": 236,
+                  "len": 6
+              },{
+                  "name": "que",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "en",
+                  "dwell": 175,
+                  "len": 2
+              },{
+                  "name": "otra",
+                  "dwell": 157,
+                  "len": 4
+              },{
+                  "name": "celda",
+                  "dwell": 0,
+                  "len": 5
+              },{
+                  "name": "circular…El",
+                  "dwell": 593,
+                  "len": 11
+              },{
+                  "name": "proceso",
+                  "dwell": 447,
+                  "len": 7
+              },{
+                  "name": "no",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "tiene",
+                  "dwell": 296,
+                  "len": 5
+              },{
+                  "name": "fin",
+                  "dwell": 515,
+                  "len": 3
+              },{
+                  "name": "y",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "nadie",
+                  "dwell": 0,
+                  "len": 5
+              },{
+                  "name": "podrá",
+                  "dwell": 277,
+                  "len": 5
+              },{
+                  "name": "leer",
+                  "dwell": 389,
+                  "len": 4
+              },{
+                  "name": "lo",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "que",
+                  "dwell": 124,
+                  "len": 3
+              },{
+                  "name": "los",
+                  "dwell": 225,
+                  "len": 3
+              },{
+                  "name": "prisioneros",
+                  "dwell": 183,
+                  "len": 11
+              },{
+                  "name": "escriben.",
+                  "dwell": 404,
+                  "len": 9
+              }
+        ]
+        }
+        ]
+        }
+        ]
+        }
+    

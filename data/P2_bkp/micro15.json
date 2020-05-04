@@ -1,0 +1,164 @@
+
+
+    {
+    "name": "MICROSTORY", "children": [
+    {
+    "name": "Oración 1",
+    "full": "Oración 1",
+    "children": [
+    {
+    "name": "Frase 1",
+    "full": "Frase 1",
+    "children" : [
+
+    {
+                  "name": "Hay",
+                  "dwell": 736,
+                  "len": 3,
+                  "new_line": true
+              },{
+                  "name": "novelas",
+                  "dwell": 0,
+                  "len": 7
+              },{
+                  "name": "que",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "aun",
+                  "dwell": 533,
+                  "len": 3
+              },{
+                  "name": "sin",
+                  "dwell": 853,
+                  "len": 3
+              },{
+                  "name": "ser",
+                  "dwell": 1052,
+                  "len": 3
+              },{
+                  "name": "largas",
+                  "dwell": 589,
+                  "len": 6
+              },{
+                  "name": "no",
+                  "dwell": 495,
+                  "len": 2
+              },{
+                  "name": "logran",
+                  "dwell": 869,
+                  "len": 6
+              },{
+                  "name": "comenzar",
+                  "dwell": 884,
+                  "len": 8
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "verdad",
+                  "dwell": 736,
+                  "len": 6
+              },{
+                  "name": "hasta",
+                  "dwell": 515,
+                  "len": 5
+              },{
+                  "name": "la",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "página",
+                  "dwell": 654,
+                  "len": 6
+              },{
+                  "name": "50",
+                  "dwell": 210,
+                  "len": 2
+              },{
+                  "name": "o",
+                  "dwell": 106,
+                  "len": 1
+              },{
+                  "name": "la",
+                  "dwell": 502,
+                  "len": 2
+              },{
+                  "name": "60.",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "A",
+                  "dwell": 635,
+                  "len": 1,
+                  "break_line": true
+              },{
+                  "name": "algunas",
+                  "dwell": 1869,
+                  "len": 7,
+                  "new_line": true
+              },{
+                  "name": "vidas",
+                  "dwell": 1350,
+                  "len": 5
+              },{
+                  "name": "les",
+                  "dwell": 486,
+                  "len": 3
+              },{
+                  "name": "sucede",
+                  "dwell": 763,
+                  "len": 6
+              },{
+                  "name": "lo",
+                  "dwell": 418,
+                  "len": 2
+              },{
+                  "name": "mismo.",
+                  "dwell": 0,
+                  "len": 6
+              },{
+                  "name": "Por",
+                  "dwell": 281,
+                  "len": 3
+              },{
+                  "name": "eso",
+                  "dwell": 131,
+                  "len": 3
+              },{
+                  "name": "no",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "me",
+                  "dwell": 180,
+                  "len": 2
+              },{
+                  "name": "he",
+                  "dwell": 164,
+                  "len": 2
+              },{
+                  "name": "matado",
+                  "dwell": 369,
+                  "len": 6
+              },{
+                  "name": "antes,",
+                  "dwell": 315,
+                  "len": 6
+              },{
+                  "name": "señor",
+                  "dwell": 292,
+                  "len": 5
+              },{
+                  "name": "juez.",
+                  "dwell": 559,
+                  "len": 5
+              }
+        ]
+        }
+        ]
+        }
+        ]
+        }
+    

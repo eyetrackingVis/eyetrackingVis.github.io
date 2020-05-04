@@ -1,0 +1,242 @@
+
+
+    {
+    "name": "MICROSTORY", "children": [
+    {
+    "name": "Oración 1",
+    "full": "Oración 1",
+    "children": [
+    {
+    "name": "Frase 1",
+    "full": "Frase 1",
+    "children" : [
+
+    {
+                  "name": "La",
+                  "dwell": 742,
+                  "len": 2,
+                  "new_line": true
+              },{
+                  "name": "flecha",
+                  "dwell": 186,
+                  "len": 6
+              },{
+                  "name": "disparada",
+                  "dwell": 661,
+                  "len": 9
+              },{
+                  "name": "por",
+                  "dwell": 131,
+                  "len": 3
+              },{
+                  "name": "la",
+                  "dwell": 227,
+                  "len": 2
+              },{
+                  "name": "ballesta",
+                  "dwell": 339,
+                  "len": 8
+              },{
+                  "name": "precisa",
+                  "dwell": 419,
+                  "len": 7
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "Guillermo",
+                  "dwell": 623,
+                  "len": 9
+              },{
+                  "name": "Tell",
+                  "dwell": 267,
+                  "len": 4
+              },{
+                  "name": "parte",
+                  "dwell": 361,
+                  "len": 5
+              },{
+                  "name": "en",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "dos",
+                  "dwell": 1204,
+                  "len": 3
+              },{
+                  "name": "la",
+                  "dwell": 318,
+                  "len": 2
+              },{
+                  "name": "manzana",
+                  "dwell": 1025,
+                  "len": 7
+              },{
+                  "name": "que",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "está",
+                  "dwell": 317,
+                  "len": 4
+              },{
+                  "name": "a",
+                  "dwell": 193,
+                  "len": 1,
+                  "break_line": true
+              },{
+                  "name": "punto",
+                  "dwell": 122,
+                  "len": 5,
+                  "new_line": true
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "caer",
+                  "dwell": 338,
+                  "len": 4
+              },{
+                  "name": "sobre",
+                  "dwell": 164,
+                  "len": 5
+              },{
+                  "name": "la",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "cabeza",
+                  "dwell": 268,
+                  "len": 6
+              },{
+                  "name": "de",
+                  "dwell": 35,
+                  "len": 2
+              },{
+                  "name": "Newton.",
+                  "dwell": 455,
+                  "len": 7
+              },{
+                  "name": "Eva",
+                  "dwell": 131,
+                  "len": 3
+              },{
+                  "name": "toma",
+                  "dwell": 488,
+                  "len": 4
+              },{
+                  "name": "una",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "mitad",
+                  "dwell": 345,
+                  "len": 5
+              },{
+                  "name": "y",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "le",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "ofrece",
+                  "dwell": 0,
+                  "len": 6
+              },{
+                  "name": "la",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "otra",
+                  "dwell": 233,
+                  "len": 4
+              },{
+                  "name": "a",
+                  "dwell": 82,
+                  "len": 1
+              },{
+                  "name": "su",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "consorte",
+                  "dwell": 506,
+                  "len": 8
+              },{
+                  "name": "para",
+                  "dwell": 454,
+                  "len": 4,
+                  "break_line": true
+              },{
+                  "name": "regocijo",
+                  "dwell": 599,
+                  "len": 8,
+                  "new_line":true
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "la",
+                  "dwell": 377,
+                  "len": 2
+              },{
+                  "name": "serpiente.",
+                  "dwell": 289,
+                  "len": 10
+              },{
+                  "name": "Es",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "así",
+                  "dwell": 308,
+                  "len": 3
+              },{
+                  "name": "como",
+                  "dwell": 155,
+                  "len": 4
+              },{
+                  "name": "nunca",
+                  "dwell": 214,
+                  "len": 5
+              },{
+                  "name": "llega",
+                  "dwell": 423,
+                  "len": 5
+              },{
+                  "name": "a",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "formularse",
+                  "dwell": 592,
+                  "len": 10
+              },{
+                  "name": "la",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "ley",
+                  "dwell": 187,
+                  "len": 3
+              },{
+                  "name": "de",
+                  "dwell": 68,
+                  "len": 2
+              },{
+                  "name": "gravedad.",
+                  "dwell": 322,
+                  "len": 9
+              }
+        ]
+        }
+        ]
+        }
+        ]
+        }
+    

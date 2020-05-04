@@ -1,0 +1,278 @@
+
+
+    {
+    "name": "MICROSTORY", "children": [
+    {
+    "name": "Oración 1",
+    "full": "Oración 1",
+    "children": [
+    {
+    "name": "Frase 1",
+    "full": "Frase 1",
+    "children" : [
+
+    {
+                  "name": "Con",
+                  "dwell": 0,
+                  "len": 3,
+                  "new_line":true
+              },{
+                  "name": "el",
+                  "dwell": 104,
+                  "len": 2
+              },{
+                  "name": "lógico",
+                  "dwell": 224,
+                  "len": 6
+              },{
+                  "name": "nerviosismo",
+                  "dwell": 316,
+                  "len": 11
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "la",
+                  "dwell": 101,
+                  "len": 2
+              },{
+                  "name": "primera",
+                  "dwell": 0,
+                  "len": 7
+              },{
+                  "name": "noche,",
+                  "dwell": 182,
+                  "len": 6
+              },{
+                  "name": "el",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "hijo",
+                  "dwell": 267,
+                  "len": 4
+              },{
+                  "name": "del",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "sepulturero",
+                  "dwell": 889,
+                  "len": 11
+              },{
+                  "name": "ayudó",
+                  "dwell": 392,
+                  "len": 5
+              },{
+                  "name": "a",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "su",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "padre",
+                  "dwell": 385,
+                  "len": 5
+              },{
+                  "name": "a",
+                  "dwell": 194,
+                  "len": 1
+              },{
+                  "name": "colocar",
+                  "dwell": 214,
+                  "len": 7
+              },{
+                  "name": "la",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "lápida",
+                  "dwell": 247,
+                  "len": 6
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "una",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "tumba.",
+                  "dwell": 0,
+                  "len": 6
+              },{
+                  "name": "Mientras",
+                  "dwell": 323,
+                  "len": 8
+              },{
+                  "name": "sostenía",
+                  "dwell": 0,
+                  "len": 8
+              },{
+                  "name": "el",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "mármol,",
+                  "dwell": 628,
+                  "len": 7
+              },{
+                  "name": "escuchó",
+                  "dwell": 192,
+                  "len": 7
+              },{
+                  "name": "golpes",
+                  "dwell": 426,
+                  "len": 6
+              },{
+                  "name": "y",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "gritos",
+                  "dwell": 196,
+                  "len": 6
+              },{
+                  "name": "en",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "el",
+                  "dwell": 137,
+                  "len": 2
+              },{
+                  "name": "interior",
+                  "dwell": 207,
+                  "len": 8
+              },{
+                  "name": "del",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "panteón.",
+                  "dwell": 578,
+                  "len": 8
+              },{
+                  "name": "Miró",
+                  "dwell": 354,
+                  "len": 4
+              },{
+                  "name": "a",
+                  "dwell": 228,
+                  "len": 1
+              },{
+                  "name": "su",
+                  "dwell": 182,
+                  "len": 2
+              },{
+                  "name": "padre",
+                  "dwell": 258,
+                  "len": 5
+              },{
+                  "name": "con",
+                  "dwell": 204,
+                  "len": 3
+              },{
+                  "name": "el",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "rostro",
+                  "dwell": 655,
+                  "len": 6
+              },{
+                  "name": "desencajado",
+                  "dwell": 0,
+                  "len": 11
+              },{
+                  "name": "por",
+                  "dwell": 367,
+                  "len": 3
+              },{
+                  "name": "el",
+                  "dwell": 541,
+                  "len": 2
+              },{
+                  "name": "terror.",
+                  "dwell": 0,
+                  "len": 7
+              },{
+                  "name": "Pero",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "la",
+                  "dwell": 179,
+                  "len": 2
+              },{
+                  "name": "voz",
+                  "dwell": 161,
+                  "len": 3
+              },{
+                  "name": "de",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "la",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "experiencia",
+                  "dwell": 413,
+                  "len": 11
+              },{
+                  "name": "logró",
+                  "dwell": 0,
+                  "len": 5
+              },{
+                  "name": "tranquilizarlo.",
+                  "dwell": 538,
+                  "len": 15
+              },{
+                  "name": "“No",
+                  "dwell": 160,
+                  "len": 3
+              },{
+                  "name": "te",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "preocupes.",
+                  "dwell": 465,
+                  "len": 10
+              },{
+                  "name": "Es",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "normal.",
+                  "dwell": 214,
+                  "len": 7
+              },{
+                  "name": "Enseguida",
+                  "dwell": 1006,
+                  "len": 9
+              },{
+                  "name": "se",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "les",
+                  "dwell": 161,
+                  "len": 3
+              },{
+                  "name": "pasa”.",
+                  "dwell": 1651,
+                  "len": 6
+              }
+        ]
+        }
+        ]
+        }
+        ]
+        }
+    
