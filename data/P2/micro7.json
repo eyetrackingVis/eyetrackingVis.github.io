@@ -14,7 +14,8 @@
     {
                   "name": "En",
                   "dwell": 78,
-                  "len": 2
+                  "len": 2,
+                  "new_line": true
               },{
                   "name": "un",
                   "dwell": 0,
