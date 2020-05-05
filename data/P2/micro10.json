@@ -1,1 +1,470 @@
-{"name": "MICROSTORY", "children": [{"name": "Oraci\u00f3n 1", "full": "Oraci\u00f3n 1", "children": [{"name": "Frase 1", "full": "Frase 1", "children": [{"name": "La", "dwell": 742, "len": 2, "new_line": true, "pos": "DET", "freq_abs": 6277560, "freq_norm": 41148.59}, {"name": "flecha", "dwell": 186, "len": 6, "pos": "NOUN", "freq_abs": 1081, "freq_norm": 7.08}, {"name": "disparada", "dwell": 661, "len": 9, "pos": "ADJ", "freq_abs": 168, "freq_norm": 1.1}, {"name": "por", "dwell": 131, "len": 3, "pos": "ADP", "freq_abs": 1561904, "freq_norm": 10238.07}, {"name": "la", "dwell": 227, "len": 2, "pos": "DET", "freq_abs": 6277560, "freq_norm": 41148.59}, {"name": "ballesta", "dwell": 339, "len": 8, "pos": "NOUN", "freq_abs": 128, "freq_norm": 0.83}, {"name": "precisa", "dwell": 419, "len": 7, "pos": "ADJ", "freq_abs": 4516, "freq_norm": 29.6}, {"name": "de", "dwell": 0, "len": 2, "pos": "ADP", "freq_abs": 9999518, "freq_norm": 65545.55}, {"name": "Guillermo", "dwell": 623, "len": 9, "pos": "PROPN", "freq_abs": 5338, "freq_norm": 34.98}, {"name": "Tell", "dwell": 267, "len": 4, "pos": "PROPN", "freq_abs": 84, "freq_norm": 0.55}, {"name": "parte", "dwell": 361, "len": 5, "pos": "VERB", "freq_abs": 148750, "freq_norm": 975.03}, {"name": "en", "dwell": 0, "len": 2, "pos": "ADP", "freq_abs": 4234281, "freq_norm": 27755.16}, {"name": "dos", "dwell": 1204, "len": 3, "pos": "NUM", "freq_abs": 228439, "freq_norm": 1497.38}, {"name": "la", "dwell": 318, "len": 2, "pos": "DET", "freq_abs": 6277560, "freq_norm": 41148.59}, {"name": "manzana", "dwell": 1025, "len": 7, "pos": "NOUN", "freq_abs": 2301, "freq_norm": 15.08}, {"name": "que", "dwell": 0, "len": 3, "pos": "PRON", "freq_abs": 4681839, "freq_norm": 30688.85}, {"name": "est\u00e1", "dwell": 317, "len": 4, "pos": "AUX", "freq_abs": 194168, "freq_norm": 1272.74}, {"name": "a", "dwell": 193, "len": 1, "break_line": true, "pos": "ADP", "freq_abs": 3260939, "freq_norm": 21375.03}, {"name": "punto", "dwell": 122, "len": 5, "new_line": true, "pos": "NOUN", "freq_abs": 56259, "freq_norm": 368.77}, {"name": "de", "dwell": 0, "len": 2, "pos": "ADP", "freq_abs": 9999518, "freq_norm": 65545.55}, {"name": "caer", "dwell": 338, "len": 4, "pos": "VERB", "freq_abs": 9919, "freq_norm": 65.01}, {"name": "sobre", "dwell": 164, "len": 5, "pos": "ADP", "freq_abs": 289704, "freq_norm": 1898.97}, {"name": "la", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 6277560, "freq_norm": 41148.59}, {"name": "cabeza", "dwell": 268, "len": 6, "pos": "NOUN", "freq_abs": 39451, "freq_norm": 258.59}, {"name": "de", "dwell": 35, "len": 2, "pos": "ADP", "freq_abs": 9999518, "freq_norm": 65545.55}, {"name": "Newton.", "dwell": 455, "len": 7, "pos": "PROPN", "freq_abs": 1818, "freq_norm": 11.91}, {"name": "Eva", "dwell": 131, "len": 3, "pos": "PROPN", "freq_abs": 3631, "freq_norm": 23.8}, {"name": "toma", "dwell": 488, "len": 4, "pos": "VERB", "freq_abs": 15003, "freq_norm": 98.34}, {"name": "una", "dwell": 0, "len": 3, "pos": "DET", "freq_abs": 1347603, "freq_norm": 8833.36}, {"name": "mitad", "dwell": 345, "len": 5, "pos": "NOUN", "freq_abs": 17705, "freq_norm": 116.05}, {"name": "y", "dwell": 0, "len": 1, "pos": "CONJ", "freq_abs": 4180279, "freq_norm": 27401.19}, {"name": "le", "dwell": 0, "len": 2, "pos": "PRON", "freq_abs": 413241, "freq_norm": 2708.74}, {"name": "ofrece", "dwell": 0, "len": 6, "pos": "VERB", "freq_abs": 11794, "freq_norm": 77.3}, {"name": "la", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 6277560, "freq_norm": 41148.59}, {"name": "otra", "dwell": 233, "len": 4, "pos": "PRON", "freq_abs": 113982, "freq_norm": 747.13}, {"name": "a", "dwell": 82, "len": 1, "pos": "ADP", "freq_abs": 3260939, "freq_norm": 21375.03}, {"name": "su", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 1103617, "freq_norm": 7234.06}, {"name": "consorte", "dwell": 506, "len": 8, "pos": "NOUN", "freq_abs": 181, "freq_norm": 1.18}, {"name": "para", "dwell": 454, "len": 4, "break_line": true, "pos": "ADP", "freq_abs": 1062152, "freq_norm": 6962.26}, {"name": "regocijo", "dwell": 599, "len": 8, "new_line": true, "pos": "NOUN", "freq_abs": 624, "freq_norm": 4.09}, {"name": "de", "dwell": 0, "len": 2, "pos": "ADP", "freq_abs": 9999518, "freq_norm": 65545.55}, {"name": "la", "dwell": 377, "len": 2, "pos": "DET", "freq_abs": 6277560, "freq_norm": 41148.59}, {"name": "serpiente.", "dwell": 289, "len": 10, "pos": "NOUN", "freq_abs": 1542, "freq_norm": 10.1}, {"name": "Es", "dwell": 0, "len": 2, "pos": "AUX", "freq_abs": 1019669, "freq_norm": 6683.79}, {"name": "as\u00ed", "dwell": 308, "len": 3, "pos": "ADV", "freq_abs": 155645, "freq_norm": 1020.23}, {"name": "como", "dwell": 155, "len": 4, "pos": "SCONJ", "freq_abs": 773465, "freq_norm": 5069.96}, {"name": "nunca", "dwell": 214, "len": 5, "pos": "ADV", "freq_abs": 66939, "freq_norm": 438.77}, {"name": "llega", "dwell": 423, "len": 5, "pos": "VERB", "freq_abs": 17456, "freq_norm": 114.42}, {"name": "a", "dwell": 0, "len": 1, "pos": "ADP", "freq_abs": 3260939, "freq_norm": 21375.03}, {"name": "formularse", "dwell": 592, "len": 10, "pos": "PROPN", "freq_abs": 187, "freq_norm": 1.22}, {"name": "la", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 6277560, "freq_norm": 41148.59}, {"name": "ley", "dwell": 187, "len": 3, "pos": "NOUN", "freq_abs": 48945, "freq_norm": 320.82}, {"name": "de", "dwell": 68, "len": 2, "pos": "ADP", "freq_abs": 9999518, "freq_norm": 65545.55}, {"name": "gravedad.", "dwell": 322, "len": 9, "pos": "NOUN", "freq_abs": 5121, "freq_norm": 33.56}]}]}]}
+{
+  "name": "MICROSTORY",
+  "children": [
+    {
+      "name": "Oración 1",
+      "full": "Oración 1",
+      "children": [
+        {
+          "name": "Frase 1",
+          "full": "Frase 1",
+          "children": [
+            {
+              "name": "La",
+              "dwell": 742,
+              "len": 2,
+              "new_line": true,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59
+            },
+            {
+              "name": "flecha",
+              "dwell": 186,
+              "len": 6,
+              "pos": "NOUN",
+              "freq_abs": 1081,
+              "freq_norm": 7.08
+            },
+            {
+              "name": "disparada",
+              "dwell": 661,
+              "len": 9,
+              "pos": "ADJ",
+              "freq_abs": 168,
+              "freq_norm": 1.1
+            },
+            {
+              "name": "por",
+              "dwell": 131,
+              "len": 3,
+              "pos": "ADP",
+              "freq_abs": 1561904,
+              "freq_norm": 10238.07
+            },
+            {
+              "name": "la",
+              "dwell": 227,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59
+            },
+            {
+              "name": "ballesta",
+              "dwell": 339,
+              "len": 8,
+              "pos": "NOUN",
+              "freq_abs": 128,
+              "freq_norm": 0.83
+            },
+            {
+              "name": "precisa",
+              "dwell": 419,
+              "len": 7,
+              "pos": "ADJ",
+              "freq_abs": 4516,
+              "freq_norm": 29.6
+            },
+            {
+              "name": "de",
+              "dwell": 0,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55
+            },
+            {
+              "name": "Guillermo",
+              "dwell": 623,
+              "len": 9,
+              "pos": "PROPN",
+              "freq_abs": 5338,
+              "freq_norm": 34.98
+            },
+            {
+              "name": "Tell",
+              "dwell": 267,
+              "len": 4,
+              "pos": "PROPN",
+              "freq_abs": 84,
+              "freq_norm": 0.55
+            },
+            {
+              "name": "parte",
+              "dwell": 361,
+              "len": 5,
+              "pos": "VERB",
+              "freq_abs": 148750,
+              "freq_norm": 975.03
+            },
+            {
+              "name": "en",
+              "dwell": 0,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 4234281,
+              "freq_norm": 27755.16
+            },
+            {
+              "name": "dos",
+              "dwell": 1204,
+              "len": 3,
+              "pos": "NUM",
+              "freq_abs": 228439,
+              "freq_norm": 1497.38
+            },
+            {
+              "name": "la",
+              "dwell": 318,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59
+            },
+            {
+              "name": "manzana",
+              "dwell": 1025,
+              "len": 7,
+              "pos": "NOUN",
+              "freq_abs": 2301,
+              "freq_norm": 15.08
+            },
+            {
+              "name": "que",
+              "dwell": 0,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85
+            },
+            {
+              "name": "está",
+              "dwell": 317,
+              "len": 4,
+              "pos": "AUX",
+              "freq_abs": 194168,
+              "freq_norm": 1272.74
+            },
+            {
+              "name": "a",
+              "dwell": 193,
+              "len": 1,
+              "break_line": true,
+              "pos": "ADP",
+              "freq_abs": 3260939,
+              "freq_norm": 21375.03
+            },
+            {
+              "name": "punto",
+              "dwell": 122,
+              "len": 5,
+              "new_line": true,
+              "pos": "NOUN",
+              "freq_abs": 56259,
+              "freq_norm": 368.77
+            },
+            {
+              "name": "de",
+              "dwell": 0,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55
+            },
+            {
+              "name": "caer",
+              "dwell": 338,
+              "len": 4,
+              "pos": "VERB",
+              "freq_abs": 9919,
+              "freq_norm": 65.01
+            },
+            {
+              "name": "sobre",
+              "dwell": 164,
+              "len": 5,
+              "pos": "ADP",
+              "freq_abs": 289704,
+              "freq_norm": 1898.97
+            },
+            {
+              "name": "la",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59
+            },
+            {
+              "name": "cabeza",
+              "dwell": 268,
+              "len": 6,
+              "pos": "NOUN",
+              "freq_abs": 39451,
+              "freq_norm": 258.59
+            },
+            {
+              "name": "de",
+              "dwell": 35,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55
+            },
+            {
+              "name": "Newton.",
+              "dwell": 455,
+              "len": 7,
+              "pos": "PROPN",
+              "freq_abs": 1818,
+              "freq_norm": 11.91
+            }
+          ]
+        }
+      ]
+    },
+    {
+    	"children": [
+    		{
+    			"children": [
+    				            {
+              "name": "Eva",
+              "dwell": 131,
+              "len": 3,
+              "pos": "PROPN",
+              "freq_abs": 3631,
+              "freq_norm": 23.8
+            },
+            {
+              "name": "toma",
+              "dwell": 488,
+              "len": 4,
+              "pos": "VERB",
+              "freq_abs": 15003,
+              "freq_norm": 98.34
+            },
+            {
+              "name": "una",
+              "dwell": 0,
+              "len": 3,
+              "pos": "DET",
+              "freq_abs": 1347603,
+              "freq_norm": 8833.36
+            },
+            {
+              "name": "mitad",
+              "dwell": 345,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 17705,
+              "freq_norm": 116.05
+            },
+            {
+              "name": "y",
+              "dwell": 0,
+              "len": 1,
+              "pos": "CONJ",
+              "freq_abs": 4180279,
+              "freq_norm": 27401.19
+            },
+            {
+              "name": "le",
+              "dwell": 0,
+              "len": 2,
+              "pos": "PRON",
+              "freq_abs": 413241,
+              "freq_norm": 2708.74
+            },
+            {
+              "name": "ofrece",
+              "dwell": 0,
+              "len": 6,
+              "pos": "VERB",
+              "freq_abs": 11794,
+              "freq_norm": 77.3
+            },
+            {
+              "name": "la",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59
+            },
+            {
+              "name": "otra",
+              "dwell": 233,
+              "len": 4,
+              "pos": "PRON",
+              "freq_abs": 113982,
+              "freq_norm": 747.13
+            },
+            {
+              "name": "a",
+              "dwell": 82,
+              "len": 1,
+              "pos": "ADP",
+              "freq_abs": 3260939,
+              "freq_norm": 21375.03
+            },
+            {
+              "name": "su",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 1103617,
+              "freq_norm": 7234.06
+            },
+            {
+              "name": "consorte",
+              "dwell": 506,
+              "len": 8,
+              "pos": "NOUN",
+              "freq_abs": 181,
+              "freq_norm": 1.18
+            },
+            {
+              "name": "para",
+              "dwell": 454,
+              "len": 4,
+              "break_line": true,
+              "pos": "ADP",
+              "freq_abs": 1062152,
+              "freq_norm": 6962.26
+            },
+            {
+              "name": "regocijo",
+              "dwell": 599,
+              "len": 8,
+              "new_line": true,
+              "pos": "NOUN",
+              "freq_abs": 624,
+              "freq_norm": 4.09
+            },
+            {
+              "name": "de",
+              "dwell": 0,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55
+            },
+            {
+              "name": "la",
+              "dwell": 377,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59
+            },
+            {
+              "name": "serpiente.",
+              "dwell": 289,
+              "len": 10,
+              "pos": "NOUN",
+              "freq_abs": 1542,
+              "freq_norm": 10.1
+            }
+    			]
+    		}
+    	]
+    },
+    {
+    	"children": [
+    		{
+    			"children": [
+    				            {
+              "name": "Es",
+              "dwell": 0,
+              "len": 2,
+              "pos": "AUX",
+              "freq_abs": 1019669,
+              "freq_norm": 6683.79
+            },
+            {
+              "name": "así",
+              "dwell": 308,
+              "len": 3,
+              "pos": "ADV",
+              "freq_abs": 155645,
+              "freq_norm": 1020.23
+            },
+            {
+              "name": "como",
+              "dwell": 155,
+              "len": 4,
+              "pos": "SCONJ",
+              "freq_abs": 773465,
+              "freq_norm": 5069.96
+            },
+            {
+              "name": "nunca",
+              "dwell": 214,
+              "len": 5,
+              "pos": "ADV",
+              "freq_abs": 66939,
+              "freq_norm": 438.77
+            },
+            {
+              "name": "llega",
+              "dwell": 423,
+              "len": 5,
+              "pos": "VERB",
+              "freq_abs": 17456,
+              "freq_norm": 114.42
+            },
+            {
+              "name": "a",
+              "dwell": 0,
+              "len": 1,
+              "pos": "ADP",
+              "freq_abs": 3260939,
+              "freq_norm": 21375.03
+            },
+            {
+              "name": "formularse",
+              "dwell": 592,
+              "len": 10,
+              "pos": "PROPN",
+              "freq_abs": 187,
+              "freq_norm": 1.22
+            },
+            {
+              "name": "la",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59
+            },
+            {
+              "name": "ley",
+              "dwell": 187,
+              "len": 3,
+              "pos": "NOUN",
+              "freq_abs": 48945,
+              "freq_norm": 320.82
+            },
+            {
+              "name": "de",
+              "dwell": 68,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55
+            },
+            {
+              "name": "gravedad.",
+              "dwell": 322,
+              "len": 9,
+              "pos": "NOUN",
+              "freq_abs": 5121,
+              "freq_norm": 33.56
+            }
+    			]
+    		}
+    	]
+    }
+  ]
+}

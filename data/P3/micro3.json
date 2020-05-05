@@ -81,8 +81,16 @@
               "pos": "NOUN",
               "freq_abs": 8792,
               "freq_norm": 57.63
-            },
-            {
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "name": "La",
               "dwell": 286,
               "len": 2,

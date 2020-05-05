@@ -138,8 +138,16 @@
               "pos": "NOUN",
               "freq_abs": 165,
               "freq_norm": 1.08
-            },
-            {
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "name": "-La",
               "dwell": 0,
               "len": 3,
@@ -212,8 +220,16 @@
               "pos": "PRON",
               "freq_abs": 1347603,
               "freq_norm": 8833.36
-            },
-            {
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "name": "-Su",
               "dwell": 224,
               "len": 3,
@@ -270,8 +286,16 @@
               "pos": "NOUN",
               "freq_abs": 80152,
               "freq_norm": 525.38
-            },
-            {
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "children": [
+                        {
               "name": "-¿Divino?...",
               "dwell": 0,
               "len": 12,
@@ -482,7 +506,15 @@
               "pos": "NOUN",
               "freq_abs": 0,
               "freq_norm": 0.0
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "children": [
             {
               "name": "-No",
               "dwell": 217,

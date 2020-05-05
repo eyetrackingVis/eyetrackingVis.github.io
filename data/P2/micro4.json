@@ -1,1 +1,796 @@
-{"name": "MICROSTORY", "children": [{"name": "Oraci\u00f3n 1", "full": "Oraci\u00f3n 1", "children": [{"name": "Frase 1", "full": "Frase 1", "children": [{"name": "En", "dwell": 255, "len": 2, "new_line": true, "pos": "ADP", "freq_abs": 4234281, "freq_norm": 27755.16}, {"name": "un", "dwell": 191, "len": 2, "pos": "DET", "freq_abs": 1659827, "freq_norm": 10879.95}, {"name": "desierto", "dwell": 1318, "len": 8, "pos": "NOUN", "freq_abs": 3862, "freq_norm": 25.31}, {"name": "lugar", "dwell": 830, "len": 5, "pos": "NOUN", "freq_abs": 78250, "freq_norm": 512.91}, {"name": "del", "dwell": 781, "len": 3, "pos": "ADP", "freq_abs": 1857225, "freq_norm": 12173.87}, {"name": "Ir\u00e1n", "dwell": 570, "len": 4, "pos": "PROPN", "freq_abs": 3715, "freq_norm": 24.35}, {"name": "hay", "dwell": 490, "len": 3, "pos": "AUX", "freq_abs": 164940, "freq_norm": 1081.16}, {"name": "una", "dwell": 378, "len": 3, "pos": "PRON", "freq_abs": 1347603, "freq_norm": 8833.36}, {"name": "no", "dwell": 521, "len": 2, "pos": "ADV", "freq_abs": 1465503, "freq_norm": 9606.18}, {"name": "muy", "dwell": 420, "len": 3, "pos": "ADV", "freq_abs": 208540, "freq_norm": 1366.95}, {"name": "alta", "dwell": 465, "len": 4, "pos": "ADJ", "freq_abs": 21377, "freq_norm": 140.12}, {"name": "torre", "dwell": 552, "len": 5, "pos": "NOUN", "freq_abs": 5060, "freq_norm": 33.16}, {"name": "de", "dwell": 166, "len": 2, "pos": "ADP", "freq_abs": 9999518, "freq_norm": 65545.55}, {"name": "piedra,", "dwell": 709, "len": 7, "pos": "NOUN", "freq_abs": 9675, "freq_norm": 63.41}, {"name": "sin", "dwell": 259, "len": 3, "pos": "ADP", "freq_abs": 298383, "freq_norm": 1955.86}, {"name": "puerta", "dwell": 433, "len": 6, "pos": "NOUN", "freq_abs": 31503, "freq_norm": 206.49}, {"name": "ni", "dwell": 0, "len": 2, "pos": "CONJ", "freq_abs": 153451, "freq_norm": 1005.85}, {"name": "ventana.", "dwell": 394, "len": 8, "pos": "NOUN", "freq_abs": 9056, "freq_norm": 59.36}, {"name": "En", "dwell": 191, "len": 2, "pos": "ADP", "freq_abs": 4234281, "freq_norm": 27755.16}, {"name": "la", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 6277560, "freq_norm": 41148.59}, {"name": "\u00fanica", "dwell": 0, "len": 5, "pos": "ADJ", "freq_abs": 21076, "freq_norm": 138.15}, {"name": "habitaci\u00f3n", "dwell": 0, "len": 10, "pos": "NOUN", "freq_abs": 9889, "freq_norm": 64.82}, {"name": "(cuyo", "dwell": 0, "len": 5, "pos": "PRON", "freq_abs": 0, "freq_norm": 0.0}, {"name": "piso", "dwell": 0, "len": 4, "pos": "NOUN", "freq_abs": 9610, "freq_norm": 62.99}, {"name": "es", "dwell": 0, "len": 2, "pos": "AUX", "freq_abs": 1019669, "freq_norm": 6683.79}, {"name": "de", "dwell": 0, "len": 2, "pos": "ADP", "freq_abs": 9999518, "freq_norm": 65545.55}, {"name": "tierra", "dwell": 0, "len": 6, "pos": "NOUN", "freq_abs": 38352, "freq_norm": 251.39}, {"name": "y", "dwell": 0, "len": 1, "pos": "CONJ", "freq_abs": 4180279, "freq_norm": 27401.19}, {"name": "que", "dwell": 0, "len": 3, "pos": "PRON", "freq_abs": 4681839, "freq_norm": 30688.85}, {"name": "tiene", "dwell": 0, "len": 5, "pos": "VERB", "freq_abs": 147274, "freq_norm": 965.36}, {"name": "la", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 6277560, "freq_norm": 41148.59}, {"name": "forma", "dwell": 0, "len": 5, "pos": "NOUN", "freq_abs": 97165, "freq_norm": 636.9}, {"name": "de", "dwell": 0, "len": 2, "pos": "ADP", "freq_abs": 9999518, "freq_norm": 65545.55}, {"name": "c\u00edrculo)", "dwell": 222, "len": 8, "pos": "NOUN", "freq_abs": 0, "freq_norm": 0.0}, {"name": "hay", "dwell": 578, "len": 3, "pos": "AUX", "freq_abs": 164940, "freq_norm": 1081.16}, {"name": "una", "dwell": 0, "len": 3, "pos": "DET", "freq_abs": 1347603, "freq_norm": 8833.36}, {"name": "mesa", "dwell": 495, "len": 4, "pos": "NOUN", "freq_abs": 21558, "freq_norm": 141.3}, {"name": "de", "dwell": 0, "len": 2, "pos": "ADP", "freq_abs": 9999518, "freq_norm": 65545.55}, {"name": "maderas", "dwell": 357, "len": 7, "pos": "NOUN", "freq_abs": 982, "freq_norm": 6.43}, {"name": "y", "dwell": 172, "len": 1, "pos": "CONJ", "freq_abs": 4180279, "freq_norm": 27401.19}, {"name": "un", "dwell": 241, "len": 2, "pos": "DET", "freq_abs": 1659827, "freq_norm": 10879.95}, {"name": "banco.", "dwell": 0, "len": 6, "pos": "NOUN", "freq_abs": 24341, "freq_norm": 159.55}, {"name": "En", "dwell": 483, "len": 2, "pos": "ADP", "freq_abs": 4234281, "freq_norm": 27755.16}, {"name": "esa", "dwell": 191, "len": 3, "pos": "DET", "freq_abs": 115377, "freq_norm": 756.28}, {"name": "celda", "dwell": 166, "len": 5, "pos": "NOUN", "freq_abs": 2411, "freq_norm": 15.8}, {"name": "circular,", "dwell": 283, "len": 9, "pos": "ADJ", "freq_abs": 3352, "freq_norm": 21.97}, {"name": "un", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 1659827, "freq_norm": 10879.95}, {"name": "hombre", "dwell": 293, "len": 6, "pos": "NOUN", "freq_abs": 80152, "freq_norm": 525.38}, {"name": "que", "dwell": 379, "len": 3, "pos": "PRON", "freq_abs": 4681839, "freq_norm": 30688.85}, {"name": "se", "dwell": 0, "len": 2, "pos": "PRON", "freq_abs": 2022514, "freq_norm": 13257.31}, {"name": "parece", "dwell": 680, "len": 6, "pos": "VERB", "freq_abs": 54554, "freq_norm": 357.59}, {"name": "a", "dwell": 148, "len": 1, "pos": "ADP", "freq_abs": 3260939, "freq_norm": 21375.03}, {"name": "mi", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 186360, "freq_norm": 1221.56}, {"name": "escribe", "dwell": 386, "len": 7, "pos": "NOUN", "freq_abs": 5958, "freq_norm": 39.05}, {"name": "en", "dwell": 65, "len": 2, "pos": "ADP", "freq_abs": 4234281, "freq_norm": 27755.16}, {"name": "caracteres", "dwell": 574, "len": 10, "pos": "NOUN", "freq_abs": 2772, "freq_norm": 18.17}, {"name": "que", "dwell": 286, "len": 3, "pos": "PRON", "freq_abs": 4681839, "freq_norm": 30688.85}, {"name": "no", "dwell": 0, "len": 2, "pos": "ADV", "freq_abs": 1465503, "freq_norm": 9606.18}, {"name": "comprendo", "dwell": 415, "len": 9, "pos": "VERB", "freq_abs": 1875, "freq_norm": 12.29}, {"name": "un", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 1659827, "freq_norm": 10879.95}, {"name": "largo", "dwell": 262, "len": 5, "pos": "ADJ", "freq_abs": 37315, "freq_norm": 244.59}, {"name": "poema", "dwell": 386, "len": 5, "pos": "NOUN", "freq_abs": 4031, "freq_norm": 26.42}, {"name": "sobre", "dwell": 246, "len": 5, "pos": "ADP", "freq_abs": 289704, "freq_norm": 1898.97}, {"name": "un", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 1659827, "freq_norm": 10879.95}, {"name": "hombre", "dwell": 219, "len": 6, "pos": "NOUN", "freq_abs": 80152, "freq_norm": 525.38}, {"name": "que", "dwell": 0, "len": 3, "pos": "PRON", "freq_abs": 4681839, "freq_norm": 30688.85}, {"name": "en", "dwell": 200, "len": 2, "pos": "ADP", "freq_abs": 4234281, "freq_norm": 27755.16}, {"name": "otra", "dwell": 248, "len": 4, "pos": "DET", "freq_abs": 113982, "freq_norm": 747.13}, {"name": "celda", "dwell": 0, "len": 5, "pos": "NOUN", "freq_abs": 2411, "freq_norm": 15.8}, {"name": "circular", "dwell": 0, "len": 8, "pos": "ADJ", "freq_abs": 3352, "freq_norm": 21.97}, {"name": "escribe", "dwell": 326, "len": 7, "pos": "VERB", "freq_abs": 5958, "freq_norm": 39.05}, {"name": "un", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 1659827, "freq_norm": 10879.95}, {"name": "poema", "dwell": 309, "len": 5, "pos": "NOUN", "freq_abs": 4031, "freq_norm": 26.42}, {"name": "sobre", "dwell": 316, "len": 5, "pos": "ADP", "freq_abs": 289704, "freq_norm": 1898.97}, {"name": "un", "dwell": 0, "len": 2, "pos": "DET", "freq_abs": 1659827, "freq_norm": 10879.95}, {"name": "hombre", "dwell": 231, "len": 6, "pos": "NOUN", "freq_abs": 80152, "freq_norm": 525.38}, {"name": "que", "dwell": 0, "len": 3, "pos": "PRON", "freq_abs": 4681839, "freq_norm": 30688.85}, {"name": "en", "dwell": 318, "len": 2, "pos": "ADP", "freq_abs": 4234281, "freq_norm": 27755.16}, {"name": "otra", "dwell": 0, "len": 4, "pos": "DET", "freq_abs": 113982, "freq_norm": 747.13}, {"name": "celda", "dwell": 148, "len": 5, "pos": "NOUN", "freq_abs": 2411, "freq_norm": 15.8}, {"name": "circular\u2026El", "dwell": 303, "len": 11, "pos": "ADJ", "freq_abs": 0, "freq_norm": 0.0}, {"name": "proceso", "dwell": 304, "len": 7, "pos": "DET", "freq_abs": 48064, "freq_norm": 315.05}, {"name": "no", "dwell": 48, "len": 2, "pos": "NOUN", "freq_abs": 1465503, "freq_norm": 9606.18}, {"name": "tiene", "dwell": 293, "len": 5, "pos": "ADV", "freq_abs": 147274, "freq_norm": 965.36}, {"name": "fin", "dwell": 179, "len": 3, "pos": "VERB", "freq_abs": 59108, "freq_norm": 387.44}, {"name": "y", "dwell": 86, "len": 1, "pos": "NOUN", "freq_abs": 4180279, "freq_norm": 27401.19}, {"name": "nadie", "dwell": 375, "len": 5, "pos": "CONJ", "freq_abs": 49689, "freq_norm": 325.7}, {"name": "podr\u00e1", "dwell": 610, "len": 5, "pos": "PRON", "freq_abs": 15804, "freq_norm": 103.59}, {"name": "leer", "dwell": 0, "len": 4, "pos": "AUX", "freq_abs": 9200, "freq_norm": 60.3}, {"name": "lo", "dwell": 350, "len": 2, "pos": "VERB", "freq_abs": 866955, "freq_norm": 5682.77}, {"name": "que", "dwell": 0, "len": 3, "pos": "DET", "freq_abs": 4681839, "freq_norm": 30688.85}, {"name": "los", "dwell": 148, "len": 3, "pos": "PRON", "freq_abs": 2618657, "freq_norm": 17164.95}, {"name": "prisioneros", "dwell": 362, "len": 11, "pos": "DET", "freq_abs": 1966, "freq_norm": 12.88}, {"name": "escriben.", "dwell": 269, "len": 9, "pos": "NOUN", "freq_abs": 1018, "freq_norm": 6.67}]}]}]}
+{
+  "name": "MICROSTORY",
+  "children": [
+    {
+      "name": "Oración 1",
+      "full": "Oración 1",
+      "children": [
+        {
+          "name": "Frase 1",
+          "full": "Frase 1",
+          "children": [
+            {
+              "name": "En",
+              "dwell": 255,
+              "len": 2,
+              "new_line": true,
+              "pos": "ADP",
+              "freq_abs": 4234281,
+              "freq_norm": 27755.16
+            },
+            {
+              "name": "un",
+              "dwell": 191,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95
+            },
+            {
+              "name": "desierto",
+              "dwell": 1318,
+              "len": 8,
+              "pos": "NOUN",
+              "freq_abs": 3862,
+              "freq_norm": 25.31
+            },
+            {
+              "name": "lugar",
+              "dwell": 830,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 78250,
+              "freq_norm": 512.91
+            },
+            {
+              "name": "del",
+              "dwell": 781,
+              "len": 3,
+              "pos": "ADP",
+              "freq_abs": 1857225,
+              "freq_norm": 12173.87
+            },
+            {
+              "name": "Irán",
+              "dwell": 570,
+              "len": 4,
+              "pos": "PROPN",
+              "freq_abs": 3715,
+              "freq_norm": 24.35
+            },
+            {
+              "name": "hay",
+              "dwell": 490,
+              "len": 3,
+              "pos": "AUX",
+              "freq_abs": 164940,
+              "freq_norm": 1081.16
+            },
+            {
+              "name": "una",
+              "dwell": 378,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 1347603,
+              "freq_norm": 8833.36
+            },
+            {
+              "name": "no",
+              "dwell": 521,
+              "len": 2,
+              "pos": "ADV",
+              "freq_abs": 1465503,
+              "freq_norm": 9606.18
+            },
+            {
+              "name": "muy",
+              "dwell": 420,
+              "len": 3,
+              "pos": "ADV",
+              "freq_abs": 208540,
+              "freq_norm": 1366.95
+            },
+            {
+              "name": "alta",
+              "dwell": 465,
+              "len": 4,
+              "pos": "ADJ",
+              "freq_abs": 21377,
+              "freq_norm": 140.12
+            },
+            {
+              "name": "torre",
+              "dwell": 552,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 5060,
+              "freq_norm": 33.16
+            },
+            {
+              "name": "de",
+              "dwell": 166,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55
+            },
+            {
+              "name": "piedra,",
+              "dwell": 709,
+              "len": 7,
+              "pos": "NOUN",
+              "freq_abs": 9675,
+              "freq_norm": 63.41
+            },
+            {
+              "name": "sin",
+              "dwell": 259,
+              "len": 3,
+              "pos": "ADP",
+              "freq_abs": 298383,
+              "freq_norm": 1955.86
+            },
+            {
+              "name": "puerta",
+              "dwell": 433,
+              "len": 6,
+              "pos": "NOUN",
+              "freq_abs": 31503,
+              "freq_norm": 206.49
+            },
+            {
+              "name": "ni",
+              "dwell": 0,
+              "len": 2,
+              "pos": "CONJ",
+              "freq_abs": 153451,
+              "freq_norm": 1005.85
+            },
+            {
+              "name": "ventana.",
+              "dwell": 394,
+              "len": 8,
+              "pos": "NOUN",
+              "freq_abs": 9056,
+              "freq_norm": 59.36
+            }
+          ]
+        }
+      ]
+    },
+    {
+    	"children":[
+    		{
+    			"children": [
+    				            {
+              "name": "En",
+              "dwell": 191,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 4234281,
+              "freq_norm": 27755.16
+            },
+            {
+              "name": "la",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59
+            },
+            {
+              "name": "única",
+              "dwell": 0,
+              "len": 5,
+              "pos": "ADJ",
+              "freq_abs": 21076,
+              "freq_norm": 138.15
+            },
+            {
+              "name": "habitación",
+              "dwell": 0,
+              "len": 10,
+              "pos": "NOUN",
+              "freq_abs": 9889,
+              "freq_norm": 64.82
+            },
+            {
+              "name": "(cuyo",
+              "dwell": 0,
+              "len": 5,
+              "pos": "PRON",
+              "freq_abs": 0,
+              "freq_norm": 0.0
+            },
+            {
+              "name": "piso",
+              "dwell": 0,
+              "len": 4,
+              "pos": "NOUN",
+              "freq_abs": 9610,
+              "freq_norm": 62.99
+            },
+            {
+              "name": "es",
+              "dwell": 0,
+              "len": 2,
+              "pos": "AUX",
+              "freq_abs": 1019669,
+              "freq_norm": 6683.79
+            },
+            {
+              "name": "de",
+              "dwell": 0,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55
+            },
+            {
+              "name": "tierra",
+              "dwell": 0,
+              "len": 6,
+              "pos": "NOUN",
+              "freq_abs": 38352,
+              "freq_norm": 251.39
+            },
+            {
+              "name": "y",
+              "dwell": 0,
+              "len": 1,
+              "pos": "CONJ",
+              "freq_abs": 4180279,
+              "freq_norm": 27401.19
+            },
+            {
+              "name": "que",
+              "dwell": 0,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85
+            },
+            {
+              "name": "tiene",
+              "dwell": 0,
+              "len": 5,
+              "pos": "VERB",
+              "freq_abs": 147274,
+              "freq_norm": 965.36
+            },
+            {
+              "name": "la",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59
+            },
+            {
+              "name": "forma",
+              "dwell": 0,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 97165,
+              "freq_norm": 636.9
+            },
+            {
+              "name": "de",
+              "dwell": 0,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55
+            },
+            {
+              "name": "círculo)",
+              "dwell": 222,
+              "len": 8,
+              "pos": "NOUN",
+              "freq_abs": 0,
+              "freq_norm": 0.0
+            },
+            {
+              "name": "hay",
+              "dwell": 578,
+              "len": 3,
+              "pos": "AUX",
+              "freq_abs": 164940,
+              "freq_norm": 1081.16
+            },
+            {
+              "name": "una",
+              "dwell": 0,
+              "len": 3,
+              "pos": "DET",
+              "freq_abs": 1347603,
+              "freq_norm": 8833.36
+            },
+            {
+              "name": "mesa",
+              "dwell": 495,
+              "len": 4,
+              "pos": "NOUN",
+              "freq_abs": 21558,
+              "freq_norm": 141.3
+            },
+            {
+              "name": "de",
+              "dwell": 0,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55
+            },
+            {
+              "name": "maderas",
+              "dwell": 357,
+              "len": 7,
+              "pos": "NOUN",
+              "freq_abs": 982,
+              "freq_norm": 6.43
+            },
+            {
+              "name": "y",
+              "dwell": 172,
+              "len": 1,
+              "pos": "CONJ",
+              "freq_abs": 4180279,
+              "freq_norm": 27401.19
+            },
+            {
+              "name": "un",
+              "dwell": 241,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95
+            },
+            {
+              "name": "banco.",
+              "dwell": 0,
+              "len": 6,
+              "pos": "NOUN",
+              "freq_abs": 24341,
+              "freq_norm": 159.55
+            }
+    			]
+    		}
+    	]
+    },
+    {
+    	"children":[
+    		{
+    			"children": [
+    		{"name": "En",
+              "dwell": 483,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 4234281,
+              "freq_norm": 27755.16
+            },
+            {
+              "name": "esa",
+              "dwell": 191,
+              "len": 3,
+              "pos": "DET",
+              "freq_abs": 115377,
+              "freq_norm": 756.28
+            },
+            {
+              "name": "celda",
+              "dwell": 166,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 2411,
+              "freq_norm": 15.8
+            },
+            {
+              "name": "circular,",
+              "dwell": 283,
+              "len": 9,
+              "pos": "ADJ",
+              "freq_abs": 3352,
+              "freq_norm": 21.97
+            },
+            {
+              "name": "un",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95
+            },
+            {
+              "name": "hombre",
+              "dwell": 293,
+              "len": 6,
+              "pos": "NOUN",
+              "freq_abs": 80152,
+              "freq_norm": 525.38
+            },
+            {
+              "name": "que",
+              "dwell": 379,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85
+            },
+            {
+              "name": "se",
+              "dwell": 0,
+              "len": 2,
+              "pos": "PRON",
+              "freq_abs": 2022514,
+              "freq_norm": 13257.31
+            },
+            {
+              "name": "parece",
+              "dwell": 680,
+              "len": 6,
+              "pos": "VERB",
+              "freq_abs": 54554,
+              "freq_norm": 357.59
+            },
+            {
+              "name": "a",
+              "dwell": 148,
+              "len": 1,
+              "pos": "ADP",
+              "freq_abs": 3260939,
+              "freq_norm": 21375.03
+            },
+            {
+              "name": "mi",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 186360,
+              "freq_norm": 1221.56
+            },
+            {
+              "name": "escribe",
+              "dwell": 386,
+              "len": 7,
+              "pos": "NOUN",
+              "freq_abs": 5958,
+              "freq_norm": 39.05
+            },
+            {
+              "name": "en",
+              "dwell": 65,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 4234281,
+              "freq_norm": 27755.16
+            },
+            {
+              "name": "caracteres",
+              "dwell": 574,
+              "len": 10,
+              "pos": "NOUN",
+              "freq_abs": 2772,
+              "freq_norm": 18.17
+            },
+            {
+              "name": "que",
+              "dwell": 286,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85
+            },
+            {
+              "name": "no",
+              "dwell": 0,
+              "len": 2,
+              "pos": "ADV",
+              "freq_abs": 1465503,
+              "freq_norm": 9606.18
+            },
+            {
+              "name": "comprendo",
+              "dwell": 415,
+              "len": 9,
+              "pos": "VERB",
+              "freq_abs": 1875,
+              "freq_norm": 12.29
+            },
+            {
+              "name": "un",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95
+            },
+            {
+              "name": "largo",
+              "dwell": 262,
+              "len": 5,
+              "pos": "ADJ",
+              "freq_abs": 37315,
+              "freq_norm": 244.59
+            },
+            {
+              "name": "poema",
+              "dwell": 386,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 4031,
+              "freq_norm": 26.42
+            },
+            {
+              "name": "sobre",
+              "dwell": 246,
+              "len": 5,
+              "pos": "ADP",
+              "freq_abs": 289704,
+              "freq_norm": 1898.97
+            },
+            {
+              "name": "un",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95
+            },
+            {
+              "name": "hombre",
+              "dwell": 219,
+              "len": 6,
+              "pos": "NOUN",
+              "freq_abs": 80152,
+              "freq_norm": 525.38
+            },
+            {
+              "name": "que",
+              "dwell": 0,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85
+            },
+            {
+              "name": "en",
+              "dwell": 200,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 4234281,
+              "freq_norm": 27755.16
+            },
+            {
+              "name": "otra",
+              "dwell": 248,
+              "len": 4,
+              "pos": "DET",
+              "freq_abs": 113982,
+              "freq_norm": 747.13
+            },
+            {
+              "name": "celda",
+              "dwell": 0,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 2411,
+              "freq_norm": 15.8
+            },
+            {
+              "name": "circular",
+              "dwell": 0,
+              "len": 8,
+              "pos": "ADJ",
+              "freq_abs": 3352,
+              "freq_norm": 21.97
+            },
+            {
+              "name": "escribe",
+              "dwell": 326,
+              "len": 7,
+              "pos": "VERB",
+              "freq_abs": 5958,
+              "freq_norm": 39.05
+            },
+            {
+              "name": "un",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95
+            },
+            {
+              "name": "poema",
+              "dwell": 309,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 4031,
+              "freq_norm": 26.42
+            },
+            {
+              "name": "sobre",
+              "dwell": 316,
+              "len": 5,
+              "pos": "ADP",
+              "freq_abs": 289704,
+              "freq_norm": 1898.97
+            },
+            {
+              "name": "un",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95
+            },
+            {
+              "name": "hombre",
+              "dwell": 231,
+              "len": 6,
+              "pos": "NOUN",
+              "freq_abs": 80152,
+              "freq_norm": 525.38
+            },
+            {
+              "name": "que",
+              "dwell": 0,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85
+            },
+            {
+              "name": "en",
+              "dwell": 318,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 4234281,
+              "freq_norm": 27755.16
+            },
+            {
+              "name": "otra",
+              "dwell": 0,
+              "len": 4,
+              "pos": "DET",
+              "freq_abs": 113982,
+              "freq_norm": 747.13
+            },
+            {
+              "name": "celda",
+              "dwell": 148,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 2411,
+              "freq_norm": 15.8
+            },
+             {
+              "name": "circular…El",
+              "dwell": 303,
+              "len": 11,
+              "pos": "ADJ",
+              "freq_abs": 0,
+              "freq_norm": 0.0
+            }
+    			]
+    		}
+    	]
+    },
+    {
+    	"children":[
+    		{
+    			"children": [
+    				           
+            {
+              "name": "proceso",
+              "dwell": 304,
+              "len": 7,
+              "pos": "DET",
+              "freq_abs": 48064,
+              "freq_norm": 315.05
+            },
+            {
+              "name": "no",
+              "dwell": 48,
+              "len": 2,
+              "pos": "NOUN",
+              "freq_abs": 1465503,
+              "freq_norm": 9606.18
+            },
+            {
+              "name": "tiene",
+              "dwell": 293,
+              "len": 5,
+              "pos": "ADV",
+              "freq_abs": 147274,
+              "freq_norm": 965.36
+            },
+            {
+              "name": "fin",
+              "dwell": 179,
+              "len": 3,
+              "pos": "VERB",
+              "freq_abs": 59108,
+              "freq_norm": 387.44
+            },
+            {
+              "name": "y",
+              "dwell": 86,
+              "len": 1,
+              "pos": "NOUN",
+              "freq_abs": 4180279,
+              "freq_norm": 27401.19
+            },
+            {
+              "name": "nadie",
+              "dwell": 375,
+              "len": 5,
+              "pos": "CONJ",
+              "freq_abs": 49689,
+              "freq_norm": 325.7
+            },
+            {
+              "name": "podrá",
+              "dwell": 610,
+              "len": 5,
+              "pos": "PRON",
+              "freq_abs": 15804,
+              "freq_norm": 103.59
+            },
+            {
+              "name": "leer",
+              "dwell": 0,
+              "len": 4,
+              "pos": "AUX",
+              "freq_abs": 9200,
+              "freq_norm": 60.3
+            },
+            {
+              "name": "lo",
+              "dwell": 350,
+              "len": 2,
+              "pos": "VERB",
+              "freq_abs": 866955,
+              "freq_norm": 5682.77
+            },
+            {
+              "name": "que",
+              "dwell": 0,
+              "len": 3,
+              "pos": "DET",
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85
+            },
+            {
+              "name": "los",
+              "dwell": 148,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 2618657,
+              "freq_norm": 17164.95
+            },
+            {
+              "name": "prisioneros",
+              "dwell": 362,
+              "len": 11,
+              "pos": "DET",
+              "freq_abs": 1966,
+              "freq_norm": 12.88
+            },
+            {
+              "name": "escriben.",
+              "dwell": 269,
+              "len": 9,
+              "pos": "NOUN",
+              "freq_abs": 1018,
+              "freq_norm": 6.67
+            }
+    			]
+    		}
+    	]
+    }
+
+
+  ]
+}
