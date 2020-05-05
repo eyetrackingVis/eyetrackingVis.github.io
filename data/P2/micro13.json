@@ -152,7 +152,8 @@
               "len": 7,
               "pos": "VERB",
               "freq_abs": 5084,
-              "freq_norm": 33.32
+              "freq_norm": 33.32,
+              "break_line": true
             },
             {
               "name": "la",
@@ -160,7 +161,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 6277560,
-              "freq_norm": 41148.59
+              "freq_norm": 41148.59,
+              "new_line": true
             },
             {
               "name": "lápida",
@@ -296,7 +298,8 @@
               "len": 3,
               "pos": "ADP",
               "freq_abs": 1857225,
-              "freq_norm": 12173.87
+              "freq_norm": 12173.87,
+              "break_line": true
             },
             {
               "name": "panteón.",
@@ -304,7 +307,8 @@
               "len": 8,
               "pos": "NOUN",
               "freq_abs": 752,
-              "freq_norm": 4.92
+              "freq_norm": 4.92,
+              "new_line": true
             }
     			]
     		}
@@ -456,7 +460,8 @@
               "len": 11,
               "pos": "NOUN",
               "freq_abs": 22402,
-              "freq_norm": 146.84
+              "freq_norm": 146.84,
+              "break_line": true
             },
             {
               "name": "logró",
@@ -464,7 +469,8 @@
               "len": 5,
               "pos": "VERB",
               "freq_abs": 9289,
-              "freq_norm": 60.88
+              "freq_norm": 60.88,
+              "new_line": true
             },
             {
               "name": "tranquilizarlo.",
@@ -482,7 +488,7 @@
     	"children": [
     		{
     			"children": [
-    				            {
+    				{
               "name": "“No",
               "dwell": 200,
               "len": 3,
@@ -557,6 +563,6 @@
     			]
     		}
     	]
-    },
+    }
   ]
 }
