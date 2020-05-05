@@ -16,7 +16,8 @@
               "new_line": true,
               "pos": "ADP",
               "freq_abs": 1481607,
-              "freq_norm": 9711.74
+              "freq_norm": 9711.74,
+              "id": 0
             },
             {
               "name": "el",
@@ -24,7 +25,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 4569652,
-              "freq_norm": 29953.48
+              "freq_norm": 29953.48,
+              "id": 1
             },
             {
               "name": "lógico",
@@ -32,7 +34,8 @@
               "len": 6,
               "pos": "ADJ",
               "freq_abs": 5304,
-              "freq_norm": 34.76
+              "freq_norm": 34.76,
+              "id": 2
             },
             {
               "name": "nerviosismo",
@@ -40,7 +43,8 @@
               "len": 11,
               "pos": "NOUN",
               "freq_abs": 1169,
-              "freq_norm": 7.66
+              "freq_norm": 7.66,
+              "id": 3
             },
             {
               "name": "de",
@@ -48,7 +52,8 @@
               "len": 2,
               "pos": "ADP",
               "freq_abs": 9999518,
-              "freq_norm": 65545.55
+              "freq_norm": 65545.55,
+              "id": 4
             },
             {
               "name": "la",
@@ -56,7 +61,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 6277560,
-              "freq_norm": 41148.59
+              "freq_norm": 41148.59,
+              "id": 5
             },
             {
               "name": "primera",
@@ -64,7 +70,8 @@
               "len": 7,
               "pos": "ADJ",
               "freq_abs": 83428,
-              "freq_norm": 546.85
+              "freq_norm": 546.85,
+              "id": 6
             },
             {
               "name": "noche,",
@@ -72,7 +79,8 @@
               "len": 6,
               "pos": "NOUN",
               "freq_abs": 55281,
-              "freq_norm": 362.35
+              "freq_norm": 362.35,
+              "id": 7
             },
             {
               "name": "el",
@@ -80,7 +88,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 4569652,
-              "freq_norm": 29953.48
+              "freq_norm": 29953.48,
+              "id": 8
             },
             {
               "name": "hijo",
@@ -88,7 +97,8 @@
               "len": 4,
               "pos": "NOUN",
               "freq_abs": 30298,
-              "freq_norm": 198.59
+              "freq_norm": 198.59,
+              "id": 9
             },
             {
               "name": "del",
@@ -96,7 +106,8 @@
               "len": 3,
               "pos": "ADP",
               "freq_abs": 1857225,
-              "freq_norm": 12173.87
+              "freq_norm": 12173.87,
+              "id": 10
             },
             {
               "name": "sepulturero",
@@ -104,7 +115,8 @@
               "len": 11,
               "pos": "NOUN",
               "freq_abs": 76,
-              "freq_norm": 0.49
+              "freq_norm": 0.49,
+              "id": 11
             },
             {
               "name": "ayudó",
@@ -112,7 +124,8 @@
               "len": 5,
               "pos": "VERB",
               "freq_abs": 1806,
-              "freq_norm": 11.83
+              "freq_norm": 11.83,
+              "id": 12
             },
             {
               "name": "a",
@@ -120,7 +133,8 @@
               "len": 1,
               "pos": "ADP",
               "freq_abs": 3260939,
-              "freq_norm": 21375.03
+              "freq_norm": 21375.03,
+              "id": 13
             },
             {
               "name": "su",
@@ -128,7 +142,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 1103617,
-              "freq_norm": 7234.06
+              "freq_norm": 7234.06,
+              "id": 14
             },
             {
               "name": "padre",
@@ -136,7 +151,8 @@
               "len": 5,
               "pos": "NOUN",
               "freq_abs": 45236,
-              "freq_norm": 296.51
+              "freq_norm": 296.51,
+              "id": 15
             },
             {
               "name": "a",
@@ -144,7 +160,8 @@
               "len": 1,
               "pos": "ADP",
               "freq_abs": 3260939,
-              "freq_norm": 21375.03
+              "freq_norm": 21375.03,
+              "id": 16
             },
             {
               "name": "colocar",
@@ -152,7 +169,8 @@
               "len": 7,
               "pos": "VERB",
               "freq_abs": 5084,
-              "freq_norm": 33.32
+              "freq_norm": 33.32,
+              "id": 17
             },
             {
               "name": "la",
@@ -160,7 +178,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 6277560,
-              "freq_norm": 41148.59
+              "freq_norm": 41148.59,
+              "id": 18
             },
             {
               "name": "lápida",
@@ -168,7 +187,8 @@
               "len": 6,
               "pos": "NOUN",
               "freq_abs": 333,
-              "freq_norm": 2.18
+              "freq_norm": 2.18,
+              "id": 19
             },
             {
               "name": "de",
@@ -176,7 +196,8 @@
               "len": 2,
               "pos": "ADP",
               "freq_abs": 9999518,
-              "freq_norm": 65545.55
+              "freq_norm": 65545.55,
+              "id": 20
             },
             {
               "name": "una",
@@ -184,7 +205,8 @@
               "len": 3,
               "pos": "DET",
               "freq_abs": 1347603,
-              "freq_norm": 8833.36
+              "freq_norm": 8833.36,
+              "id": 21
             },
             {
               "name": "tumba.",
@@ -192,23 +214,25 @@
               "len": 6,
               "pos": "NOUN",
               "freq_abs": 2899,
-              "freq_norm": 19.0
+              "freq_norm": 19.0,
+              "id": 22
             }
           ]
         }
       ]
     },
     {
-    	"children": [
-    		{
-    			"children": [
-    				            {
+      "children": [
+        {
+          "children": [
+            {
               "name": "Mientras",
               "dwell": 323,
               "len": 8,
               "pos": "SCONJ",
               "freq_abs": 82630,
-              "freq_norm": 541.62
+              "freq_norm": 541.62,
+              "id": 23
             },
             {
               "name": "sostenía",
@@ -216,7 +240,8 @@
               "len": 8,
               "pos": "VERB",
               "freq_abs": 1363,
-              "freq_norm": 8.93
+              "freq_norm": 8.93,
+              "id": 24
             },
             {
               "name": "el",
@@ -224,7 +249,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 4569652,
-              "freq_norm": 29953.48
+              "freq_norm": 29953.48,
+              "id": 25
             },
             {
               "name": "mármol,",
@@ -232,7 +258,8 @@
               "len": 7,
               "pos": "NOUN",
               "freq_abs": 1911,
-              "freq_norm": 12.52
+              "freq_norm": 12.52,
+              "id": 26
             },
             {
               "name": "escuchó",
@@ -240,7 +267,8 @@
               "len": 7,
               "pos": "VERB",
               "freq_abs": 2629,
-              "freq_norm": 17.23
+              "freq_norm": 17.23,
+              "id": 27
             },
             {
               "name": "golpes",
@@ -248,7 +276,8 @@
               "len": 6,
               "pos": "NOUN",
               "freq_abs": 5277,
-              "freq_norm": 34.59
+              "freq_norm": 34.59,
+              "id": 28
             },
             {
               "name": "y",
@@ -256,7 +285,8 @@
               "len": 1,
               "pos": "CONJ",
               "freq_abs": 4180279,
-              "freq_norm": 27401.19
+              "freq_norm": 27401.19,
+              "id": 29
             },
             {
               "name": "gritos",
@@ -264,7 +294,8 @@
               "len": 6,
               "pos": "NOUN",
               "freq_abs": 5566,
-              "freq_norm": 36.48
+              "freq_norm": 36.48,
+              "id": 30
             },
             {
               "name": "en",
@@ -272,7 +303,8 @@
               "len": 2,
               "pos": "ADP",
               "freq_abs": 4234281,
-              "freq_norm": 27755.16
+              "freq_norm": 27755.16,
+              "id": 31
             },
             {
               "name": "el",
@@ -280,7 +312,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 4569652,
-              "freq_norm": 29953.48
+              "freq_norm": 29953.48,
+              "id": 32
             },
             {
               "name": "interior",
@@ -288,7 +321,8 @@
               "len": 8,
               "pos": "NOUN",
               "freq_abs": 31198,
-              "freq_norm": 204.49
+              "freq_norm": 204.49,
+              "id": 33
             },
             {
               "name": "del",
@@ -296,7 +330,8 @@
               "len": 3,
               "pos": "ADP",
               "freq_abs": 1857225,
-              "freq_norm": 12173.87
+              "freq_norm": 12173.87,
+              "id": 34
             },
             {
               "name": "panteón.",
@@ -304,23 +339,25 @@
               "len": 8,
               "pos": "NOUN",
               "freq_abs": 752,
-              "freq_norm": 4.92
+              "freq_norm": 4.92,
+              "id": 35
             }
-    			]
-    		}
-    	]
+          ]
+        }
+      ]
     },
     {
-    	"children": [
-    		{
-    			"children": [
-    				            {
+      "children": [
+        {
+          "children": [
+            {
               "name": "Miró",
               "dwell": 354,
               "len": 4,
               "pos": "VERB",
               "freq_abs": 8751,
-              "freq_norm": 57.36
+              "freq_norm": 57.36,
+              "id": 36
             },
             {
               "name": "a",
@@ -328,7 +365,8 @@
               "len": 1,
               "pos": "ADP",
               "freq_abs": 3260939,
-              "freq_norm": 21375.03
+              "freq_norm": 21375.03,
+              "id": 37
             },
             {
               "name": "su",
@@ -336,7 +374,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 1103617,
-              "freq_norm": 7234.06
+              "freq_norm": 7234.06,
+              "id": 38
             },
             {
               "name": "padre",
@@ -344,7 +383,8 @@
               "len": 5,
               "pos": "NOUN",
               "freq_abs": 45236,
-              "freq_norm": 296.51
+              "freq_norm": 296.51,
+              "id": 39
             },
             {
               "name": "con",
@@ -352,7 +392,8 @@
               "len": 3,
               "pos": "ADP",
               "freq_abs": 1481607,
-              "freq_norm": 9711.74
+              "freq_norm": 9711.74,
+              "id": 40
             },
             {
               "name": "el",
@@ -360,7 +401,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 4569652,
-              "freq_norm": 29953.48
+              "freq_norm": 29953.48,
+              "id": 41
             },
             {
               "name": "rostro",
@@ -368,7 +410,8 @@
               "len": 6,
               "pos": "NOUN",
               "freq_abs": 13200,
-              "freq_norm": 86.52
+              "freq_norm": 86.52,
+              "id": 42
             },
             {
               "name": "desencajado",
@@ -376,7 +419,8 @@
               "len": 11,
               "pos": "ADJ",
               "freq_abs": 144,
-              "freq_norm": 0.94
+              "freq_norm": 0.94,
+              "id": 43
             },
             {
               "name": "por",
@@ -384,7 +428,8 @@
               "len": 3,
               "pos": "ADP",
               "freq_abs": 1561904,
-              "freq_norm": 10238.07
+              "freq_norm": 10238.07,
+              "id": 44
             },
             {
               "name": "el",
@@ -392,7 +437,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 4569652,
-              "freq_norm": 29953.48
+              "freq_norm": 29953.48,
+              "id": 45
             },
             {
               "name": "terror.",
@@ -400,23 +446,25 @@
               "len": 7,
               "pos": "NOUN",
               "freq_abs": 4177,
-              "freq_norm": 27.37
+              "freq_norm": 27.37,
+              "id": 46
             }
-    			]
-    		}
-    	]
+          ]
+        }
+      ]
     },
     {
-    	"children": [
-    		{
-    			"children": [
-    				            {
+      "children": [
+        {
+          "children": [
+            {
               "name": "Pero",
               "dwell": 0,
               "len": 4,
               "pos": "CONJ",
               "freq_abs": 450512,
-              "freq_norm": 2953.04
+              "freq_norm": 2953.04,
+              "id": 47
             },
             {
               "name": "la",
@@ -424,7 +472,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 6277560,
-              "freq_norm": 41148.59
+              "freq_norm": 41148.59,
+              "id": 48
             },
             {
               "name": "voz",
@@ -432,7 +481,8 @@
               "len": 3,
               "pos": "NOUN",
               "freq_abs": 34982,
-              "freq_norm": 229.3
+              "freq_norm": 229.3,
+              "id": 49
             },
             {
               "name": "de",
@@ -440,7 +490,8 @@
               "len": 2,
               "pos": "ADP",
               "freq_abs": 9999518,
-              "freq_norm": 65545.55
+              "freq_norm": 65545.55,
+              "id": 50
             },
             {
               "name": "la",
@@ -448,7 +499,8 @@
               "len": 2,
               "pos": "DET",
               "freq_abs": 6277560,
-              "freq_norm": 41148.59
+              "freq_norm": 41148.59,
+              "id": 51
             },
             {
               "name": "experiencia",
@@ -456,7 +508,8 @@
               "len": 11,
               "pos": "NOUN",
               "freq_abs": 22402,
-              "freq_norm": 146.84
+              "freq_norm": 146.84,
+              "id": 52
             },
             {
               "name": "logró",
@@ -464,7 +517,8 @@
               "len": 5,
               "pos": "VERB",
               "freq_abs": 9289,
-              "freq_norm": 60.88
+              "freq_norm": 60.88,
+              "id": 53
             },
             {
               "name": "tranquilizarlo.",
@@ -472,23 +526,25 @@
               "len": 15,
               "pos": "PROPN",
               "freq_abs": 66,
-              "freq_norm": 0.43
+              "freq_norm": 0.43,
+              "id": 54
             }
-    			]
-    		}
-    	]
+          ]
+        }
+      ]
     },
     {
-    	"children": [
-    		{
-    			"children": [
-    				            {
+      "children": [
+        {
+          "children": [
+            {
               "name": "“No",
               "dwell": 160,
               "len": 3,
               "pos": "ADV",
               "freq_abs": 0,
-              "freq_norm": 0.0
+              "freq_norm": 0.0,
+              "id": 55
             },
             {
               "name": "te",
@@ -496,7 +552,8 @@
               "len": 2,
               "pos": "PRON",
               "freq_abs": 120052,
-              "freq_norm": 786.92
+              "freq_norm": 786.92,
+              "id": 56
             },
             {
               "name": "preocupes.",
@@ -504,7 +561,8 @@
               "len": 10,
               "pos": "VERB",
               "freq_abs": 1294,
-              "freq_norm": 8.48
+              "freq_norm": 8.48,
+              "id": 57
             },
             {
               "name": "Es",
@@ -512,7 +570,8 @@
               "len": 2,
               "pos": "AUX",
               "freq_abs": 1019669,
-              "freq_norm": 6683.79
+              "freq_norm": 6683.79,
+              "id": 58
             },
             {
               "name": "normal.",
@@ -520,7 +579,8 @@
               "len": 7,
               "pos": "ADJ",
               "freq_abs": 12289,
-              "freq_norm": 80.55
+              "freq_norm": 80.55,
+              "id": 59
             },
             {
               "name": "Enseguida",
@@ -528,7 +588,8 @@
               "len": 9,
               "pos": "ADV",
               "freq_abs": 4379,
-              "freq_norm": 28.7
+              "freq_norm": 28.7,
+              "id": 60
             },
             {
               "name": "se",
@@ -536,7 +597,8 @@
               "len": 2,
               "pos": "PRON",
               "freq_abs": 2022514,
-              "freq_norm": 13257.31
+              "freq_norm": 13257.31,
+              "id": 61
             },
             {
               "name": "les",
@@ -544,7 +606,8 @@
               "len": 3,
               "pos": "PRON",
               "freq_abs": 86363,
-              "freq_norm": 566.09
+              "freq_norm": 566.09,
+              "id": 62
             },
             {
               "name": "pasa”.",
@@ -552,11 +615,12 @@
               "len": 6,
               "pos": "VERB",
               "freq_abs": 0,
-              "freq_norm": 0.0
+              "freq_norm": 0.0,
+              "id": 63
             }
-    			]
-    		}
-    	]
-    },
+          ]
+        }
+      ]
+    }
   ]
 }

@@ -1,150 +1,289 @@
-
-
+{
+  "name": "MICROSTORY",
+  "children": [
     {
-    "name": "MICROSTORY", "children": [
-    {
-    "name": "Oración 1",
-    "full": "Oración 1",
-    "children": [
-    {
-    "name": "Frase 1",
-    "full": "Frase 1",
-    "children" : [
-
-    {
-                  "name": "El ",
-                  "dwell": 514,
-                  "len": 3,
-                  "new_line":true
-              },{
-                  "name": "hombre ",
-                  "dwell": 191,
-                  "len": 7
-              },{
-                  "name": "que ",
-                  "dwell": 0,
-                  "len": 4
-              },{
-                  "name": "amé ",
-                  "dwell": 0,
-                  "len": 4
-              },{
-                  "name": "se ",
-                  "dwell": 0,
-                  "len": 3
-              },{
-                  "name": "ha ",
-                  "dwell": 435,
-                  "len": 3
-              },{
-                  "name": "convertido ",
-                  "dwell": 0,
-                  "len": 11
-              },{
-                  "name": "en ",
-                  "dwell": 0,
-                  "len": 3
-              },{
-                  "name": "fantasma. ",
-                  "dwell": 0,
-                  "len": 10
-              }
-        ]
-        }
-        ]
-        },
+      "name": "Oración 1",
+      "full": "Oración 1",
+      "children": [
         {
+          "name": "Frase 1",
+          "full": "Frase 1",
           "children": [
             {
-              "children": [
-
-              {
-                  "name": "Me ",
-                  "dwell": 0,
-                  "len": 3
-              },{
-                  "name": "gusta ",
-                  "dwell": 231,
-                  "len": 6
-              },{
-                  "name": "ponerle ",
-                  "dwell": 245,
-                  "len": 8
-              },{
-                  "name": "mucho ",
-                  "dwell": 482,
-                  "len": 6
-              },{
-                  "name": "suavizante, ",
-                  "dwell": 442,
-                  "len": 12,
-                  "break_line": true
-              },{
-                  "name": "plancharlo ",
-                  "dwell": 397,
-                  "len": 11,
-                  "new_line": true
-              },{
-                  "name": "al ",
-                  "dwell": 0,
-                  "len": 3
-              },{
-                  "name": "vapor ",
-                  "dwell": 776,
-                  "len": 6
-              },{
-                  "name": "y ",
-                  "dwell": 0,
-                  "len": 2
-              },{
-                  "name": "usarlo ",
-                  "dwell": 857,
-                  "len": 7
-              },{
-                  "name": "como ",
-                  "dwell": 342,
-                  "len": 5
-              },{
-                  "name": "sábana ",
-                  "dwell": 426,
-                  "len": 7
-              },{
-                  "name": "bajera ",
-                  "dwell": 905,
-                  "len": 7
-              },{
-                  "name": "las ",
-                  "dwell": 0,
-                  "len": 4
-              },{
-                  "name": "noches ",
-                  "dwell": 551,
-                  "len": 7
-              },{
-                  "name": "que ",
-                  "dwell": 0,
-                  "len": 4
-              },{
-                  "name": "tengo ",
-                  "dwell": 1067,
-                  "len": 6
-              },{
-                  "name": "una ",
-                  "dwell": 0,
-                  "len": 4
-              },{
-                  "name": "cita ",
-                  "dwell": 169,
-                  "len": 5
-              },{
-                  "name": "prometedora.",
-                  "dwell": 792,
-                  "len": 12
-              }
-              ]
+              "name": "El",
+              "dwell": 514,
+              "len": 3,
+              "new_line": true,
+              "id": 0,
+              "freq_abs":4569652,
+              "freq_norm":29953.48,
+              "pos": "DET"
+            },
+            {
+              "name": "hombre",
+              "dwell": 191,
+              "len": 7,
+              "id": 1,
+              "freq_abs":80152,
+              "freq_norm":525.38,
+              "pos": "NOUN"
+            },
+            {
+              "name": "que",
+              "dwell": 0,
+              "len": 4,
+              "id": 2,
+              "freq_abs":4681839,
+              "freq_norm":30688.85,
+              "pos": "PRON"
+            },
+            {
+              "name": "amé",
+              "dwell": 0,
+              "len": 4,
+              "id": 3,
+              "freq_abs":170,
+              "freq_norm":1.11,
+              "pos": "VERB"
+            },
+            {
+              "name": "se",
+              "dwell": 0,
+              "len": 3,
+              "id": 4,
+              "freq_abs":2022514,
+              "freq_norm":13257.31,
+              "pos": "PRON"
+            },
+            {
+              "name": "ha",
+              "dwell": 435,
+              "len": 3,
+              "id": 5,
+              "freq_abs":380339,
+              "freq_norm":2493.07,
+              "pos": "VERB"
+            },
+            {
+              "name": "convertido",
+              "dwell": 0,
+              "len": 11,
+              "id": 6,
+              "freq_abs":9755,
+              "freq_norm":63.94,
+              "pos": "VERB"
+            },
+            {
+              "name": "en",
+              "dwell": 0,
+              "len": 3,
+              "id": 7,
+              "freq_abs":4234281,
+              "freq_norm":27755.16,
+              "pos": "ADP"
+            },
+            {
+              "name": "fantasma.",
+              "dwell": 0,
+              "len": 10,
+              "id": 8,
+              "freq_abs":2699,
+              "freq_norm":17.69,
+              "pos": "NOUN"
             }
           ]
         }
-        ]
+      ]
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "Me",
+              "dwell": 0,
+              "len": 3,
+              "id": 9,
+              "freq_abs":374368,
+              "freq_norm":2453.93,
+              "pos": "PRON"
+            },
+            {
+              "name": "gusta",
+              "dwell": 231,
+              "len": 6,
+              "id": 10,
+              "freq_abs":12748,
+              "freq_norm":83.56,
+              "pos": "VERB"
+            },
+            {
+              "name": "ponerle",
+              "dwell": 245,
+              "len": 8,
+              "id": 11,
+              "freq_abs":1373,
+              "freq_norm":8.99,
+              "pos": "VERB"
+            },
+            {
+              "name": "mucho",
+              "dwell": 482,
+              "len": 6,
+              "id": 12,
+              "freq_abs": 83240,
+              "freq_norm": 545.62,
+              "pos": "ADV"
+            },
+            {
+              "name": "suavizante,",
+              "dwell": 442,
+              "len": 12,
+              "break_line": true,
+              "id": 13,
+              "freq_abs":31,     
+              "freq_norm":0.20,
+              "pos": "ADJ"
+            },
+            {
+              "name": "plancharlo",
+              "dwell": 397,
+              "len": 11,
+              "new_line": true,
+              "id": 14,
+              "freq_abs":1,
+              "freq_norm":0.00,
+              "pos": "VERB"
+            },
+            {
+              "name": "al",
+              "dwell": 0,
+              "len": 3,
+              "id": 15,
+              "freq_abs":951054,
+              "freq_norm":6234.03,
+              "pos": "ADP"
+            },
+            {
+              "name": "vapor",
+              "dwell": 776,
+              "len": 6,
+              "id": 16,
+              "freq_abs":2785,
+              "freq_norm":18.25,
+              "pos": "NOUN"
+            },
+            {
+              "name": "y",
+              "dwell": 0,
+              "len": 2,
+              "id": 17,
+              "freq_abs":4180279,
+              "freq_norm":27401.19,
+              "pos": "CONJ"
+            },
+            {
+              "name": "usarlo",
+              "dwell": 857,
+              "len": 7,
+              "id": 18,
+              "freq_abs":405,
+              "freq_norm":2.65,
+              "pos": "VERB"
+            },
+            {
+              "name": "como",
+              "dwell": 342,
+              "len": 5,
+              "id": 19,
+              "freq_abs":773465,
+              "freq_norm":5069.96,
+              "pos": "ADP"
+            },
+            {
+              "name": "sábana",
+              "dwell": 426,
+              "len": 7,
+              "id": 20,
+              "freq_abs":997,
+              "freq_norm":6.53,
+              "pos": "NOUN"
+            },
+            {
+              "name": "bajera",
+              "dwell": 905,
+              "len": 7,
+              "id": 21,
+              "freq_abs":11,
+              "freq_norm":0.07,
+              "pos": "NOUN"
+            },
+            {
+              "name": "las",
+              "dwell": 0,
+              "len": 4,
+              "id": 22,
+              "freq_abs":1686741,
+              "freq_norm":11056.37,
+              "pos": "DET"
+            },
+            {
+              "name": "noches",
+              "dwell": 551,
+              "len": 7,
+              "id": 23,
+              "freq_abs":8157,
+              "freq_norm":53.46,
+              "pos": "NOUN"
+            },
+            {
+              "name": "que",
+              "dwell": 0,
+              "len": 4,
+              "id": 24,
+              "freq_abs":4681839,
+              "freq_norm":30688.85,
+              "pos": "PRON"
+            },
+            {
+              "name": "tengo",
+              "dwell": 1067,
+              "len": 6,
+              "id": 25,
+              "freq_abs":32413,
+              "freq_norm":212.46,
+              "pos": "VERB"
+            },
+            {
+              "name": "una",
+              "dwell": 0,
+              "len": 4,
+              "id": 26,
+              "freq_abs":1347603,
+              "freq_norm":8833.36,
+              "pos": "DET"
+            },
+            {
+              "name": "cita",
+              "dwell": 169,
+              "len": 5,
+              "id": 27,
+              "freq_abs":7581,
+              "freq_norm":49.69,
+              "pos": "NOUN"
+            },
+            {
+              "name": "prometedora.",
+              "dwell": 792,
+              "len": 12,
+              "id": 28,
+              "freq_abs":269,
+              "freq_norm":1.76,
+              "pos": "ADJ"
+            }
+          ]
         }
-    
+      ]
+    }
+  ]
+}
