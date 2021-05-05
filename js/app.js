@@ -121,7 +121,7 @@ function create_plot(nodeData, data_links){
   var axisGrid = g.append("g").attr("class", "axisWrapper");
   
   //Draw the background circles
-  var circles_background = axisGrid.selectAll(".levels")
+  axisGrid.selectAll(".levels")
       .data(d3.range(1,(5+1)).reverse())
       .enter()
       .append("circle")
@@ -134,8 +134,6 @@ function create_plot(nodeData, data_links){
 
   const min = d3.min(root.descendants().filter(l => l.depth == 3), l => l.data.dwell)
   const max = d3.max(root.descendants().filter(l => l.depth == 3), l => l.data.dwell)
-
-  const offset_diff = (10000 - 0) / 5
 
   const Format = d3.format(".0f")
 
@@ -250,6 +248,12 @@ function create_plot(nodeData, data_links){
 
   newSlice.call(texture)
 
+  let [min_freq, max_freq] = d3.extent(root.descendants().filter(l => l.depth==3), l => l.data.freq_norm)
+  let scale_freqs = d3.scaleLog().domain([max_freq, 1])
+    .range([d3.hcl('white').toString(), d3.hcl('gray').darker().toString()])
+    .clamp(true)
+
+
   const sections = newSlice
       .append('path')
       .attrs({
@@ -259,7 +263,7 @@ function create_plot(nodeData, data_links){
       })
       .styles({
         "stroke": "gray",
-        "fill": d => d.data.dwell?"white": texture.url()
+        "fill": d => d.data.dwell?scale_freqs(d.data.freq_norm): texture.stroke(scale_freqs(d.data.freq_norm)).url()
       })
       .on("dblclick",(d, i) => hdlClickLabel(d, i))
       .on("click", (d,i) => hdlDblClickLabel(d, i)) 
@@ -287,7 +291,7 @@ function create_plot(nodeData, data_links){
       })
 
   //Grafico donde es el cambio de linea
-  const break_lines = g.selectAll('sections')
+  g.selectAll('sections')
     .data(DATA).enter()
     .append("rect")
     .filter( l => l.data.break_line == true)
@@ -325,16 +329,10 @@ function create_plot(nodeData, data_links){
 
 
   const hdlDblClickLabel = function(d, i){
-    sections.style("fill", function(e){
-      if (SYNTAX_CLICKED)
-        return scaleSyntax(e.data.pos)
-      else
-        return e.data.dwell?"white":texture.url()
-    }).style("opacity", 1).style("stroke-width", 1)
-
+    sections.style("stroke-width", 1).style("stroke", "gray")
     transitions.style("opacity", 1)
     lines_starplot.style("stroke", "lightgray").style("opacity", 1)
-    d3.selectAll(".microstory a").style("background-color", "white").style("border","white")
+    d3.selectAll(".microstory a").style("border","white")
     d3.selectAll(".subshape").remove().exit()
   }
 
@@ -356,27 +354,15 @@ function create_plot(nodeData, data_links){
       })
 
       sections
-        .style("fill", function(e, j){
-          if (SYNTAX_CLICKED){
-            return scaleSyntax(e.data.pos)
-          }else{
-             if (aois_related.has(j))
-              return j == i ? "gray": "lightgray"
-            else
-              return e.data.dwell?"white":texture.url()
-          }
+        .style("stroke", function(e, j){
+          if (aois_related.has(j))
+            return j==i?"red": "#ea5564"
+          else
+            return "gray"
         })
-        .style("opacity", function(e,j){
-          if (SYNTAX_CLICKED){
-            return aois_related.has(j)?1:0.1
-          }
-          return 1
-        })
-        .style("stroke-width", function(e, j){
-          if (SYNTAX_CLICKED){
-            return d==e?3:1
-          }
-          return 1
+        .style("stroke-width",function(e, j){
+          if (aois_related.has(j))
+            return j==i?"4px":"2px"
         })
 
       lines_starplot
@@ -387,16 +373,12 @@ function create_plot(nodeData, data_links){
         })
 
       aois_related.forEach(j =>{
-        let color;
-        if (SYNTAX_CLICKED){
-          color = scaleSyntax(DATA.filter(l => l.data.id == j)[0].data.pos)
-        }
-        else 
-          color = j == i ? "gray": "lightgray"
+        //let color = j == i ? "gray": "lightgray"
         d3.select("#w"+j)
           .styles({
-            "background-color": color,
-            "border": j==i?"solid black":"null"
+            //"background-color": color,
+            "border": j==i?"solid red":"solid #ea5564",
+            "border-width": j==i?"4px":"2px"
           })
       })
 
@@ -464,10 +446,6 @@ function create_plot(nodeData, data_links){
       "stroke": "lightgray"
     })
     .style("stroke-width", 0.5)
-
-  // const rScale = radius => d3.scaleLinear()
-  //     .range([0, radius]) 
-  //     .domain([0, max_dwell]);
 
   const rScale = radius => d3.scaleLog()
     .range([0, radius])
@@ -619,17 +597,6 @@ function create_plot(nodeData, data_links){
       return curveFunc(data)
   }
 
-  // d3.select(".tooltip2").remove()
-  // var tooltip = d3.select("#app")
-  //   .append("div")
-  //   .style("opacity", 0)
-  //   .attr("class", "tooltip2")
-
-
-  // var baseScaleTransitions = d3.scaleLinear()
-  //   .domain([data_links.length-1, 0])
-  //   .interpolate(d3.interpolateHsl)
-
   var scaleForwardTransitions = d3.scaleLinear()
       .domain([data_links.length-1, 0])
       .interpolate(d3.interpolateHsl)
@@ -664,17 +631,10 @@ function create_plot(nodeData, data_links){
     .attr("stroke-width", 3)
     .attr("d", (d, i) => line_trasitions(d, i))
     .on("dblclick", function(d, i){
-
-      plot_by_transition(d)
-
-      if (SYNTAX_CLICKED){
-        d3.select("#w"+d.osource).style("background-color", scaleSyntax(d.source.data.pos))
-        d3.select("#w"+d.otarget).style("background-color", scaleSyntax(d.target.data.pos))
-      }else{
-        d3.select("#w"+d.osource).style("background-color", "lightgray")
-        d3.select("#w"+d.otarget).style("background-color", "lightgray")
-      }
-
+      plot_by_transition(d)  
+      d3.select("#w"+d.osource).style("background-color", "lightgray")
+      d3.select("#w"+d.otarget).style("background-color", "lightgray")
+    
       sections
         .style("fill", function(e, j){
           if (SYNTAX_CLICKED){
@@ -972,26 +932,11 @@ function create_plot(nodeData, data_links){
         .append("a")
         .attr("id", "w"+j)
         .text(e.data.name+" ")
+        .style("background-color", d => scale_freqs(d.data.freq_norm))
         .on("mouseover", d => hdlClickLabel(d, j))
         .on("mouseleave", d => hdlDblClickLabel(d, j))
+
     })
-
-
-  var offset = d3.scaleLinear()
-    .domain(d3.range(8, 13))
-    .range(d3.range(20, 35))
-
-  var corrimiento = offset(pos_words.size)
-
-  var canvas_pos = selector.append("svg")
-      .attrs({
-          'width': "700",
-          'height': 150,
-          'opacity': 0
-      }).append("g").attr("transform","translate("+corrimiento+",75)")
-
-
-  plot_pos_legend(canvas_pos, scaleSyntax, pos_words)
 
   plot_colorbar(g, scaleColorPupil)
   plot_legends(g)
@@ -1077,15 +1022,15 @@ function updateChart(number=1, subject=1){
 
         create_plot(nodeData, data_links)
       })
-      .catch(function(err){
-        d3.selectAll("svg").remove()
-        d3.selectAll(".microstory p").remove()
-        Swal.fire({
-          title: 'Note',
-          icon: 'info',
-          text: "This microstory was removed for analysis due to artifacts or errors."
-        })
-      })
+      // .catch(function(err){
+      //   d3.selectAll("svg").remove()
+      //   d3.selectAll(".microstory p").remove()
+      //   Swal.fire({
+      //     title: 'Note',
+      //     icon: 'info',
+      //     text: "This microstory was removed for analysis due to artifacts or errors."
+      //   })
+      // })
 }
 
 updateChart()
