@@ -1,52 +1,17 @@
+/**
+ * Module to handle the filter panel for transitions
+ * @author Leandro
+ */
 
-
-
-// function set_limits(data_links){
-
-// 	const transitions = d3.selectAll(".transition")
-
-
-//     var features = ["amplitude", "duration", "avg_velocity", "peak_velocity", "angle"]
-
-//     features.forEach(function(d, i){
-
-//     	var max = d3.max(data_links, l => l[d])
-//     	var min = d3.min(data_links, l => l[d])
-
-   
-// 		max = Math.ceil(max)
-// 	    min = Math.floor(min)
-// 	    step = max-min
-
-// 	    $("#flt_"+d).jRange({
-// 		    from: min,
-// 		    to: max,
-// 		    step: 0.1,
-// 		    scale: d3.range(min, max+step,step),
-// 		    format: '%s',
-// 		    width: 300,
-// 		    showLabels: true,
-// 		    isRange : true,
-// 		    onstatechange: function(value){
-// 		    	var [min, max] = value.split(",")
-// 		    	transitions
-// 		    		.style("display", l => ((l[d]>=min) && (l[d]<=max))?null:"none")
-// 		    }
-// 		});
-
-//     })
-// }
+var state_filters_saccades = {}
 
 function set_limits(data_links){
 
 	const transitions = d3.selectAll(".transition")
 
-
     var features = ["amplitude", "duration", "avg_velocity", "peak_velocity", "angle"]
 
     features.forEach(function(d, i){
-
-    	let container_name = "."+d
 
     	if (d=="angle")
     		$("."+d).append('<input type="hidden" id="flt_' +d +'" value="-180,180"/>')
@@ -60,6 +25,8 @@ function set_limits(data_links){
 	    min = Math.floor(min)
 	    step = max-min
 
+		state_filters_saccades[d] = [min, max]
+
 	    $("#flt_"+d).jRange({
 		    from: min,
 		    to: max,
@@ -70,13 +37,18 @@ function set_limits(data_links){
 		    showLabels: true,
 		    isRange : true,
 		    onstatechange: function(value){
-		    	var [min_l, max_l] = value.split(",")
+				state_filters_saccades[d] = value.split(",")
+		
 		    	transitions
-		    		.style("display", l => ((l[d]>=min_l) && (l[d]<=max_l))?null:"none")
+		    		.style("display", function(l){
+						let filters_status = []
+						for (f in state_filters_saccades){
+							filters_status.push(((l[f]>=state_filters_saccades[f][0]) && (l[f]<=state_filters_saccades[f][1])))
+						}
+						return filters_status.every(e=>e==true)?null:"none"
+					})
 		    }
 		});
-
     })
-
 }
 
