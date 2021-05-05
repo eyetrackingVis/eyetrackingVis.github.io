@@ -14,24 +14,7 @@ var radius = 300 //Math.min(width-100, height-100) / 2;
 function create_plot(nodeData, data_links){
 
   //Global variables
-  var SYNTAX_CLICKED = false,
-      SENTENCETIME_CLICKED = false;
-
-  const pos = ["DET", "NOUN", "ADP", 
-                "PROPN", "ADJ", "VERB", 
-                "CONJ", "PRON", "AUX", 
-                "NUM", "SCONJ", "ADV"] 
-
-  const colors = ['#8dd3c7','#ffffb3','#bebada',
-                '#fb8072','#80b1d3','#fdb462',
-                '#b3de69','#fccde5','#d9d9d9',
-                '#bc80bd','#ccebc5','#ffed6f']
-
-
-  const scaleSyntax = d3.scaleOrdinal()
-    .domain(pos)
-    .range(colors)
-
+  var SENTENCETIME_CLICKED = false;
 
   d3.select("#btnSentenceTime").on("click", function(d, i){
     SENTENCETIME_CLICKED = SENTENCETIME_CLICKED?false:true
@@ -42,24 +25,6 @@ function create_plot(nodeData, data_links){
       .style("display", SENTENCETIME_CLICKED?null:"none")
   })
 
-
-  d3.select("#btnSyntax").on("click", function(d, i){
-
-    SYNTAX_CLICKED = SYNTAX_CLICKED?false:true
-    d3.select(this).text(SYNTAX_CLICKED?"HIDE POS TAGGING":"SHOW POS TAGGING")
-
-    if (SYNTAX_CLICKED){
-      sections
-        .style("fill", d => scaleSyntax(d.data.pos))
-      d3.select(".microstory svg").style("opacity", 1)
-    }
-    else{
-      sections
-        .style("fill", e => e.data.dwell?"white":texture.url())
-      d3.select(".microstory svg").style("opacity", 0)
-    }
-
-  })
 
   d3.selectAll("svg").remove()
 
@@ -84,9 +49,6 @@ function create_plot(nodeData, data_links){
   partition(root);
 
   const DATA = root.descendants().filter(l=>l.depth==3)
-
-  var pos_words = new Set(DATA.map(l => l.data.pos))
-
 
   var max_dwell = d3.max(DATA, l => l.data.dwell)
   var inner_radius = DATA[0]['y0']
@@ -132,22 +94,28 @@ function create_plot(nodeData, data_links){
       .style("fill-opacity", 0.1)
       .style("filter" , "black");
 
-  const min = d3.min(root.descendants().filter(l => l.depth == 3), l => l.data.dwell)
-  const max = d3.max(root.descendants().filter(l => l.depth == 3), l => l.data.dwell)
+  //const min = d3.min(root.descendants().filter(l => l.depth == 3), l => l.data.dwell)
+  //const max = d3.max(root.descendants().filter(l => l.depth == 3), l => l.data.dwell)
+
+  let [min_freq, max_freq] = d3.extent(root.descendants().filter(l => l.depth==3), l => l.data.freq_norm)
+  let scale_freqs = d3.scaleLog().domain([max_freq, 0.01])
+    .range([d3.hcl('#f2f3f2').toString(), d3.hcl('#8b8c88').toString()])
+    .clamp(true)
 
   const Format = d3.format(".0f")
 
   //Text indicating at what % each level is
-  var text_level = g.selectAll(".axisLabel")
+  g.selectAll(".axisLabel")
      .data([10, 100, 1000, 10000, 100000])
      .enter().append("text")
      .attr("class", "axisLabel")
      .attr("x", 0)
      .attr("y", function(d, i){return -(i+1)*max_radius/5;})
      .attr("dy", "1em")
+     .attr("text-anchor", "middle")
      .style("font-size", "10px")
      .attr("fill", "#737373")
-     .text(function(d,i) { return Format(d) });
+     .text(function(d) { return `${Format(d)} ms` });
   
 
   var arc = (e, last) => d3.arc()
@@ -175,7 +143,10 @@ function create_plot(nodeData, data_links){
     })
     .styles({
       "stroke": "gray",
-      "fill": "lightgray"
+      "fill": function(d){
+        let mean_freq_sentence = d3.mean(d.children[0].children, l => l.data.freq_norm)
+        return scale_freqs(mean_freq_sentence)
+      }
     })
     .on("dblclick", function(d, i){
       
@@ -184,7 +155,8 @@ function create_plot(nodeData, data_links){
       })
 
       sections_sentences
-        .style("fill", (e, j) => j==i?"gray":"white")
+        .style("stroke", (e, j) => j==i?"red":"gray")
+        .style("stroke-width", (e, j) => j==i?2:1)
 
       transitions
         .style("opacity", function(e, j){
@@ -198,7 +170,7 @@ function create_plot(nodeData, data_links){
       plot_isp_sentence(d.children[0].children)
     })
     .on("click", function(d, i){
-      sections_sentences.style("fill", "lightgray")
+      sections_sentences.style("stroke", "gray").style("stroke-width", 1)
       transitions.style("opacity", 1)
       lines_starplot.style("stroke", "lightgray")
       d3.selectAll(".subshape").remove().exit()
@@ -242,17 +214,11 @@ function create_plot(nodeData, data_links){
 
   const texture = textures
     .lines()
-    .strokeWidth(0.5)
-    .stroke("black")
+    .strokeWidth(1)
+    .stroke("purple")
     .thicker(2)
 
   newSlice.call(texture)
-
-  let [min_freq, max_freq] = d3.extent(root.descendants().filter(l => l.depth==3), l => l.data.freq_norm)
-  let scale_freqs = d3.scaleLog().domain([max_freq, 1])
-    .range([d3.hcl('white').toString(), d3.hcl('gray').toString()])
-    .clamp(true)
-
 
   const sections = newSlice
       .append('path')
@@ -267,28 +233,28 @@ function create_plot(nodeData, data_links){
       })
       .on("dblclick",(d, i) => hdlClickLabel(d, i))
       .on("click", (d,i) => hdlDblClickLabel(d, i)) 
-      .on("mouseover", function(d,i){
+      // .on("mouseover", function(d,i){
 
-        var tooltip = d3.select("#app")
-          .append("div")
-          .style("opacity", 0)
-          .attr("class", "tooltip2")
+      //   var tooltip = d3.select("#app")
+      //     .append("div")
+      //     .style("opacity", 0)
+      //     .attr("class", "tooltip2")
 
-        tooltip.html(`<strong>Word</strong> <br> 
-            ${d.data.name} <br>
-            Gaze Time: ${d.data.gaze_time} ms
-            <hr>
-            <strong>Frequency</strong><br>
-            Absolute: ${d.data.freq_abs}<br>
-            Normalized: ${d.data.freq_norm}<br>`)
-          .style("opacity",1)
-          .style("left", (d3.mouse(this)[0]+300)+"px")
-          .style("top", (d3.mouse(this)[1]-600) + "px")
-      })
-      .on("mouseout", function(d, i){
-        //tooltip.style("opacity", 0)
-        d3.select(".tooltip2").remove()
-      })
+      //   tooltip.html(`<strong>Word</strong> <br> 
+      //       ${d.data.name} <br>
+      //       Gaze Time: ${d.data.gaze_time} ms
+      //       <hr>
+      //       <strong>Frequency</strong><br>
+      //       Absolute: ${d.data.freq_abs}<br>
+      //       Normalized: ${d.data.freq_norm}<br>`)
+      //     .style("opacity",1)
+      //     .style("left", (d3.mouse(this)[0]+300)+"px")
+      //     .style("top", (d3.mouse(this)[1]-600) + "px")
+      // })
+      // .on("mouseout", function(d, i){
+      //   //tooltip.style("opacity", 0)
+      //   d3.select(".tooltip2").remove()
+      // })
 
   //Grafico donde es el cambio de linea
   g.selectAll('sections')
@@ -670,7 +636,7 @@ function create_plot(nodeData, data_links){
           Duration: ${d.duration} ms<br>`)
         .style("opacity",1)
         .style("left", (d3.mouse(this)[0]+300)+"px")
-        .style("top", (d3.mouse(this)[1]-600) + "px")
+        .style("top", (d3.mouse(this)[1]-600)+"px")
     })
     .on("mouseleave", function(d){
       d3.select(".tooltip2").remove()
@@ -922,14 +888,16 @@ function create_plot(nodeData, data_links){
         .attr("id", "w"+j)
         .text(e.data.name+" ")
         .style("background-color", d => scale_freqs(d.data.freq_norm))
+        .style("font-size", "12px")
         .on("mouseover", d => hdlClickLabel(d, j))
         .on("mouseleave", d => hdlDblClickLabel(d, j))
 
     })
 
   plot_colorbar(g, scaleColorPupil)
+  plot_frequencies(g, scale_freqs)
   plot_legends(g)
-  plot_dwell(g, min, max)
+  //plot_dwell(g, min, max)
   set_limits(data_links)
 
 }
@@ -1011,15 +979,15 @@ function updateChart(number=1, subject=1){
 
         create_plot(nodeData, data_links)
       })
-      // .catch(function(err){
-      //   d3.selectAll("svg").remove()
-      //   d3.selectAll(".microstory p").remove()
-      //   Swal.fire({
-      //     title: 'Note',
-      //     icon: 'info',
-      //     text: "This microstory was removed for analysis due to artifacts or errors."
-      //   })
-      // })
+      .catch(function(err){
+         d3.selectAll("svg").remove()
+         d3.selectAll(".microstory p").remove()
+         Swal.fire({
+           title: 'Note',
+           icon: 'info',
+           text: "This microstory was removed for analysis due to artifacts or errors."
+        })
+      })
 }
 
 updateChart()
