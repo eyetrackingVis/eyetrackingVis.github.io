@@ -250,7 +250,7 @@ function create_plot(nodeData, data_links){
 
   let [min_freq, max_freq] = d3.extent(root.descendants().filter(l => l.depth==3), l => l.data.freq_norm)
   let scale_freqs = d3.scaleLog().domain([max_freq, 1])
-    .range([d3.hcl('white').toString(), d3.hcl('gray').darker().toString()])
+    .range([d3.hcl('white').toString(), d3.hcl('gray').toString()])
     .clamp(true)
 
 
@@ -632,19 +632,13 @@ function create_plot(nodeData, data_links){
     .attr("d", (d, i) => line_trasitions(d, i))
     .on("dblclick", function(d, i){
       plot_by_transition(d)  
-      d3.select("#w"+d.osource).style("background-color", "lightgray")
-      d3.select("#w"+d.otarget).style("background-color", "lightgray")
+      d3.select("#w"+d.osource).style("border", "solid red")
+      d3.select("#w"+d.otarget).style("border", "solid red")
     
       sections
-        .style("fill", function(e, j){
-          if (SYNTAX_CLICKED){
-              return scaleSyntax(e.data.pos)
-          }else
-            return (j==d.osource || j==d.otarget)?"lightgray": e.data.dwell?"white":texture.url()
-        })
-        .style("opacity", function(e, j){
-          if (SYNTAX_CLICKED)
-            return (j==d.osource || j==d.otarget)?1:0.1
+        .style("stroke", (e, j) => (j==d.osource || j==d.otarget)?"red":"gray")
+        .style("stroke-width",function(e, j){
+          return (j==d.osource||j==d.otarget)?4:1
         })
       transitions
         .style("opacity", (e, j) => i==j?1:0.1)
@@ -653,14 +647,9 @@ function create_plot(nodeData, data_links){
     })
     .on("click", function(d){
       transitions.style("opacity", 1);
-      sections.style("fill", function(e){
-        if (SYNTAX_CLICKED)
-          return scaleSyntax(e.data.pos)
-        else
-          return e.data.dwell?"white":texture.url()
-      }).style("opacity", 1);
+      sections.style("stroke", "gray").style("stroke-width", 1);
       lines_starplot.style("stroke", "lightgray")
-      d3.selectAll(".microstory a").style("background-color", "white")
+      d3.selectAll(".microstory a").style("border", "white")
       d3.selectAll(".subshape").remove().exit()
     })
     .on("mouseover", function(d, i){
