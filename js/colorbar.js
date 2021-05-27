@@ -92,95 +92,155 @@ function plot_colorbar(g, scaleColorPupil){
     }
 }
 
-function plot_frequencies(g, scaleColorPupil){
+// function plot_frequencies(g, scaleColorPupil){
 
-  // add the legend now
-  var legendFullHeight = 400;
-  var legendFullWidth = 40;
+//   // add the legend now
+//   var legendFullHeight = 400;
+//   var legendFullWidth = 40;
 
-  var legendMargin = { top: 20, bottom: 20, left: 5, right: 20 };
+//   var legendMargin = { top: 20, bottom: 20, left: 5, right: 20 };
 
-  // use same margins as main plot
-  var legendWidth = legendFullWidth - legendMargin.left - legendMargin.right;
-  var legendHeight = legendFullHeight - legendMargin.top - legendMargin.bottom;
+//   // use same margins as main plot
+//   var legendWidth = legendFullWidth - legendMargin.left - legendMargin.right;
+//   var legendHeight = legendFullHeight - legendMargin.top - legendMargin.bottom;
 
-  var legendSvg = g.append("g")
-      .attr('width', 100)
-      .attr('height', legendWidth)
-      .attr('transform', 'translate(-190, 370)')
+//   var legendSvg = g.append("g")
+//       .attr('width', 100)
+//       .attr('height', legendWidth)
+//       .attr('transform', 'translate(-190, 370)')
 
-    // create colour scale
-  var [min, max] = scaleColorPupil.domain()
+//     // create colour scale
+//   var [min, max] = scaleColorPupil.domain()
 
-  // clear current legend
-  legendSvg.selectAll('*').remove();
+//   // clear current legend
+//   legendSvg.selectAll('*').remove();
 
-  // append gradient bar
-  var gradient = legendSvg.append('defs')
-      .append('linearGradient')
-      .attr('id', 'gradient_freq')
-      .attr('x1', '0%') // bottom
-      .attr('y1', '0%')
-      .attr('x2', '100%') // to top
-      .attr('y2', '0%')
-      .attr('spreadMethod', 'pad');
+//   // append gradient bar
+//   var gradient = legendSvg.append('defs')
+//       .append('linearGradient')
+//       .attr('id', 'gradient_freq')
+//       .attr('x1', '0%') // bottom
+//       .attr('y1', '0%')
+//       .attr('x2', '100%') // to top
+//       .attr('y2', '0%')
+//       .attr('spreadMethod', 'pad');
 
-  // programatically generate the gradient for the legend
-  // this creates an array of [pct, colour] pairs as stop
-  // values for legend
-  var pct = linspace(0, 100, 10).map(function(d) {
-      return Math.round(d) + '%';
-  });
+//   // programatically generate the gradient for the legend
+//   // this creates an array of [pct, colour] pairs as stop
+//   // values for legend
+//   var pct = linspace(0, 100, 10).map(function(d) {
+//       return Math.round(d) + '%';
+//   });
 
-  var scale = linspace(max, min, 10).map(l => scaleColorPupil(l))
+//   var scale = linspace(max, min, 10).map(l => scaleColorPupil(l))
 
-  var colourPct = d3.zip(pct, scale);
+//   var colourPct = d3.zip(pct, scale);
 
-  colourPct.forEach(function(d) {
-      gradient.append('stop')
-          .attr('offset', d[0])
-          .attr('stop-color', d[1])
-          .attr('stop-opacity', 1);
-  });
+//   colourPct.forEach(function(d) {
+//       gradient.append('stop')
+//           .attr('offset', d[0])
+//           .attr('stop-color', d[1])
+//           .attr('stop-opacity', 1);
+//   });
 
-  var textDesc = legendSvg
-    .append("text")
-    .attrs({
-      "fill":"black",
-      "transform": "translate(110,-10) rotate(0)",
-      "font-family": "Calibri, sans"
-    })
-    .text("Normalized Word Frequency")
+//   var textDesc = legendSvg
+//     .append("text")
+//     .attrs({
+//       "fill":"black",
+//       "transform": "translate(110,-10) rotate(0)",
+//       "font-family": "Calibri, sans"
+//     })
+//     .text("Normalized Word Frequency")
 
 
-  legendSvg.append('rect')
-      .attr('x1', 0)
-      .attr('y1', 0)
-      .attr('width', legendHeight)
-      .attr('height', legendWidth)
-      .style('fill', 'url(#gradient_freq)');
+//   legendSvg.append('rect')
+//       .attr('x1', 0)
+//       .attr('y1', 0)
+//       .attr('width', legendHeight)
+//       .attr('height', legendWidth)
+//       .style('fill', 'url(#gradient_freq)');
 
-  // create a scale and axis for the legend
-  var legendScale = d3.scaleLinear()
-      .domain([min, max])
-      .range([legendHeight, 0]);
+//   // create a scale and axis for the legend
+//   var legendScale = d3.scaleLinear()
+//       .domain([min, max])
+//       .range([legendHeight, 0]);
 
-  let legendAxis = d3.axisBottom(legendScale)
-      .tickValues(linspace(max, min, 10))
-      .tickFormat(d3.format("d"));
+//   let legendAxis = d3.axisBottom(legendScale)
+//       .tickValues(linspace(max, min, 10))
+//       .tickFormat(d3.format("d"));
 
-  legendSvg.append("g")
+//   legendSvg.append("g")
+//       .attr("class", "legend axis")
+//       .attr("transform", "translate(0,"+legendWidth+")")
+//       .call(legendAxis);
+
+//   function linspace(start, end, n) {
+//       let delta = (end - start) / (n-1)
+//       let scale = d3.range(start, end+delta, delta).slice(0, n)
+//       return scale
+//   }
+// }
+
+
+function plot_frequencies(g, scale){
+   // add the legend now
+   var legendFullHeight = 400;
+   var legendFullWidth = 40;
+ 
+   var legendMargin = { top: 20, bottom: 20, left: 5, right: 20 };
+ 
+   // use same margins as main plot
+   var legendWidth = legendFullWidth - legendMargin.left - legendMargin.right;
+   var legendHeight = legendFullHeight - legendMargin.top - legendMargin.bottom;
+
+   console.log(legendWidth)
+ 
+   var legendSvg = g.append("g")
+       .attr('width', 100)
+       .attr('height', legendWidth)
+       .attr('transform', 'translate(-190, 370)')
+ 
+     // create colour scale
+   var [max, min] = [70000, 0]
+ 
+   // clear current legend
+   legendSvg.selectAll('*').remove();
+
+    var rects = legendSvg.selectAll(".rects")
+      .data([70000, 20000, 200, 0])
+      .enter()
+      .append("rect")
+      .attr("y", 10)
+      .attr("height", legendWidth)
+      .attr("x", (d,i)=>i*(legendHeight/4))
+      .attr("width", legendHeight/4)
+      .attr("fill", d=>scale(d))
+      .attr("stroke", "gray");
+
+    var legendScale = d3.scalePoint()
+      .range([0, legendHeight])
+      .domain(["High", "Often", "Medium", "Low"]);
+
+    let legendAxis = d3.axisBottom(legendScale)
+    
+
+    legendSvg.append("g")
       .attr("class", "legend axis")
-      .attr("transform", "translate(0,"+legendWidth+")")
+      .attr("transform", `translate(0,${legendWidth+10})`)
       .call(legendAxis);
 
-  function linspace(start, end, n) {
-      let delta = (end - start) / (n-1)
-      let scale = d3.range(start, end+delta, delta).slice(0, n)
-      return scale
-  }
-}
+    var textDesc = legendSvg
+      .append("text")
+      .attrs({
+        "fill":"black",
+        "transform": "translate(110,-10) rotate(0)",
+      "font-family": "Calibri, sans"
+      })
+      .text("Normalized Word Frequency")
 
+
+
+}
 
 
 function plot_legends(g){
