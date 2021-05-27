@@ -192,8 +192,6 @@ function plot_frequencies(g, scale){
    // use same margins as main plot
    var legendWidth = legendFullWidth - legendMargin.left - legendMargin.right;
    var legendHeight = legendFullHeight - legendMargin.top - legendMargin.bottom;
-
-   console.log(legendWidth)
  
    var legendSvg = g.append("g")
        .attr('width', 100)

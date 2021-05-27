@@ -15,6 +15,7 @@ function create_plot(nodeData, data_links){
 
   //Global variables
   var SENTENCETIME_CLICKED = false;
+  var CLICKED = false;
 
   d3.select("#btnSentenceTime").on("click", function(d, i){
     SENTENCETIME_CLICKED = SENTENCETIME_CLICKED?false:true
@@ -23,6 +24,16 @@ function create_plot(nodeData, data_links){
 
     sentenceTime
       .style("display", SENTENCETIME_CLICKED?null:"none")
+  })
+
+  d3.select("#btnWordFrequency").on("click", function(d, i){
+    CLICKED = CLICKED?false:true
+
+    d3.select(this).text(CLICKED?"SHOW WORD FREQUENCY":"HIDE WORD FREQUENCY")
+
+    d3.selectAll(".microstory a")
+      .style("background-color", d => CLICKED?"white": scale_freqs(d.data.freq_norm))
+
   })
 
 
@@ -882,7 +893,7 @@ function create_plot(nodeData, data_links){
     if (new_lines[i].data.new_line == true) idxs_lines.push(i);
   }
 
-  words = g.selectAll("palabras")
+  const words = g.selectAll("palabras")
     .data(root.descendants().filter(l => l.depth==3))
     .enter()
     .each(function(e, j){
@@ -987,15 +998,15 @@ function updateChart(number=1, subject=1){
 
         create_plot(nodeData, data_links)
       })
-      // .catch(function(err){
-      //    d3.selectAll("svg").remove()
-      //    d3.selectAll(".microstory p").remove()
-      //    Swal.fire({
-      //      title: 'Note',
-      //      icon: 'info',
-      //      text: "This microstory was removed for analysis due to artifacts or errors."
-      //   })
-      // })
+      .catch(function(err){
+          d3.selectAll("svg").remove()
+          d3.selectAll(".microstory p").remove()
+          Swal.fire({
+            title: 'Note',
+            icon: 'info',
+            text: "This microstory was removed for analysis due to artifacts or errors."
+         })
+      })
 }
 
 updateChart()
