@@ -34,6 +34,18 @@ function create_plot(nodeData, data_links){
     d3.selectAll(".microstory a")
       .style("background-color", d => CLICKED?"white": scale_freqs(d.data.freq_norm))
 
+    sections
+      .style("fill", d => CLICKED?"white": scale_freqs(d.data.freq_norm))
+    
+    sections_sentences
+      .style("fill", function(d){
+        let mean_freq_sentence = d3.mean(d.children[0].children, l => l.data.freq_norm)
+        return  CLICKED?"white": scale_freqs(mean_freq_sentence)
+      })
+    
+    d3.select(".scale_freqs")
+      .style("display", CLICKED?"none":null)
+      
   })
 
 
