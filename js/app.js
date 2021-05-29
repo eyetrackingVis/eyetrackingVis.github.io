@@ -3,6 +3,8 @@ var width = 932;
 var height = 950;
 var radius = 300 //Math.min(width-100, height-100) / 2;
 
+var SENTENCETIME_CLICKED = false;
+var CLICKED = false;
 
 /**
  * Create the plot 
@@ -14,8 +16,7 @@ var radius = 300 //Math.min(width-100, height-100) / 2;
 function create_plot(nodeData, data_links){
 
   //Global variables
-  var SENTENCETIME_CLICKED = false;
-  var CLICKED = false;
+  
 
   d3.select("#btnSentenceTime").on("click", function(d, i){
     SENTENCETIME_CLICKED = SENTENCETIME_CLICKED?false:true
@@ -997,8 +998,13 @@ function updateChart(number=1, subject=1){
 
         $(".filtros input").remove()
         $(".filtros .slider-container").remove()
+        CLICKED = false;
+        SENTENCETIME_CLICKED;
 
         create_plot(nodeData, data_links)
+
+        d3.select("#btnSentenceTime").text("SHOW SENTENCE TIME")
+        d3.select("#btnWordFrequency").text("HIDE WORD FREQUENCY")
       })
       .catch(function(err){
           d3.selectAll("svg").remove()
