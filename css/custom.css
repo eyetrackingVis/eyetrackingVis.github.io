@@ -21,32 +21,47 @@
 }
 
 
+
 .div-micro {
 	text-align: center;
 	margin: 0;
-	position: relative;
+	position: absolute;
 	top: 25%;
+  width: calc(50% - 16px);
 }
 
 .div-micro1 {
   text-align: center;
-  position: relative;
-  top: 25%;
+  position: absolute;
+  left: 5%;
+  top: 60%;
 }
 
 .div-navigator {
 	text-align: center;
-	margin: 0;
-	position: relative;
-	top:15%;
+	margin: 20;
+  position:absolute;
+	top:10%;
+  width: calc(50% - 16px);
+  margin-top:30px;
 }
 
-.div-navigator-participant {
+.div-par{
+  margin-top: 20px;
+  margin-bottom: 30;
+}
+
+.div-stor{
+  margin-top:70px;
+}
+
+
+/* .div-navigator-participant {
   text-align: center;
   margin: 0;
-  position: relative;
   top:20%;
-}
+} */
+
 
 .microstory > p {
 	font-family: "Courier New";

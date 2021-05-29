@@ -105,19 +105,9 @@ function create_plot(nodeData, data_links){
       .style("fill-opacity", 0.1)
       .style("filter" , "black");
 
-  //const min = d3.min(root.descendants().filter(l => l.depth == 3), l => l.data.dwell)
-  //const max = d3.max(root.descendants().filter(l => l.depth == 3), l => l.data.dwell)
-
-  
-  //let [min_freq, max_freq] = d3.extent(root.descendants().filter(l => l.depth==3), l => l.data.freq_norm)
-  // let scale_freqs = d3.scaleLog().domain([max_freq, 0.01])
-  //   .range([d3.hcl('#f2f3f2').toString(), d3.hcl('#8b8c88').toString()])
-  //   .clamp(true)
-
   let scale_freqs = d3.scaleLinear()
     .domain([70000, 20000, 200, 0])
-    //.range(['white','#f0f0f0','#d9d9d9','#737373'])
-    .range(['#ffffff', '#d9d9d9','#969696', '#636363'])
+    .range(['#ffffff', '#d9d9d9', '#b3b3b3','#969696'])
     .clamp(true)
 
 
@@ -238,6 +228,7 @@ function create_plot(nodeData, data_links){
     .thicker(2)
 
   newSlice.call(texture)
+  
 
   const sections = newSlice
       .append('path')
@@ -252,28 +243,27 @@ function create_plot(nodeData, data_links){
       })
       .on("dblclick",(d, i) => hdlClickLabel(d, i))
       .on("click", (d,i) => hdlDblClickLabel(d, i)) 
-      // .on("mouseover", function(d,i){
+      .on("mouseover", function(d,i){
 
-      //   var tooltip = d3.select("#app")
-      //     .append("div")
-      //     .style("opacity", 0)
-      //     .attr("class", "tooltip2")
+          var tooltip = d3.select("#app")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip2")
 
-      //   tooltip.html(`<strong>Word</strong> <br> 
-      //       ${d.data.name} <br>
-      //       Gaze Time: ${d.data.gaze_time} ms
-      //       <hr>
-      //       <strong>Frequency</strong><br>
-      //       Absolute: ${d.data.freq_abs}<br>
-      //       Normalized: ${d.data.freq_norm}<br>`)
-      //     .style("opacity",1)
-      //     .style("left", (d3.mouse(this)[0]+300)+"px")
-      //     .style("top", (d3.mouse(this)[1]-600) + "px")
-      // })
-      // .on("mouseout", function(d, i){
-      //   //tooltip.style("opacity", 0)
-      //   d3.select(".tooltip2").remove()
-      // })
+         tooltip.html(`<strong>Word</strong> <br> 
+             ${d.data.name} <br>
+             Gaze Time: ${d.data.gaze_time} ms
+             <hr>
+             <strong>Frequency</strong><br>
+             Absolute: ${d.data.freq_abs}<br>
+             Normalized: ${d.data.freq_norm}<br>`)
+           .style("opacity",1)
+           .style("left", (d3.mouse(this)[0]+300)+"px")
+           .style("top", (d3.mouse(this)[1]-600) + "px")
+       })
+       .on("mouseleave", function(d, i){
+         d3.select(".tooltip2").remove()
+       })
 
   //Grafico donde es el cambio de linea
   g.selectAll('sections')

@@ -194,17 +194,15 @@ function plot_frequencies(g, scale){
    var legendHeight = legendFullHeight - legendMargin.top - legendMargin.bottom;
  
    var legendSvg = g.append("g")
-       .attr('width', 100)
-       .attr('height', legendWidth)
-       .attr('transform', 'translate(-190, 370)')
- 
-     // create colour scale
-   var [max, min] = [70000, 0]
- 
-   // clear current legend
-   legendSvg.selectAll('*').remove();
+      .attr("class", "scale_freqs")
+      .attr('width', 100)
+      .attr('height', legendWidth)
+      .attr('transform', 'translate(-190, 370)')
+  
+  // clear current legend
+  legendSvg.selectAll('*').remove();
 
-    var rects = legendSvg.selectAll(".rects")
+  legendSvg.selectAll(".rects")
       .data([70000, 20000, 200, 0])
       .enter()
       .append("rect")
@@ -215,23 +213,23 @@ function plot_frequencies(g, scale){
       .attr("fill", d=>scale(d))
       .attr("stroke", "gray");
 
-    var legendScale = d3.scalePoint()
-      .range([0, legendHeight])
-      .domain(["High", "Often", "Medium", "Low"]);
+  legendSvg.selectAll("desc")
+    .data(["High", "Often", "Medium", "Low"])
+    .enter()
+    .append("text")
+    .attrs({
+      "x": (d, i) => (((legendHeight/4)/2)*i) + ((legendHeight/4)/2)*(i+1),
+      "y": legendWidth+25,
+      "text-anchor": "middle"
+    })
+    .text(d=>d)
 
-    let legendAxis = d3.axisBottom(legendScale)
-    
 
-    legendSvg.append("g")
-      .attr("class", "legend axis")
-      .attr("transform", `translate(0,${legendWidth+10})`)
-      .call(legendAxis);
-
-    var textDesc = legendSvg
+  legendSvg
       .append("text")
       .attrs({
         "fill":"black",
-        "transform": "translate(110,-10) rotate(0)",
+        "transform": "translate(110,0) rotate(0)",
       "font-family": "Calibri, sans"
       })
       .text("Normalized Word Frequency")
