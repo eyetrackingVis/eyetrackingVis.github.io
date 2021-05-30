@@ -36,7 +36,8 @@ function create_plot(nodeData, data_links){
       .style("background-color", d => CLICKED?"white": scale_freqs(d.data.freq_norm))
 
     sections
-      .style("fill", d => CLICKED?"white": scale_freqs(d.data.freq_norm))
+    
+      .style("fill", d => CLICKED?d.data.dwell?"white": texture.stroke(scale_freqs(d.data.freq_norm)).url():d.data.dwell?scale_freqs(d.data.freq_norm): texture.stroke(scale_freqs(d.data.freq_norm)).url())
     
     sections_sentences
       .style("fill", function(d){
