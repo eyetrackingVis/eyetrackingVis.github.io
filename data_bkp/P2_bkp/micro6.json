@@ -1,0 +1,210 @@
+
+
+    {
+    "name": "MICROSTORY", "children": [
+    {
+    "name": "Oración 1",
+    "full": "Oración 1",
+    "children": [
+    {
+    "name": "Frase 1",
+    "full": "Frase 1",
+    "children" : [
+
+    {
+                  "name": "En",
+                  "dwell": 257,
+                  "len": 2,
+                  "new_line":true
+              },{
+                  "name": "segundos",
+                  "dwell": 647,
+                  "len": 8
+              },{
+                  "name": "todo",
+                  "dwell": 490,
+                  "len": 4
+              },{
+                  "name": "fue",
+                  "dwell": 578,
+                  "len": 3
+              },{
+                  "name": "un",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "caos",
+                  "dwell": 433,
+                  "len": 4
+              },{
+                  "name": "indescriptible.",
+                  "dwell": 1081,
+                  "len": 15
+              },{
+                  "name": "La",
+                  "dwell": 280,
+                  "len": 2
+              },{
+                  "name": "vida",
+                  "dwell": 167,
+                  "len": 4
+              },{
+                  "name": "aparentaba",
+                  "dwell": 1763,
+                  "len": 10
+              },{
+                  "name": "haber",
+                  "dwell": 483,
+                  "len": 5
+              },{
+                  "name": "desaparecido.",
+                  "dwell": 1064,
+                  "len": 13
+              },{
+                  "name": "Ella",
+                  "dwell": 764,
+                  "len": 4
+              },{
+                  "name": "se",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "sacudió",
+                  "dwell": 148,
+                  "len": 7,
+                  "break_line":true
+              },{
+                  "name": "el",
+                  "dwell": 0,
+                  "len": 2,
+                  "new_line":true
+              },{
+                  "name": "polvo",
+                  "dwell": 354,
+                  "len": 5
+              },{
+                  "name": "que",
+                  "dwell": 100,
+                  "len": 3
+              },{
+                  "name": "la",
+                  "dwell": 440,
+                  "len": 2
+              },{
+                  "name": "cubría",
+                  "dwell": 582,
+                  "len": 6
+              },{
+                  "name": "y",
+                  "dwell": 259,
+                  "len": 1
+              },{
+                  "name": "se",
+                  "dwell": 626,
+                  "len": 2
+              },{
+                  "name": "levantó",
+                  "dwell": 183,
+                  "len": 7
+              },{
+                  "name": "de",
+                  "dwell": 149,
+                  "len": 2
+              },{
+                  "name": "entre",
+                  "dwell": 0,
+                  "len": 5
+              },{
+                  "name": "las",
+                  "dwell": 156,
+                  "len": 3
+              },{
+                  "name": "ruinas:",
+                  "dwell": 225,
+                  "len": 7
+              },{
+                  "name": "sus",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "ojitos",
+                  "dwell": 468,
+                  "len": 6
+              },{
+                  "name": "azorados",
+                  "dwell": 346,
+                  "len": 8
+              },{
+                  "name": "vieron",
+                  "dwell": 0,
+                  "len": 6
+              },{
+                  "name": "el",
+                  "dwell": 312,
+                  "len": 2
+              },{
+                  "name": "espanto.",
+                  "dwell": 423,
+                  "len": 8
+              },{
+                  "name": "De",
+                  "dwell": 279,
+                  "len": 2,
+                  "break_line":true
+              },{
+                  "name": "pronto",
+                  "dwell": 130,
+                  "len": 6,
+                  "new_line": true
+              },{
+                  "name": "asomó",
+                  "dwell": 0,
+                  "len": 5
+              },{
+                  "name": "otra",
+                  "dwell": 0,
+                  "len": 4
+              },{
+                  "name": "cucaracha",
+                  "dwell": 0,
+                  "len": 9
+              },{
+                  "name": "y",
+                  "dwell": 0,
+                  "len": 1
+              },{
+                  "name": "juntas",
+                  "dwell": 494,
+                  "len": 6
+              },{
+                  "name": "se",
+                  "dwell": 0,
+                  "len": 2
+              },{
+                  "name": "escabulleron",
+                  "dwell": 0,
+                  "len": 12
+              },{
+                  "name": "por",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "entre",
+                  "dwell": 0,
+                  "len": 5
+              },{
+                  "name": "los",
+                  "dwell": 0,
+                  "len": 3
+              },{
+                  "name": "escombros.",
+                  "dwell": 604,
+                  "len": 10
+              }
+        ]
+        }
+        ]
+        }
+        ]
+        }
+    

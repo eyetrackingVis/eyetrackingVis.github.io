@@ -1,0 +1,351 @@
+{
+  "name": "MICROSTORY",
+  "children": [
+    {
+      "name": "Oración 1",
+      "full": "Oración 1",
+      "children": [
+        {
+          "name": "Frase 1",
+          "full": "Frase 1",
+          "children": [
+            {
+              "name": "Hay",
+              "dwell": 767,
+              "len": 3,
+              "new_line": true,
+              "pos": "AUX",
+              "freq_abs": 164940,
+              "freq_norm": 1081.16,
+              "id": 0
+            },
+            {
+              "name": "novelas",
+              "dwell": 154,
+              "len": 7,
+              "pos": "NOUN",
+              "freq_abs": 3686,
+              "freq_norm": 24.16,
+              "id": 1
+            },
+            {
+              "name": "que",
+              "dwell": 0,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85,
+              "id": 2
+            },
+            {
+              "name": "aun",
+              "dwell": 432,
+              "len": 3,
+              "pos": "ADV",
+              "freq_abs": 15317,
+              "freq_norm": 100.4,
+              "id": 3
+            },
+            {
+              "name": "sin",
+              "dwell": 76,
+              "len": 3,
+              "pos": "ADP",
+              "freq_abs": 298383,
+              "freq_norm": 1955.86,
+              "id": 4
+            },
+            {
+              "name": "ser",
+              "dwell": 452,
+              "len": 3,
+              "pos": "AUX",
+              "freq_abs": 232924,
+              "freq_norm": 1526.78,
+              "id": 5
+            },
+            {
+              "name": "largas",
+              "dwell": 188,
+              "len": 6,
+              "pos": "ADJ",
+              "freq_abs": 4926,
+              "freq_norm": 32.28,
+              "id": 6
+            },
+            {
+              "name": "no",
+              "dwell": 152,
+              "len": 2,
+              "pos": "ADV",
+              "freq_abs": 1465503,
+              "freq_norm": 9606.18,
+              "id": 7
+            },
+            {
+              "name": "logran",
+              "dwell": 85,
+              "len": 6,
+              "pos": "VERB",
+              "freq_abs": 1670,
+              "freq_norm": 10.94,
+              "id": 8
+            },
+            {
+              "name": "comenzar",
+              "dwell": 0,
+              "len": 8,
+              "pos": "VERB",
+              "freq_abs": 5242,
+              "freq_norm": 34.36,
+              "id": 9
+            },
+            {
+              "name": "de",
+              "dwell": 0,
+              "len": 2,
+              "pos": "ADP",
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55,
+              "id": 10
+            },
+            {
+              "name": "verdad",
+              "dwell": 0,
+              "len": 6,
+              "pos": "NOUN",
+              "freq_abs": 39924,
+              "freq_norm": 261.69,
+              "id": 11
+            },
+            {
+              "name": "hasta",
+              "dwell": 0,
+              "len": 5,
+              "pos": "ADP",
+              "freq_abs": 202935,
+              "freq_norm": 1330.21,
+              "id": 12
+            },
+            {
+              "name": "la",
+              "dwell": 164,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59,
+              "id": 13
+            },
+            {
+              "name": "página",
+              "dwell": 157,
+              "len": 6,
+              "pos": "NOUN",
+              "freq_abs": 7755,
+              "freq_norm": 50.83,
+              "id": 14
+            },
+            {
+              "name": "50",
+              "dwell": 0,
+              "len": 2,
+              "pos": "NUM",
+              "freq_abs": 0,
+              "freq_norm": 0.0,
+              "id": 15
+            },
+            {
+              "name": "o",
+              "dwell": 286,
+              "len": 1,
+              "pos": "CONJ",
+              "freq_abs": 542284,
+              "freq_norm": 3554.6,
+              "id": 16
+            },
+            {
+              "name": "la",
+              "dwell": 0,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59,
+              "id": 17
+            },
+            {
+              "name": "60.",
+              "dwell": 276,
+              "len": 3,
+              "pos": "NUM",
+              "freq_abs": 0,
+              "freq_norm": 0.0,
+              "id": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "A",
+              "dwell": 0,
+              "len": 1,
+              "break_line": true,
+              "pos": "ADP",
+              "freq_abs": 3260939,
+              "freq_norm": 21375.03,
+              "id": 19
+            },
+            {
+              "name": "algunas",
+              "dwell": 1061,
+              "len": 7,
+              "new_line": true,
+              "pos": "DET",
+              "freq_abs": 42223,
+              "freq_norm": 276.76,
+              "id": 20
+            },
+            {
+              "name": "vidas",
+              "dwell": 234,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 5331,
+              "freq_norm": 34.94,
+              "id": 21
+            },
+            {
+              "name": "les",
+              "dwell": 156,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 86363,
+              "freq_norm": 566.09,
+              "id": 22
+            },
+            {
+              "name": "sucede",
+              "dwell": 0,
+              "len": 6,
+              "pos": "VERB",
+              "freq_abs": 7885,
+              "freq_norm": 51.68,
+              "id": 23
+            },
+            {
+              "name": "lo",
+              "dwell": 141,
+              "len": 2,
+              "pos": "DET",
+              "freq_abs": 866955,
+              "freq_norm": 5682.77,
+              "id": 24
+            },
+            {
+              "name": "mismo.",
+              "dwell": 107,
+              "len": 6,
+              "pos": "PRON",
+              "freq_abs": 130746,
+              "freq_norm": 857.02,
+              "id": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "Por",
+              "dwell": 405,
+              "len": 3,
+              "pos": "ADP",
+              "freq_abs": 1561904,
+              "freq_norm": 10238.07,
+              "id": 26
+            },
+            {
+              "name": "eso",
+              "dwell": 378,
+              "len": 3,
+              "pos": "PRON",
+              "freq_abs": 114523,
+              "freq_norm": 750.68,
+              "id": 27
+            },
+            {
+              "name": "no",
+              "dwell": 0,
+              "len": 2,
+              "pos": "ADV",
+              "freq_abs": 1465503,
+              "freq_norm": 9606.18,
+              "id": 28
+            },
+            {
+              "name": "me",
+              "dwell": 908,
+              "len": 2,
+              "pos": "PRON",
+              "freq_abs": 374368,
+              "freq_norm": 2453.93,
+              "id": 29
+            },
+            {
+              "name": "he",
+              "dwell": 286,
+              "len": 2,
+              "pos": "AUX",
+              "freq_abs": 58965,
+              "freq_norm": 386.5,
+              "id": 30
+            },
+            {
+              "name": "matado",
+              "dwell": 500,
+              "len": 6,
+              "pos": "VERB",
+              "freq_abs": 1715,
+              "freq_norm": 11.24,
+              "id": 31
+            },
+            {
+              "name": "antes,",
+              "dwell": 180,
+              "len": 6,
+              "pos": "ADV",
+              "freq_abs": 100761,
+              "freq_norm": 660.47,
+              "id": 32
+            },
+            {
+              "name": "señor",
+              "dwell": 347,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 34905,
+              "freq_norm": 228.79,
+              "id": 33
+            },
+            {
+              "name": "juez.",
+              "dwell": 901,
+              "len": 5,
+              "pos": "NOUN",
+              "freq_abs": 17328,
+              "freq_norm": 113.58,
+              "id": 34
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

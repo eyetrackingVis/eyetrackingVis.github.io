@@ -1,0 +1,492 @@
+{
+    "name": "MICROSTORY", "children": [
+        {
+          "name": "Oración 1",
+          "full": "El hombre que amé se ha convertido en fantasma.",
+          "children": [
+
+              {
+                "name": "Frase 1",
+                "full": "El hombre que amé se ha convertido en fantasma.",
+                "children" : [
+                  {
+                      "name": "El",
+                      "pos": "DET",
+                      "dwell": 0,
+                      "pupil": 0,
+                      "id": 0,
+                      "level": 3,
+                      "len": 2,
+                      "new_line": true,
+                      "freq_abs":4569652,
+                      "freq_norm":29953.48,
+                      "gaze_time": 0
+                  },
+              
+                  {
+                      "name": "hombre",
+                      "pos": "NOUN",
+                      "dwell": 173,
+                      "pupil": 500,
+                      "id": 1,
+                      "level": 3,
+                      "len": 6,
+                      "pupil_sizes": [500],
+                      "freq_abs":80152,
+                      "freq_norm":525.38,
+                      "gaze_time": 173,
+                      "times": [173]
+                  },
+              
+
+                  {
+                      "name": "que",
+                      "pos": "PRON",
+                      "dwell":521,
+                      "pupil": 516,
+                      "id": 2,
+                      "level": 3,
+                      "len": 3,
+                      "pupil_sizes": [515, 517],
+                      "freq_abs":4681839,
+                      "freq_norm":30688.85,
+                      "gaze_time": 521,
+                      "times": [423, 98]
+                  },
+              
+
+                  {
+                      "name": "amé",
+                      "pos": "VERB",
+                      "dwell": 124,
+                      "pupil": 509,
+                      "id": 3,
+                      "level": 3,
+                      "len": 3,
+                      "pupil_sizes": [509],
+                      "freq_abs":170,
+                      "freq_norm":1.11,
+                      "gaze_time": 124,
+                      "times": [124]
+                  },
+              
+
+                  {
+                      "name": "se",
+                      "pos": "PRON",
+                      "dwell": 256,
+                      "pupil": 520,
+                      "id": 4,
+                      "level": 3,
+                      "len": 2,
+                      "pupil_sizes": [520],
+                      "freq_abs":2022514,
+                      "freq_norm":13257.31,
+                      "gaze_time": 256,
+                      "times": [256]
+                  },
+              
+
+                  {
+                      "name": "ha",
+                      "pos": "VERB",
+                      "dwell": 0,
+                      "pupil": 0,
+                      "id": 5,
+                      "level": 3,
+                      "len": 2,
+                      "freq_abs":380339,
+                      "freq_norm":2493.07,
+                      "gaze_time": 0
+                  },
+              
+
+                  {
+                      "name": "convertido",
+                      "pos": "VERB",
+                      "dwell": 363,
+                      "pupil": 481.5,
+                      "id": 6,
+                      "level": 3,
+                      "len": 10,
+                      "pupil_sizes": [496, 467],
+                      "freq_abs":9755,
+                      "freq_norm":63.94,
+                      "gaze_time": 363,
+                      "times": [220,143]
+                  },
+              
+
+                  {
+                      "name": "en",
+                      "pos": "ADP",
+                      "dwell": 310,
+                      "pupil": 462,
+                      "id": 7,
+                      "level": 3,
+                      "len": 2,
+                      "pupil_sizes": [462],
+                      "freq_abs":4234281,
+                      "freq_norm":27755.16,
+                      "gaze_time": 0,
+                      "times":[310]
+                  },
+              
+
+                  {
+                      "name": "fantasma.",
+                      "pos": "NOUN",
+                      "dwell": 433,
+                      "pupil": 481.5,
+                      "id": 8,
+                      "level": 3,
+                      "len": 9,
+                      "pupil_sizes": [469, 444],
+                      "freq_abs":2699,
+                      "freq_norm":17.69,
+                      "gaze_time": 433,
+                      "times": [250,183]
+                  }
+                ],
+                "dwell": 3499,
+                "pupil": 492.14,
+                "id": 29
+              }
+          ],
+          "dwell": 3499,
+          "pupil": 492.14,
+          "id": 32
+        },
+
+        {
+          "name": "Oración 2",
+          "full": "Me gusta ponerle mucho suavizante, plancharlo al vapor y usarlo como sábana bajera las noches que tengo una cita prometedora",
+          "children": [
+              
+              {
+                "name": "Frase 2",
+                "full": "Me gusta ponerle mucho suavizante,",
+                "children": [
+                    {
+                        "name": "Me",
+                        "pos": "PRON",
+                        "dwell": 0,
+                        "pupil": 0,
+                        "id": 9,
+                        "level": 3,
+                        "len": 2,
+                        "freq_abs":374368,
+                        "freq_norm":2453.93,
+                        "gaze_time": 0
+                    },
+                
+
+                    {
+                        "name": "gusta",
+                        "pos": "VERB",
+                        "dwell": 513,
+                        "pupil": 422,
+                        "id": 10,
+                        "level": 3,
+                        "len": 5,
+                        "pupil_sizes": [428, 416],
+                        "freq_abs":12748,
+                        "freq_norm":83.56,
+                        "gaze_time": 513,
+                        "times": [196,317]
+                    },
+                
+
+                    {
+                        "name": "ponerle",
+                        "pos": "VERB",
+                        "dwell": 968,
+                        "pupil": 433,
+                        "id": 11,
+                        "level": 3,
+                        "len": 7,
+                        "pupil_sizes": [421, 423, 455],
+                        "freq_abs":1373,
+                        "freq_norm":8.99,
+                        "gaze_time": 677,
+                        "times": [289,388,291]
+                    },
+                
+
+                    {
+                        "name": "mucho",
+                        "pos": "ADV",
+                        "dwell": 780,
+                        "pupil": 446,
+                        "id": 12,
+                        "level": 3,
+                        "len": 5,
+                        "pupil_sizes": [433, 457, 448],
+                        "freq_abs": 83240,
+                        "freq_norm": 545.62,
+                        "gaze_time": 466,
+                        "times": [274,192,314]
+                    },
+                
+                    {
+                        "name": "suavizante,",
+                        "pos": "ADJ",
+                        "dwell": 460,
+                        "pupil": 453,
+                        "id": 13,
+                        "level": 3,
+                        "len": 11,
+                        "pupil_sizes": [453],
+                        "break_line": true,
+                        "freq_abs":31,     
+                        "freq_norm":0.20,
+                        "gaze_time": 460,
+                        "times": [460]
+                    },
+                    {
+                        "name": "plancharlo",
+                        "pos": "VERB",
+                        "dwell": 433,
+                        "pupil": 430,
+                        "id": 14,
+                        "level": 3,
+                        "len": 10,
+                        "pupil_sizes": [427, 433],
+                        "new_line": true,
+                        "freq_abs":1,
+                        "freq_norm":0.00,
+                        "gaze_time": 433,
+                        "times": [160,273]
+                    },
+                
+
+                    {
+                        "name": "al",
+                        "pos": "ADP",
+                        "dwell": 0,
+                        "pupil": 0,
+                        "id": 15,
+                        "level": 3,
+                        "len": 2,
+                        "freq_abs":951054,
+                        "freq_norm":6234.03,
+                        "gaze_time": 0
+                    },
+                
+
+                    {
+                        "name": "vapor",
+                        "pos": "NOUN",
+                        "dwell": 312,
+                        "pupil": 486,
+                        "id": 16,
+                        "level": 3,
+                        "len": 5,
+                        "pupil_sizes": [486],
+                        "freq_abs":2785,
+                        "freq_norm":18.25,
+                        "gaze_time": 0,
+                        "times": [312]
+                    },
+                
+
+                    {
+                        "name": "y",
+                        "pos": "CONJ",
+                        "dwell": 0,
+                        "pupil": 0,
+                        "id": 17,
+                        "level": 3,
+                        "len": 1,
+                        "freq_abs":4180279,
+                        "freq_norm":27401.19,
+                        "gaze_time": 0
+                    },
+                
+
+                    {
+                        "name": "usarlo",
+                        "pos": "VERB",
+                        "dwell": 638,
+                        "pupil": 482.7,
+                        "id": 18,
+                        "level": 3,
+                        "len": 6,
+                        "pupil_sizes": [489, 485, 474],
+                        "freq_abs":405,
+                        "freq_norm":2.65,
+                        "gaze_time": 638,
+                        "times": [75,308,255]
+                    },
+                
+
+                    {
+                        "name": "como",
+                        "pos": "ADP",
+                        "dwell": 254,
+                        "pupil": 465,
+                        "id": 19,
+                        "level": 3,
+                        "len": 4,
+                        "pupil_sizes": [465],
+                        "freq_abs":773465,
+                        "freq_norm":5069.96,
+                        "gaze_time": 254,
+                        "times":[254]
+                    },
+                
+
+                    {
+                        "name": "sábana",
+                        "pos": "NOUN",
+                        "dwell": 189,
+                        "pupil": 455,
+                        "id": 20,
+                        "level": 3,
+                        "len": 6,
+                        "pupil_sizes": [455],
+                        "freq_abs":997,
+                        "freq_norm":6.53,
+                        "gaze_time": 189,
+                        "times": [189]
+                    },
+                
+
+                    {
+                        "name": "bajera",
+                        "pos": "NOUN",
+                        "dwell": 286,
+                        "pupil": 445,
+                        "id": 21,
+                        "level": 3,
+                        "len": 6,
+                        "pupil_sizes": [448, 442],
+                        "freq_abs":11,
+                        "freq_norm":0.07,
+                        "gaze_time": 176,
+                        "times": [176,110]
+                    },
+                
+
+                    {
+                        "name": "las",
+                        "pos": "DET",
+                        "dwell": 507,
+                        "pupil": 439,
+                        "id": 22,
+                        "level": 3,
+                        "len": 3,
+                        "pupil_sizes": [445, 433],
+                        "freq_abs":1686741,
+                        "freq_norm":11056.37,
+                        "gaze_time": 507,
+                        "times": [223,284]
+                    },
+                
+
+                    {
+                        "name": "noches",
+                        "pos": "NOUN",
+                        "dwell": 182,
+                        "pupil": 425,
+                        "id": 23,
+                        "level": 3,
+                        "len": 6,
+                        "pupil_sizes": [425],
+                        "freq_abs":8157,
+                        "freq_norm":53.46,
+                        "gaze_time": 182,
+                        "times": [182]
+                    },
+                
+
+                    {
+                        "name": "que",
+                        "pos": "PRON",
+                        "dwell": 182,
+                        "pupil": 414,
+                        "id": 24,
+                        "level": 3,
+                        "len": 3,
+                        "pupil_sizes": [414],
+                        "freq_abs":4681839,
+                        "freq_norm":30688.85,
+                        "gaze_time": 182,
+                        "times": [182]
+                    },
+                
+
+                    {
+                        "name": "tengo",
+                        "pos": "VERB",
+                        "dwell": 157,
+                        "pupil": 411,
+                        "id": 25,
+                        "level": 3,
+                        "len": 5,
+                        "pupil_sizes": [411],
+                        "freq_abs":32413,
+                        "freq_norm":212.46,
+                        "gaze_time": 157,
+                        "times": [157]
+                    },
+                
+
+                    {
+                        "name": "una",
+                        "pos": "DET",
+                        "dwell": 391,
+                        "pupil": 425,
+                        "id": 26,
+                        "level": 3,
+                        "len": 3,
+                        "pupil_sizes": [425],
+                        "freq_abs":1347603,
+                        "freq_norm":8833.36,
+                        "gaze_time": 0,
+                        "times": [391]
+                    },
+                
+
+                    {
+                        "name": "cita",
+                        "pos": "NOUN",
+                        "dwell": 689,
+                        "pupil": 419,
+                        "id": 27,
+                        "level": 3,
+                        "len": 4,
+                        "pupil_sizes": [409, 429],
+                        "freq_abs":7581,
+                        "freq_norm":49.69,
+                        "gaze_time": 689,
+                        "times": [361,328]
+                    },
+                
+
+                    {
+                        "name": "prometedora.",
+                        "pos": "ADJ",
+                        "dwell": 561,
+                        "pupil": 440,
+                        "id": 28,
+                        "level": 3,
+                        "len": 12,
+                        "pupil_sizes": [440],
+                        "freq_abs":269,
+                        "freq_norm":1.76,
+                        "gaze_time": 561,
+                        "times":[561]
+                    }
+                ],
+                "dwell": 8462,
+                "pupil": 441.28,
+                "id": 31
+              }
+          ],
+          "dwell": 15193,
+          "pupil": 440.62,
+          "id": 33
+        }
+    ]
+}

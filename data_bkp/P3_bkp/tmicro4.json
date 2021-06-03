@@ -1,0 +1,793 @@
+
+        {"wordlevel": [
+    {
+            "source": 0,
+            "target": 2,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 413,
+            "dwelltarget": 191,
+            "pupilsource": 364,
+            "pupiltarget": 392
+        },{
+            "source": 2,
+            "target": 2,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 191,
+            "dwelltarget": 173,
+            "pupilsource": 392,
+            "pupiltarget": 373
+        },{
+            "source": 2,
+            "target": 3,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 173,
+            "dwelltarget": 280,
+            "pupilsource": 373,
+            "pupiltarget": 365
+        },{
+            "source": 3,
+            "target": 21,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 280,
+            "dwelltarget": 73,
+            "pupilsource": 365,
+            "pupiltarget": 368
+        },{
+            "source": 21,
+            "target": 5,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 73,
+            "dwelltarget": 286,
+            "pupilsource": 368,
+            "pupiltarget": 387
+        },{
+            "source": 5,
+            "target": 2,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 286,
+            "dwelltarget": 468,
+            "pupilsource": 387,
+            "pupiltarget": 412
+        },{
+            "source": 2,
+            "target": 21,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 468,
+            "dwelltarget": 210,
+            "pupilsource": 412,
+            "pupiltarget": 405
+        },{
+            "source": 21,
+            "target": 22,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 210,
+            "dwelltarget": 186,
+            "pupilsource": 405,
+            "pupiltarget": 419
+        },{
+            "source": 22,
+            "target": 24,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 186,
+            "dwelltarget": 590,
+            "pupilsource": 419,
+            "pupiltarget": 426
+        },{
+            "source": 24,
+            "target": 26,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -38.26,
+            "dwellsource": 590,
+            "dwelltarget": 230,
+            "pupilsource": 426,
+            "pupiltarget": 432
+        },{
+            "source": 26,
+            "target": 27,
+            "value": 1,
+            "offsource": -38.26,
+            "offtarget": -6.32,
+            "dwellsource": 230,
+            "dwelltarget": 494,
+            "pupilsource": 432,
+            "pupiltarget": 404
+        },{
+            "source": 27,
+            "target": 29,
+            "value": 1,
+            "offsource": -6.32,
+            "offtarget": -72.76,
+            "dwellsource": 494,
+            "dwelltarget": 179,
+            "pupilsource": 404,
+            "pupiltarget": 369
+        },{
+            "source": 29,
+            "target": 30,
+            "value": 1,
+            "offsource": -72.76,
+            "offtarget": 0.00,
+            "dwellsource": 179,
+            "dwelltarget": 270,
+            "pupilsource": 369,
+            "pupiltarget": 354
+        },{
+            "source": 30,
+            "target": 33,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -82.62,
+            "dwellsource": 270,
+            "dwelltarget": 211,
+            "pupilsource": 354,
+            "pupiltarget": 342
+        },{
+            "source": 33,
+            "target": 33,
+            "value": 1,
+            "offsource": -82.62,
+            "offtarget": 1.90,
+            "dwellsource": 211,
+            "dwelltarget": 313,
+            "pupilsource": 342,
+            "pupiltarget": 335
+        },{
+            "source": 33,
+            "target": 17,
+            "value": 1,
+            "offsource": 1.90,
+            "offtarget": 0.00,
+            "dwellsource": 313,
+            "dwelltarget": 347,
+            "pupilsource": 335,
+            "pupiltarget": 330
+        },{
+            "source": 17,
+            "target": 35,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 347,
+            "dwelltarget": 326,
+            "pupilsource": 330,
+            "pupiltarget": 349
+        },{
+            "source": 35,
+            "target": 20,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 326,
+            "dwelltarget": 284,
+            "pupilsource": 349,
+            "pupiltarget": 409
+        },{
+            "source": 20,
+            "target": 21,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 284,
+            "dwelltarget": 241,
+            "pupilsource": 409,
+            "pupiltarget": 376
+        },{
+            "source": 21,
+            "target": 20,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -62.41,
+            "dwellsource": 241,
+            "dwelltarget": 254,
+            "pupilsource": 376,
+            "pupiltarget": 386
+        },{
+            "source": 20,
+            "target": 41,
+            "value": 1,
+            "offsource": -62.41,
+            "offtarget": 0.00,
+            "dwellsource": 254,
+            "dwelltarget": 147,
+            "pupilsource": 386,
+            "pupiltarget": 405
+        },{
+            "source": 41,
+            "target": 42,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 147,
+            "dwelltarget": 165,
+            "pupilsource": 405,
+            "pupiltarget": 415
+        },{
+            "source": 42,
+            "target": 24,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 165,
+            "dwelltarget": 196,
+            "pupilsource": 415,
+            "pupiltarget": 415
+        },{
+            "source": 24,
+            "target": 26,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 196,
+            "dwelltarget": 320,
+            "pupilsource": 415,
+            "pupiltarget": 398
+        },{
+            "source": 26,
+            "target": 27,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 320,
+            "dwelltarget": 141,
+            "pupilsource": 398,
+            "pupiltarget": 381
+        },{
+            "source": 27,
+            "target": 47,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -37.91,
+            "dwellsource": 141,
+            "dwelltarget": 187,
+            "pupilsource": 381,
+            "pupiltarget": 382
+        },{
+            "source": 47,
+            "target": 31,
+            "value": 1,
+            "offsource": -37.91,
+            "offtarget": 0.00,
+            "dwellsource": 187,
+            "dwelltarget": 270,
+            "pupilsource": 382,
+            "pupiltarget": 395
+        },{
+            "source": 31,
+            "target": 50,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 270,
+            "dwelltarget": 355,
+            "pupilsource": 395,
+            "pupiltarget": 395
+        },{
+            "source": 50,
+            "target": 34,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 355,
+            "dwelltarget": 319,
+            "pupilsource": 395,
+            "pupiltarget": 356
+        },{
+            "source": 34,
+            "target": 53,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 319,
+            "dwelltarget": 200,
+            "pupilsource": 356,
+            "pupiltarget": 357
+        },{
+            "source": 53,
+            "target": 38,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -96.41,
+            "dwellsource": 200,
+            "dwelltarget": 174,
+            "pupilsource": 357,
+            "pupiltarget": 395
+        },{
+            "source": 38,
+            "target": 36,
+            "value": 1,
+            "offsource": -96.41,
+            "offtarget": 0.00,
+            "dwellsource": 174,
+            "dwelltarget": 179,
+            "pupilsource": 395,
+            "pupiltarget": 395
+        },{
+            "source": 36,
+            "target": 38,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 179,
+            "dwelltarget": 194,
+            "pupilsource": 395,
+            "pupiltarget": 388
+        },{
+            "source": 38,
+            "target": 41,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 194,
+            "dwelltarget": 288,
+            "pupilsource": 388,
+            "pupiltarget": 410
+        },{
+            "source": 41,
+            "target": 60,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 288,
+            "dwelltarget": 226,
+            "pupilsource": 410,
+            "pupiltarget": 431
+        },{
+            "source": 60,
+            "target": 44,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 226,
+            "dwelltarget": 250,
+            "pupilsource": 431,
+            "pupiltarget": 415
+        },{
+            "source": 44,
+            "target": 44,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 250,
+            "dwelltarget": 269,
+            "pupilsource": 415,
+            "pupiltarget": 421
+        },{
+            "source": 44,
+            "target": 62,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 269,
+            "dwelltarget": 235,
+            "pupilsource": 421,
+            "pupiltarget": 437
+        },{
+            "source": 62,
+            "target": 64,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 235,
+            "dwelltarget": 249,
+            "pupilsource": 437,
+            "pupiltarget": 406
+        },{
+            "source": 64,
+            "target": 50,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 249,
+            "dwelltarget": 208,
+            "pupilsource": 406,
+            "pupiltarget": 381
+        },{
+            "source": 50,
+            "target": 50,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 208,
+            "dwelltarget": 140,
+            "pupilsource": 381,
+            "pupiltarget": 375
+        },{
+            "source": 50,
+            "target": 53,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -83.90,
+            "dwellsource": 140,
+            "dwelltarget": 189,
+            "pupilsource": 375,
+            "pupiltarget": 383
+        },{
+            "source": 53,
+            "target": 53,
+            "value": 1,
+            "offsource": -83.90,
+            "offtarget": 7.27,
+            "dwellsource": 189,
+            "dwelltarget": 407,
+            "pupilsource": 383,
+            "pupiltarget": 376
+        },{
+            "source": 53,
+            "target": 54,
+            "value": 1,
+            "offsource": 7.27,
+            "offtarget": 0.00,
+            "dwellsource": 407,
+            "dwelltarget": 133,
+            "pupilsource": 376,
+            "pupiltarget": 377
+        },{
+            "source": 54,
+            "target": 56,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 71.89,
+            "dwellsource": 133,
+            "dwelltarget": 113,
+            "pupilsource": 377,
+            "pupiltarget": 430
+        },{
+            "source": 56,
+            "target": 55,
+            "value": 1,
+            "offsource": 71.89,
+            "offtarget": 0.00,
+            "dwellsource": 113,
+            "dwelltarget": 246,
+            "pupilsource": 430,
+            "pupiltarget": 397
+        },{
+            "source": 55,
+            "target": 58,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 246,
+            "dwelltarget": 265,
+            "pupilsource": 397,
+            "pupiltarget": 350
+        },{
+            "source": 58,
+            "target": 58,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 265,
+            "dwelltarget": 252,
+            "pupilsource": 350,
+            "pupiltarget": 348
+        },{
+            "source": 58,
+            "target": 58,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 69.69,
+            "dwellsource": 252,
+            "dwelltarget": 210,
+            "pupilsource": 348,
+            "pupiltarget": 342
+        },{
+            "source": 58,
+            "target": 58,
+            "value": 1,
+            "offsource": 69.69,
+            "offtarget": 0.00,
+            "dwellsource": 210,
+            "dwelltarget": 226,
+            "pupilsource": 342,
+            "pupiltarget": 366
+        },{
+            "source": 58,
+            "target": 60,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 226,
+            "dwelltarget": 228,
+            "pupilsource": 366,
+            "pupiltarget": 406
+        },{
+            "source": 60,
+            "target": 62,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 228,
+            "dwelltarget": 229,
+            "pupilsource": 406,
+            "pupiltarget": 389
+        },{
+            "source": 62,
+            "target": 64,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 229,
+            "dwelltarget": 221,
+            "pupilsource": 389,
+            "pupiltarget": 384
+        },{
+            "source": 64,
+            "target": 61,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 221,
+            "dwelltarget": 293,
+            "pupilsource": 384,
+            "pupiltarget": 403
+        },{
+            "source": 61,
+            "target": 63,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 293,
+            "dwelltarget": 219,
+            "pupilsource": 403,
+            "pupiltarget": 411
+        },{
+            "source": 63,
+            "target": 64,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 219,
+            "dwelltarget": 237,
+            "pupilsource": 411,
+            "pupiltarget": 383
+        },{
+            "source": 64,
+            "target": 66,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 237,
+            "dwelltarget": 218,
+            "pupilsource": 383,
+            "pupiltarget": 350
+        },{
+            "source": 66,
+            "target": 81,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 218,
+            "dwelltarget": 212,
+            "pupilsource": 350,
+            "pupiltarget": 337
+        },{
+            "source": 81,
+            "target": 68,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 212,
+            "dwelltarget": 299,
+            "pupilsource": 337,
+            "pupiltarget": 336
+        },{
+            "source": 68,
+            "target": 69,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.45,
+            "dwellsource": 299,
+            "dwelltarget": 155,
+            "pupilsource": 336,
+            "pupiltarget": 342
+        },{
+            "source": 69,
+            "target": 70,
+            "value": 1,
+            "offsource": 0.45,
+            "offtarget": 0.00,
+            "dwellsource": 155,
+            "dwelltarget": 287,
+            "pupilsource": 342,
+            "pupiltarget": 358
+        },{
+            "source": 70,
+            "target": 72,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 287,
+            "dwelltarget": 402,
+            "pupilsource": 358,
+            "pupiltarget": 332
+        },{
+            "source": 72,
+            "target": 74,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 29.29,
+            "dwellsource": 402,
+            "dwelltarget": 276,
+            "pupilsource": 332,
+            "pupiltarget": 367
+        },{
+            "source": 74,
+            "target": 75,
+            "value": 1,
+            "offsource": 29.29,
+            "offtarget": 0.00,
+            "dwellsource": 276,
+            "dwelltarget": 236,
+            "pupilsource": 367,
+            "pupiltarget": 398
+        },{
+            "source": 75,
+            "target": 77,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -52.86,
+            "dwellsource": 236,
+            "dwelltarget": 175,
+            "pupilsource": 398,
+            "pupiltarget": 409
+        },{
+            "source": 77,
+            "target": 78,
+            "value": 1,
+            "offsource": -52.86,
+            "offtarget": -16.25,
+            "dwellsource": 175,
+            "dwelltarget": 157,
+            "pupilsource": 409,
+            "pupiltarget": 425
+        },{
+            "source": 78,
+            "target": 80,
+            "value": 1,
+            "offsource": -16.25,
+            "offtarget": 0.00,
+            "dwellsource": 157,
+            "dwelltarget": 344,
+            "pupilsource": 425,
+            "pupiltarget": 423
+        },{
+            "source": 80,
+            "target": 80,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -111.45,
+            "dwellsource": 344,
+            "dwelltarget": 52,
+            "pupilsource": 423,
+            "pupiltarget": 429
+        },{
+            "source": 80,
+            "target": 80,
+            "value": 1,
+            "offsource": -111.45,
+            "offtarget": 0.00,
+            "dwellsource": 52,
+            "dwelltarget": 197,
+            "pupilsource": 429,
+            "pupiltarget": 439
+        },{
+            "source": 80,
+            "target": 81,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 197,
+            "dwelltarget": 235,
+            "pupilsource": 439,
+            "pupiltarget": 446
+        },{
+            "source": 81,
+            "target": 83,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 235,
+            "dwelltarget": 296,
+            "pupilsource": 446,
+            "pupiltarget": 410
+        },{
+            "source": 83,
+            "target": 84,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 296,
+            "dwelltarget": 219,
+            "pupilsource": 410,
+            "pupiltarget": 411
+        },{
+            "source": 84,
+            "target": 84,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": 0.00,
+            "dwellsource": 219,
+            "dwelltarget": 296,
+            "pupilsource": 411,
+            "pupiltarget": 415
+        },{
+            "source": 84,
+            "target": 87,
+            "value": 1,
+            "offsource": 0.00,
+            "offtarget": -44.14,
+            "dwellsource": 296,
+            "dwelltarget": 277,
+            "pupilsource": 415,
+            "pupiltarget": 443
+        },{
+            "source": 87,
+            "target": 88,
+            "value": 1,
+            "offsource": -44.14,
+            "offtarget": -91.67,
+            "dwellsource": 277,
+            "dwelltarget": 389,
+            "pupilsource": 443,
+            "pupiltarget": 397
+        },{
+            "source": 88,
+            "target": 91,
+            "value": 1,
+            "offsource": -91.67,
+            "offtarget": -0.54,
+            "dwellsource": 389,
+            "dwelltarget": 225,
+            "pupilsource": 397,
+            "pupiltarget": 409
+        },{
+            "source": 91,
+            "target": 90,
+            "value": 1,
+            "offsource": -0.54,
+            "offtarget": 53.51,
+            "dwellsource": 225,
+            "dwelltarget": 124,
+            "pupilsource": 409,
+            "pupiltarget": 414
+        },{
+            "source": 90,
+            "target": 92,
+            "value": 1,
+            "offsource": 53.51,
+            "offtarget": 18.29,
+            "dwellsource": 124,
+            "dwelltarget": 183,
+            "pupilsource": 414,
+            "pupiltarget": 399
+        },{
+            "source": 92,
+            "target": 93,
+            "value": 1,
+            "offsource": 18.29,
+            "offtarget": -27.23,
+            "dwellsource": 183,
+            "dwelltarget": 404,
+            "pupilsource": 399,
+            "pupiltarget": 390
+        }]}

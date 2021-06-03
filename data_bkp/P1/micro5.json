@@ -1,0 +1,512 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "dwell": 0,
+              "freq_abs": 4234281,
+              "freq_norm": 27755.16,
+              "gaze_time": 0,
+              "id": 0,
+              "len": 2,
+              "name": "En",
+              "new_line": true,
+              "pos": "ADP"
+            },
+            {
+              "dwell": 603,
+              "freq_abs": 7969,
+              "freq_norm": 52.23,
+              "gaze_time": 160,
+              "id": 1,
+              "len": 8,
+              "name": "segundos",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 393,
+              "freq_abs": 247340,
+              "freq_norm": 1621.28,
+              "gaze_time": 393,
+              "id": 2,
+              "len": 4,
+              "name": "todo",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 189,
+              "freq_abs": 223791,
+              "freq_norm": 1466.92,
+              "gaze_time": 189,
+              "id": 3,
+              "len": 3,
+              "name": "fue",
+              "pos": "AUX"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95,
+              "gaze_time": 0,
+              "id": 4,
+              "len": 2,
+              "name": "un",
+              "pos": "DET"
+            },
+            {
+              "dwell": 228,
+              "freq_abs": 2842,
+              "freq_norm": 18.62,
+              "gaze_time": 228,
+              "id": 5,
+              "len": 4,
+              "name": "caos",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 589,
+              "freq_abs": 309,
+              "freq_norm": 2.02,
+              "gaze_time": 589,
+              "id": 6,
+              "len": 14,
+              "name": "indescriptible.",
+              "pos": "ADJ"
+            }
+          ],
+          "full": "Frase 1",
+          "name": "Frase 1"
+        }
+      ],
+      "full": "Oración 1",
+      "name": "Oración 1"
+    },
+    {
+      "children":[
+        {
+          "children":[
+            {
+              "dwell": 21,
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59,
+              "gaze_time": 21,
+              "id": 7,
+              "len": 2,
+              "name": "La",
+              "pos": "DET"
+            },
+            {
+              "dwell": 227,
+              "freq_abs": 123491,
+              "freq_norm": 809.46,
+              "gaze_time": 227,
+              "id": 8,
+              "len": 4,
+              "name": "vida",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 424,
+              "freq_abs": 185,
+              "freq_norm": 1.21,
+              "gaze_time": 424,
+              "id": 9,
+              "len": 10,
+              "name": "aparentaba",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 245,
+              "freq_abs": 54150,
+              "freq_norm": 354.94,
+              "gaze_time": 245,
+              "id": 10,
+              "len": 5,
+              "name": "haber",
+              "pos": "AUX"
+            },
+            {
+              "dwell": 511,
+              "freq_abs": 4413,
+              "freq_norm": 28.92,
+              "gaze_time": 511,
+              "id": 11,
+              "len": 12,
+              "name": "desaparecido.",
+              "pos": "VERB"
+            }
+          ]
+        }
+      ],
+      "full": "Oración 2",
+      "name": "Oración 2"
+    },
+    {
+      "children":[
+        {
+          "children":[
+                        {
+              "dwell": 462,
+              "freq_abs": 110620,
+              "freq_norm": 725.09,
+              "gaze_time": 216,
+              "id": 12,
+              "len": 4,
+              "name": "Ella",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 513,
+              "freq_abs": 2022514,
+              "freq_norm": 13257.31,
+              "gaze_time": 513,
+              "id": 13,
+              "len": 2,
+              "name": "se",
+              "pos": "PRON"
+            },
+            {
+              "break_line": true,
+              "dwell": 472,
+              "freq_abs": 819,
+              "freq_norm": 5.36,
+              "gaze_time": 160,
+              "id": 14,
+              "len": 7,
+              "name": "sacudió",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 0,
+              "id": 15,
+              "len": 2,
+              "name": "el",
+              "new_line": true,
+              "pos": "DET"
+            },
+            {
+              "dwell": 410,
+              "freq_abs": 6592,
+              "freq_norm": 43.2,
+              "gaze_time": 181,
+              "id": 16,
+              "len": 5,
+              "name": "polvo",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 159,
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85,
+              "gaze_time": 159,
+              "id": 17,
+              "len": 3,
+              "name": "que",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 440,
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59,
+              "gaze_time": 440,
+              "id": 18,
+              "len": 2,
+              "name": "la",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 1242,
+              "freq_norm": 8.14,
+              "gaze_time": 0,
+              "id": 19,
+              "len": 6,
+              "name": "cubría",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 4180279,
+              "freq_norm": 27401.19,
+              "gaze_time": 0,
+              "id": 20,
+              "len": 1,
+              "name": "y",
+              "pos": "CONJ"
+            },
+            {
+              "dwell": 226,
+              "freq_abs": 2022514,
+              "freq_norm": 13257.31,
+              "gaze_time": 226,
+              "id": 21,
+              "len": 2,
+              "name": "se",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 157,
+              "freq_abs": 5695,
+              "freq_norm": 37.32,
+              "gaze_time": 157,
+              "id": 22,
+              "len": 7,
+              "name": "levantó",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55,
+              "gaze_time": 0,
+              "id": 23,
+              "len": 2,
+              "name": "de",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 218,
+              "freq_abs": 267493,
+              "freq_norm": 1753.38,
+              "gaze_time": 218,
+              "id": 24,
+              "len": 5,
+              "name": "entre",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 394,
+              "freq_abs": 1686741,
+              "freq_norm": 11056.37,
+              "gaze_time": 394,
+              "id": 25,
+              "len": 3,
+              "name": "las",
+              "pos": "DET"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 0,
+              "freq_norm": 0.0,
+              "gaze_time": 0,
+              "id": 26,
+              "len": 7,
+              "name": "ruinas:",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 324,
+              "freq_abs": 449870,
+              "freq_norm": 2948.84,
+              "gaze_time": 324,
+              "id": 27,
+              "len": 3,
+              "name": "sus",
+              "pos": "DET"
+            },
+            {
+              "dwell": 113,
+              "freq_abs": 230,
+              "freq_norm": 1.5,
+              "gaze_time": 113,
+              "id": 28,
+              "len": 6,
+              "name": "ojitos",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 531,
+              "freq_abs": 49,
+              "freq_norm": 0.32,
+              "gaze_time": 531,
+              "id": 29,
+              "len": 8,
+              "name": "azorados",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 273,
+              "freq_abs": 4464,
+              "freq_norm": 29.26,
+              "gaze_time": 273,
+              "id": 30,
+              "len": 6,
+              "name": "vieron",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 0,
+              "id": 31,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 402,
+              "freq_abs": 1011,
+              "freq_norm": 6.62,
+              "gaze_time": 402,
+              "id": 32,
+              "len": 7,
+              "name": "espanto.",
+              "pos": "NOUN"
+            }
+          ]
+        }
+      ],
+      "full": "Oración 3",
+      "name": "Oración 3"
+    },
+    {
+      "children":[
+        {
+          "children":[
+                        {
+              "break_line": true,
+              "dwell": 194,
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55,
+              "gaze_time": 194,
+              "id": 33,
+              "len": 2,
+              "name": "De",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 415,
+              "freq_abs": 26934,
+              "freq_norm": 176.54,
+              "gaze_time": 415,
+              "id": 34,
+              "len": 6,
+              "name": "pronto",
+              "new_line": true,
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 182,
+              "freq_abs": 801,
+              "freq_norm": 5.25,
+              "gaze_time": 182,
+              "id": 35,
+              "len": 5,
+              "name": "asomó",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 255,
+              "freq_abs": 113982,
+              "freq_norm": 747.13,
+              "gaze_time": 255,
+              "id": 36,
+              "len": 4,
+              "name": "otra",
+              "pos": "DET"
+            },
+            {
+              "dwell": 611,
+              "freq_abs": 181,
+              "freq_norm": 1.18,
+              "gaze_time": 611,
+              "id": 37,
+              "len": 9,
+              "name": "cucaracha",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 4180279,
+              "freq_norm": 27401.19,
+              "gaze_time": 0,
+              "id": 38,
+              "len": 1,
+              "name": "y",
+              "pos": "CONJ"
+            },
+            {
+              "dwell": 262,
+              "freq_abs": 3649,
+              "freq_norm": 23.91,
+              "gaze_time": 262,
+              "id": 39,
+              "len": 6,
+              "name": "juntas",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 2022514,
+              "freq_norm": 13257.31,
+              "gaze_time": 0,
+              "id": 40,
+              "len": 2,
+              "name": "se",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 371,
+              "freq_abs": 9,
+              "freq_norm": 0.05,
+              "gaze_time": 371,
+              "id": 41,
+              "len": 12,
+              "name": "escabulleron",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 138,
+              "freq_abs": 1561904,
+              "freq_norm": 10238.07,
+              "gaze_time": 138,
+              "id": 42,
+              "len": 3,
+              "name": "por",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 547,
+              "freq_abs": 267493,
+              "freq_norm": 1753.38,
+              "gaze_time": 173,
+              "id": 43,
+              "len": 5,
+              "name": "entre",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 592,
+              "freq_abs": 2618657,
+              "freq_norm": 17164.95,
+              "gaze_time": 0,
+              "id": 44,
+              "len": 3,
+              "name": "los",
+              "pos": "DET"
+            },
+            {
+              "dwell": 264,
+              "freq_abs": 1095,
+              "freq_norm": 7.17,
+              "gaze_time": 264,
+              "id": 45,
+              "len": 9,
+              "name": "escombros.",
+              "pos": "NOUN"
+            }
+          ]
+        }
+      ],
+      "full": "Oración 4",
+      "name": "Oración 4"
+    }
+  ],
+  "name": "MICROSTORY"
+}

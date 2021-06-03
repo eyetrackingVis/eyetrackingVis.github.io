@@ -853,22 +853,22 @@ function create_plot(nodeData, data_links){
         .on("click", function(e){
           d3.selectAll(".linePupilWord").remove().exit()
         })
-        .on("mouseover", function(e,j){
+        // .on("mouseover", function(e,j){
 
-          var tooltip = d3.select("#app")
-            .append("div")
-            .style("opacity", 0)
-            .attr("class", "tooltip2")
+        //   var tooltip = d3.select("#app")
+        //     .append("div")
+        //     .style("opacity", 0)
+        //     .attr("class", "tooltip2")
 
-          tooltip.html(`<strong>Fixation</strong> <br> 
-             Duration: ${d.dwellsource} ms`)
-            .style("opacity",1)
-            .style("left", (d3.mouse(this)[0]+300)+"px")
-            .style("top", (d3.mouse(this)[1]-600) + "px")
-        })
-        .on("mouseout", function(e){
-          d3.select(".tooltip2").remove()
-        })
+        //   tooltip.html(`<strong>Fixation</strong> <br> 
+        //      Duration: ${d.dwellsource} ms`)
+        //     .style("opacity",1)
+        //     .style("left", (d3.mouse(this)[0]+300)+"px")
+        //     .style("top", (d3.mouse(this)[1]-600) + "px")
+        // })
+        // .on("mouseout", function(e){
+        //   d3.select(".tooltip2").remove()
+        // })
         .transition()
         .duration(1000)
         .attrs({
