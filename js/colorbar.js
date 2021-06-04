@@ -18,7 +18,7 @@ function plot_colorbar(g, scaleColorPupil){
     var legendSvg = g.append("g")
         .attr('width', 100)
         .attr('height', legendWidth)
-        .attr('transform', 'translate(-190, 440)')
+        .attr('transform', 'translate(-450, 440)')
 
       // create colour scale
     var [min, max] = scaleColorPupil.domain()
@@ -107,7 +107,7 @@ function plot_colorbar(g, scaleColorPupil){
 //   var legendSvg = g.append("g")
 //       .attr('width', 100)
 //       .attr('height', legendWidth)
-//       .attr('transform', 'translate(-190, 370)')
+//       .attr('transform', 'translate(-450, 370)')
 
 //     // create colour scale
 //   var [min, max] = scaleColorPupil.domain()
@@ -197,7 +197,7 @@ function plot_frequencies(g, scale){
       .attr("class", "scale_freqs")
       .attr('width', 100)
       .attr('height', legendWidth)
-      .attr('transform', 'translate(-190, 370)')
+      .attr('transform', 'translate(-450, 370)')
   
   // clear current legend
   legendSvg.selectAll('*').remove();
@@ -244,7 +244,7 @@ function plot_legends(g){
     var legendSvg = g.append("g")
       .attr('width', 100)
       .attr('height', 380)
-      .attr('transform', 'translate(-190, 500)')
+      .attr('transform', 'translate(-450, 500)')
 
     legendSvg.selectAll("circlesLegends")
       .data(["Transitions"]).enter()
@@ -291,7 +291,7 @@ function plot_dwell(g, min, max){
     var legendSvg = g.append("g")
         .attr('width', 100)
         .attr('height', legendWidth)
-        .attr('transform', 'translate(-190, 370)')
+        .attr('transform', 'translate(-450, 370)')
 
     // clear current legend
     legendSvg.selectAll('*').remove();

@@ -6,201 +6,223 @@
           "children": [
             {
               "dwell": 0,
-              "freq_abs": 164940,
-              "freq_norm": 1081.16,
+              "freq_abs": 100761,
+              "freq_norm": 660.47,
               "gaze_time": 0,
               "id": 0,
-              "len": 3,
-              "name": "Hay",
+              "len": 5,
+              "name": "Antes",
               "new_line": true,
-              "pos": "VERB"
-            },
-            {
-              "dwell": 149,
-              "freq_abs": 3686,
-              "freq_norm": 24.16,
-              "gaze_time": 149,
-              "id": 1,
-              "len": 7,
-              "name": "novelas",
-              "pos": "NOUN"
-            },
-            {
-              "dwell": 214,
-              "freq_abs": 4681839,
-              "freq_norm": 30688.85,
-              "gaze_time": 214,
-              "id": 2,
-              "len": 3,
-              "name": "que",
-              "pos": "ADP"
-            },
-            {
-              "dwell": 648,
-              "freq_abs": 15317,
-              "freq_norm": 100.4,
-              "gaze_time": 648,
-              "id": 3,
-              "len": 3,
-              "name": "aun",
               "pos": "ADV"
-            },
-            {
-              "dwell": 287,
-              "freq_abs": 298383,
-              "freq_norm": 1955.86,
-              "gaze_time": 125,
-              "id": 4,
-              "len": 3,
-              "name": "sin",
-              "pos": "ADP"
-            },
-            {
-              "dwell": 419,
-              "freq_abs": 232924,
-              "freq_norm": 1526.78,
-              "gaze_time": 147,
-              "id": 5,
-              "len": 3,
-              "name": "ser",
-              "pos": "VERB"
-            },
-            {
-              "dwell": 184,
-              "freq_abs": 4926,
-              "freq_norm": 32.28,
-              "gaze_time": 184,
-              "id": 6,
-              "len": 6,
-              "name": "largas",
-              "pos": "ADJ"
-            },
-            {
-              "dwell": 272,
-              "freq_abs": 1465503,
-              "freq_norm": 9606.18,
-              "gaze_time": 272,
-              "id": 7,
-              "len": 2,
-              "name": "no",
-              "pos": "ADV"
-            },
-            {
-              "dwell": 178,
-              "freq_abs": 1670,
-              "freq_norm": 10.94,
-              "gaze_time": 178,
-              "id": 8,
-              "len": 6,
-              "name": "logran",
-              "pos": "VERB"
-            },
-            {
-              "dwell": 427,
-              "freq_abs": 5242,
-              "freq_norm": 34.36,
-              "gaze_time": 427,
-              "id": 9,
-              "len": 8,
-              "name": "comenzar",
-              "pos": "VERB"
             },
             {
               "dwell": 0,
               "freq_abs": 9999518,
               "freq_norm": 65545.55,
               "gaze_time": 0,
-              "id": 10,
+              "id": 1,
               "len": 2,
               "name": "de",
               "pos": "ADP"
             },
             {
-              "dwell": 539,
-              "freq_abs": 39924,
-              "freq_norm": 261.69,
-              "gaze_time": 539,
-              "id": 11,
-              "len": 6,
-              "name": "verdad",
+              "dwell": 176,
+              "freq_abs": 5218,
+              "freq_norm": 34.2,
+              "gaze_time": 176,
+              "id": 2,
+              "len": 7,
+              "name": "ponerse",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 163,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 163,
+              "id": 3,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 479,
+              "freq_abs": 4843,
+              "freq_norm": 31.74,
+              "gaze_time": 479,
+              "id": 4,
+              "len": 9,
+              "name": "pendiente",
               "pos": "NOUN"
             },
             {
-              "dwell": 176,
-              "freq_abs": 202935,
-              "freq_norm": 1330.21,
-              "gaze_time": 176,
-              "id": 12,
+              "dwell": 428,
+              "freq_abs": 208,
+              "freq_norm": 1.36,
+              "gaze_time": 188,
+              "id": 5,
               "len": 5,
-              "name": "hasta",
+              "name": "frotó",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 528,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 528,
+              "id": 6,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 3087,
+              "freq_norm": 20.23,
+              "gaze_time": 0,
+              "id": 7,
+              "len": 5,
+              "name": "metal",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 285,
+              "freq_abs": 4681839,
+              "freq_norm": 30688.85,
+              "gaze_time": 285,
+              "id": 8,
+              "len": 3,
+              "name": "que",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 549,
+              "freq_abs": 909,
+              "freq_norm": 5.95,
+              "gaze_time": 549,
+              "id": 9,
+              "len": 7,
+              "name": "rodeaba",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 262,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 262,
+              "id": 10,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 243,
+              "freq_abs": 94,
+              "freq_norm": 0.61,
+              "gaze_time": 243,
+              "id": 11,
+              "len": 6,
+              "name": "zafiro",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 1481607,
+              "freq_norm": 9711.74,
+              "gaze_time": 0,
+              "id": 12,
+              "len": 3,
+              "name": "con",
               "pos": "ADP"
             },
             {
-              "dwell": 307,
-              "freq_abs": 6277560,
-              "freq_norm": 41148.59,
-              "gaze_time": 307,
+              "dwell": 515,
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95,
+              "gaze_time": 515,
               "id": 13,
               "len": 2,
-              "name": "la",
+              "name": "un",
               "pos": "DET"
             },
             {
-              "dwell": 0,
-              "freq_abs": 7755,
-              "freq_norm": 50.83,
-              "gaze_time": 0,
+              "dwell": 331,
+              "freq_abs": 11,
+              "freq_norm": 0.07,
+              "gaze_time": 331,
               "id": 14,
-              "len": 6,
-              "name": "página",
+              "len": 10,
+              "name": "bastoncito",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 524,
+              "freq_abs": 384,
+              "freq_norm": 2.51,
+              "gaze_time": 524,
+              "id": 15,
+              "len": 10,
+              "name": "impregnado",
+              "pos": "ADJ"
+            },
+            {
+              "break_line": true,
+              "dwell": 0,
+              "freq_abs": 4234281,
+              "freq_norm": 27755.16,
+              "gaze_time": 0,
+              "id": 16,
+              "len": 2,
+              "name": "en",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 151,
+              "freq_abs": 4450,
+              "freq_norm": 29.16,
+              "gaze_time": 151,
+              "id": 17,
+              "len": 7,
+              "name": "líquido",
+              "new_line": true,
               "pos": "NOUN"
             },
             {
               "dwell": 0,
-              "freq_abs": 0,
-              "freq_norm": 0.0,
-              "gaze_time": 0,
-              "id": 15,
-              "len": 2,
-              "name": "50",
-              "pos": "NUM"
-            },
-            {
-              "dwell": 0,
-              "freq_abs": 542284,
-              "freq_norm": 3554.6,
-              "gaze_time": 0,
-              "id": 16,
-              "len": 1,
-              "name": "o",
-              "pos": "CONJ"
-            },
-            {
-              "dwell": 0,
-              "freq_abs": 6277560,
-              "freq_norm": 41148.59,
-              "gaze_time": 0,
-              "id": 17,
-              "len": 2,
-              "name": "la",
-              "pos": "DET"
-            },
-            {
-              "dwell": 152,
-              "freq_abs": 0,
-              "freq_norm": 0.0,
+              "freq_abs": 1062152,
+              "freq_norm": 6962.26,
               "gaze_time": 0,
               "id": 18,
-              "len": 2,
-              "name": "60.",
-              "pos": "NUM"
+              "len": 4,
+              "name": "para",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 156,
+              "freq_abs": 2031,
+              "freq_norm": 13.31,
+              "gaze_time": 156,
+              "id": 19,
+              "len": 7,
+              "name": "limpiar",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 286,
+              "freq_abs": 11177,
+              "freq_norm": 73.26,
+              "gaze_time": 286,
+              "id": 20,
+              "len": 5,
+              "name": "plata.",
+              "pos": "NOUN"
             }
           ],
           "full": "Frase 1",
           "name": "Frase 1"
         }
       ],
-      "full": "Oración 1",
+      "full": "Oració 1",
       "name": "Oración 1"
     },
 
@@ -209,76 +231,146 @@
         {
           "children": [
                         {
-              "break_line": true,
-              "dwell": 232,
-              "freq_abs": 3260939,
-              "freq_norm": 21375.03,
-              "gaze_time": 232,
-              "id": 19,
-              "len": 1,
-              "name": "A",
+              "dwell": 268,
+              "freq_abs": 4619,
+              "freq_norm": 30.27,
+              "gaze_time": 268,
+              "id": 21,
+              "len": 7,
+              "name": "Cientos",
+              "pos": "NUM"
+            },
+            {
+              "dwell": 272,
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55,
+              "gaze_time": 161,
+              "id": 22,
+              "len": 2,
+              "name": "de",
               "pos": "ADP"
             },
             {
-              "dwell": 0,
-              "freq_abs": 42223,
-              "freq_norm": 276.76,
-              "gaze_time": 0,
-              "id": 20,
-              "len": 7,
-              "name": "algunas",
-              "new_line": true,
-              "pos": "DET"
-            },
-            {
-              "dwell": 131,
-              "freq_abs": 5331,
-              "freq_norm": 34.94,
-              "gaze_time": 131,
-              "id": 21,
-              "len": 5,
-              "name": "vidas",
+              "dwell": 273,
+              "freq_abs": 1490,
+              "freq_norm": 9.76,
+              "gaze_time": 273,
+              "id": 23,
+              "len": 8,
+              "name": "estratos",
               "pos": "NOUN"
             },
             {
-              "dwell": 0,
-              "freq_abs": 86363,
-              "freq_norm": 566.09,
-              "gaze_time": 0,
-              "id": 22,
-              "len": 3,
-              "name": "les",
-              "pos": "PRON"
+              "dwell": 179,
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55,
+              "gaze_time": 179,
+              "id": 24,
+              "len": 2,
+              "name": "de",
+              "pos": "ADP"
             },
             {
-              "dwell": 0,
-              "freq_abs": 7885,
-              "freq_norm": 51.68,
-              "gaze_time": 0,
-              "id": 23,
+              "dwell": 552,
+              "freq_abs": 130896,
+              "freq_norm": 858.0,
+              "gaze_time": 312,
+              "id": 25,
               "len": 6,
-              "name": "sucede",
+              "name": "tiempo",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 799,
+              "freq_abs": 920,
+              "freq_norm": 6.03,
+              "gaze_time": 799,
+              "id": 26,
+              "len": 10,
+              "name": "levantaron",
               "pos": "VERB"
             },
             {
-              "dwell": 0,
-              "freq_abs": 866955,
-              "freq_norm": 5682.77,
-              "gaze_time": 0,
-              "id": 24,
+              "dwell": 379,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 379,
+              "id": 27,
               "len": 2,
-              "name": "lo",
+              "name": "el",
               "pos": "DET"
             },
             {
-              "dwell": 164,
-              "freq_abs": 130746,
-              "freq_norm": 857.02,
-              "gaze_time": 164,
-              "id": 25,
+              "dwell": 0,
+              "freq_abs": 5694,
+              "freq_norm": 37.32,
+              "gaze_time": 0,
+              "id": 28,
               "len": 5,
-              "name": "mismo.",
+              "name": "vuelo",
               "pos": "NOUN"
+            },
+            {
+              "dwell": 194,
+              "freq_abs": 7099,
+              "freq_norm": 46.53,
+              "gaze_time": 194,
+              "id": 29,
+              "len": 7,
+              "name": "dejando",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 215,
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59,
+              "gaze_time": 0,
+              "id": 30,
+              "len": 2,
+              "name": "la",
+              "pos": "DET"
+            },
+            {
+              "break_line": true,
+              "dwell": 172,
+              "freq_abs": 11632,
+              "freq_norm": 76.24,
+              "gaze_time": 172,
+              "id": 31,
+              "len": 10,
+              "name": "superficie",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 123,
+              "freq_abs": 1095,
+              "freq_norm": 7.17,
+              "gaze_time": 123,
+              "id": 32,
+              "len": 8,
+              "name": "luminosa",
+              "new_line": true,
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 4180279,
+              "freq_norm": 27401.19,
+              "gaze_time": 0,
+              "id": 33,
+              "len": 1,
+              "name": "y",
+              "pos": "CONJ"
+            },
+            {
+              "dwell": 618,
+              "freq_abs": 2528,
+              "freq_norm": 16.57,
+              "gaze_time": 618,
+              "id": 34,
+              "len": 7,
+              "name": "desnuda.",
+              "pos": "ADJ"
             }
           ]
         }
@@ -287,98 +379,211 @@
       "name": "Oracion 2"
     },
 
+
     {
       "children": [
         {
           "children": [
                         {
-              "dwell": 156,
-              "freq_abs": 1561904,
-              "freq_norm": 10238.07,
-              "gaze_time": 156,
-              "id": 26,
-              "len": 3,
-              "name": "Por",
-              "pos": "ADP"
+              "dwell": 0,
+              "freq_abs": 2022514,
+              "freq_norm": 13257.31,
+              "gaze_time": 0,
+              "id": 35,
+              "len": 2,
+              "name": "Se",
+              "pos": "PRON"
             },
             {
-              "dwell": 354,
-              "freq_abs": 114523,
-              "freq_norm": 750.68,
+              "dwell": 138,
+              "freq_abs": 4004,
+              "freq_norm": 26.24,
+              "gaze_time": 138,
+              "id": 36,
+              "len": 6,
+              "name": "acercó,",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 523,
+              "freq_abs": 1862,
+              "freq_norm": 12.2,
+              "gaze_time": 523,
+              "id": 37,
+              "len": 7,
+              "name": "curiosa,",
+              "pos": "ADJ"
+            },
+            {
+              "dwell": 166,
+              "freq_abs": 4180279,
+              "freq_norm": 27401.19,
+              "gaze_time": 166,
+              "id": 38,
+              "len": 1,
+              "name": "y",
+              "pos": "CONJ"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 6277560,
+              "freq_norm": 41148.59,
               "gaze_time": 0,
-              "id": 27,
-              "len": 3,
-              "name": "eso",
+              "id": 39,
+              "len": 2,
+              "name": "la",
+              "pos": "DET"
+            },
+            {
+              "dwell": 345,
+              "freq_abs": 1000,
+              "freq_norm": 6.55,
+              "gaze_time": 345,
+              "id": 40,
+              "len": 4,
+              "name": "joya",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 150,
+              "freq_abs": 413241,
+              "freq_norm": 2708.74,
+              "gaze_time": 150,
+              "id": 41,
+              "len": 2,
+              "name": "le",
+              "pos": "PRON"
+            },
+            {
+              "dwell": 1179,
+              "freq_abs": 1146,
+              "freq_norm": 7.51,
+              "gaze_time": 499,
+              "id": 42,
+              "len": 8,
+              "name": "devolvió",
+              "pos": "VERB"
+            },
+            {
+              "dwell": 432,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 432,
+              "id": 43,
+              "len": 2,
+              "name": "el",
               "pos": "DET"
             },
             {
               "dwell": 0,
-              "freq_abs": 1465503,
-              "freq_norm": 9606.18,
+              "freq_abs": 13200,
+              "freq_norm": 86.52,
               "gaze_time": 0,
-              "id": 28,
-              "len": 2,
-              "name": "no",
-              "pos": "ADV"
-            },
-            {
-              "dwell": 182,
-              "freq_abs": 374368,
-              "freq_norm": 2453.93,
-              "gaze_time": 182,
-              "id": 29,
-              "len": 2,
-              "name": "me",
-              "pos": "PRON"
-            },
-            {
-              "dwell": 164,
-              "freq_abs": 58965,
-              "freq_norm": 386.5,
-              "gaze_time": 164,
-              "id": 30,
-              "len": 2,
-              "name": "he",
-              "pos": "VERB"
-            },
-            {
-              "dwell": 172,
-              "freq_abs": 1715,
-              "freq_norm": 11.24,
-              "gaze_time": 172,
-              "id": 31,
+              "id": 44,
               "len": 6,
-              "name": "matado",
-              "pos": "VERB"
-            },
-            {
-              "dwell": 281,
-              "freq_abs": 100761,
-              "freq_norm": 660.47,
-              "gaze_time": 281,
-              "id": 32,
-              "len": 5,
-              "name": "antes,",
-              "pos": "ADV"
-            },
-            {
-              "dwell": 385,
-              "freq_abs": 34905,
-              "freq_norm": 228.79,
-              "gaze_time": 385,
-              "id": 33,
-              "len": 5,
-              "name": "señor",
+              "name": "rostro",
               "pos": "NOUN"
             },
             {
+              "dwell": 381,
+              "freq_abs": 3449,
+              "freq_norm": 22.6,
+              "gaze_time": 381,
+              "id": 45,
+              "len": 11,
+              "name": "adolescente",
+              "pos": "ADJ"
+            },
+            {
               "dwell": 0,
-              "freq_abs": 17328,
-              "freq_norm": 113.58,
+              "freq_abs": 9999518,
+              "freq_norm": 65545.55,
               "gaze_time": 0,
-              "id": 34,
+              "id": 46,
+              "len": 2,
+              "name": "de",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 364,
+              "freq_abs": 1103617,
+              "freq_norm": 7234.06,
+              "gaze_time": 0,
+              "id": 47,
+              "len": 2,
+              "name": "su",
+              "pos": "DET"
+            },
+            {
+              "break_line": true,
+              "dwell": 237,
+              "freq_abs": 6340,
+              "freq_norm": 41.55,
+              "gaze_time": 237,
+              "id": 48,
+              "len": 6,
+              "name": "abuela",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 168,
+              "freq_abs": 33,
+              "freq_norm": 0.21,
+              "gaze_time": 168,
+              "id": 49,
+              "len": 10,
+              "name": "probándose",
+              "new_line": true,
+              "pos": "VERB"
+            },
+            {
+              "dwell": 162,
+              "freq_abs": 4569652,
+              "freq_norm": 29953.48,
+              "gaze_time": 162,
+              "id": 50,
+              "len": 2,
+              "name": "el",
+              "pos": "DET"
+            },
+            {
+              "dwell": 316,
+              "freq_abs": 4843,
+              "freq_norm": 31.74,
+              "gaze_time": 316,
+              "id": 51,
+              "len": 9,
+              "name": "pendiente",
+              "pos": "NOUN"
+            },
+            {
+              "dwell": 488,
+              "freq_abs": 87990,
+              "freq_norm": 576.76,
+              "gaze_time": 488,
+              "id": 52,
               "len": 4,
-              "name": "juez.",
+              "name": "ante",
+              "pos": "ADP"
+            },
+            {
+              "dwell": 0,
+              "freq_abs": 1659827,
+              "freq_norm": 10879.95,
+              "gaze_time": 0,
+              "id": 53,
+              "len": 2,
+              "name": "un",
+              "pos": "DET"
+            },
+            {
+              "dwell": 699,
+              "freq_abs": 7039,
+              "freq_norm": 46.13,
+              "gaze_time": 699,
+              "id": 54,
+              "len": 6,
+              "name": "espejo.",
               "pos": "NOUN"
             }
           ]

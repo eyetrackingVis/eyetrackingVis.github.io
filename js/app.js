@@ -157,7 +157,7 @@ function create_plot(nodeData, data_links){
       .outerRadius(function (d) { return inner_radius+50 })
       .cornerRadius(5);
   
-  var sections_sentences = g.selectAll(".sections_sentences")
+  const sections_sentences = g.selectAll(".sections_sentences")
     .data(root.descendants().filter(l => l.depth == 1))
     .enter()
     .append("path")
@@ -181,6 +181,10 @@ function create_plot(nodeData, data_links){
         .style("stroke", (e, j) => j==i?"red":"gray")
         .style("stroke-width", (e, j) => j==i?2:1)
 
+      sections
+        .style("stroke", "gray")
+        .style("stroke-width", 1)
+
       transitions
         .style("opacity", function(e, j){
           let cond = (idxs_words.includes(e.osource) || idxs_words.includes(e.otarget))
@@ -194,6 +198,7 @@ function create_plot(nodeData, data_links){
     })
     .on("click", function(d, i){
       sections_sentences.style("stroke", "gray").style("stroke-width", 1)
+      sections.style("stroke", "gray").style("stroke-width", 1)
       transitions.style("opacity", 1)
       lines_starplot.style("stroke", "lightgray")
       d3.selectAll(".subshape").remove().exit()
@@ -321,6 +326,7 @@ function create_plot(nodeData, data_links){
     sections.style("stroke-width", 1).style("stroke", "gray")
     transitions.style("opacity", 1)
     lines_starplot.style("stroke", "lightgray").style("opacity", 1)
+    sections_sentences.style("stroke", "gray").style("stroke-width", 1)
     d3.selectAll(".microstory a").style("border","white")
     d3.selectAll(".subshape").remove().exit()
   }
@@ -353,6 +359,10 @@ function create_plot(nodeData, data_links){
           if (aois_related.has(j))
             return j==i?"4px":"2px"
         })
+
+      sections_sentences
+        .style("stroke", "gray")
+        .style("stroke-width", 1)
 
       lines_starplot
         .style("stroke", (e, j) => aois_related.has(j)?"orange":"lightgray")
