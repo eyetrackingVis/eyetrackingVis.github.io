@@ -30,23 +30,31 @@ function create_plot(nodeData, data_links){
   d3.select("#btnWordFrequency").on("click", function(d, i){
     CLICKED = CLICKED?false:true
 
-    d3.select(this).text(CLICKED?"SHOW WORD FREQUENCY":"HIDE WORD FREQUENCY")
+    d3.select(this).text(CLICKED?"HIDE WORD FREQUENCY":"SHOW WORD FREQUENCY")
 
     d3.selectAll(".microstory a")
-      .style("background-color", d => CLICKED?"white": scale_freqs(d.data.freq_norm))
+      .style("background-color", d => CLICKED?scale_freqs(d.data.freq_norm):"white")
 
-    sections
-    
-      .style("fill", d => CLICKED?d.data.dwell?"white": texture.stroke(scale_freqs(d.data.freq_norm)).url():d.data.dwell?scale_freqs(d.data.freq_norm): texture.stroke(scale_freqs(d.data.freq_norm)).url())
-    
+    sections    
+      .style("fill", function(d){
+
+        if (CLICKED){
+          return d.data.dwell?scale_freqs(d.data.freq_norm): texture.stroke(scale_freqs(d.data.freq_norm)).url()
+        }else{
+          return d.data.dwell?"white":texture.stroke(scale_freqs(d.data.freq_norm)).url()
+        }
+
+      })
+
+
     sections_sentences
       .style("fill", function(d){
         let mean_freq_sentence = d3.mean(d.children[0].children, l => l.data.freq_norm)
-        return  CLICKED?"white": scale_freqs(mean_freq_sentence)
+        return  CLICKED? scale_freqs(mean_freq_sentence):"white"
       })
     
     d3.select(".scale_freqs")
-      .style("display", CLICKED?"none":null)
+      .style("display", CLICKED?null:"none")
       
   })
 
@@ -166,10 +174,7 @@ function create_plot(nodeData, data_links){
     })
     .styles({
       "stroke": "gray",
-      "fill": function(d){
-        let mean_freq_sentence = d3.mean(d.children[0].children, l => l.data.freq_norm)
-        return scale_freqs(mean_freq_sentence)
-      }
+      "fill": "white"
     })
     .on("dblclick", function(d, i){
       
@@ -258,7 +263,7 @@ function create_plot(nodeData, data_links){
       })
       .styles({
         "stroke": "gray",
-        "fill": d => d.data.dwell?scale_freqs(d.data.freq_norm): texture.stroke(scale_freqs(d.data.freq_norm)).url()
+        "fill": d => d.data.dwell?"white": texture.stroke("white").url()
       })
       .on("dblclick",(d, i) => hdlClickLabel(d, i))
       .on("click", (d,i) => hdlDblClickLabel(d, i)) 
@@ -920,7 +925,7 @@ function create_plot(nodeData, data_links){
         .append("a")
         .attr("id", "w"+j)
         .text(e.data.name+" ")
-        .style("background-color", d => scale_freqs(d.data.freq_norm))
+        .style("background-color", "white")
         .style("font-size", "12px")
         .on("mouseover", d => hdlClickLabel(d, j))
         .on("mouseleave", d => hdlDblClickLabel(d, j))
@@ -1015,7 +1020,7 @@ function updateChart(number=1, subject=1){
         create_plot(nodeData, data_links)
 
         d3.select("#btnSentenceTime").text("SHOW SENTENCE TIME")
-        d3.select("#btnWordFrequency").text("HIDE WORD FREQUENCY")
+        d3.select("#btnWordFrequency").text("SHOW WORD FREQUENCY")
       })
       .catch(function(err){
           d3.selectAll("svg").remove()
