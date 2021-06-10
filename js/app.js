@@ -779,12 +779,17 @@ function create_plot(nodeData, data_links){
           .append('linearGradient')
           .attr('id', 'gradient_'+i)
 
+        if (d.osource > d.otarget)
+          [color1, color2] = [end, start]
+        else 
+          [color1, color2] = [start, end]
+
         gradient.append("stop")
-          .attr("stop-color",d.osource>=d.otarget?start:end)
+          .attr("stop-color",color1)
           .attr("offset", "0")
 
         gradient.append("stop")
-          .attr("stop-color",d.osource>=d.otarget?end:start)
+          .attr("stop-color",color2)
           .attr("offset", "1")
 
         return "url(#gradient_"+i+")";
